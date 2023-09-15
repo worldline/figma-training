@@ -1,0 +1,17 @@
+{
+  "name": "mobile-makers",
+  "version": "0.0.1",
+  "description": "Mobile Makers",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  },
+  "dependencies": {
+    "yarn": "^1.22.19"
+  }
+}
