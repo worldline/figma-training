@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Mobile Makers',
+  title: 'Figma makers',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -38,8 +38,45 @@ module.exports = {
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Android', link: '/android/getting-started/guidelines/general/' },
+      { text: 'Figma', link: '/figma/introduction/program' },
     ],
     sidebar: {
+      '/figma/': [
+        {
+          title: 'Introduction',
+          collapsable: true,
+          children: [
+            '/figma/introduction/program',
+            '/figma/introduction/why',
+            '/figma/introduction/trainers',
+            '/figma/introduction/pricings',
+            '/figma/introduction/shortcuts'
+          ]
+        },
+        {
+          title: 'Partie théorique',
+          collapsable: true,
+          children: [
+            '/figma/theory/interface',
+            '/figma/theory/shape',
+            '/figma/theory/style',
+            '/figma/theory/grid',
+            '/figma/theory/component',
+            '/figma/theory/autolayout',
+            '/figma/theory/prototype',
+            '/figma/theory/plugin'
+          ]
+        },
+        {
+          title: 'Partie pratique',
+          collapsable: true,
+          children: [
+            '/figma/tutorial/ui-kit',
+            '/figma/tutorial/app'
+          ]
+
+        }
+      ],
       '/android/': [    
         {
           title: 'Getting started',

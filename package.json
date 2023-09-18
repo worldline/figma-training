@@ -1,7 +1,7 @@
 {
-  "name": "mobile-makers",
+  "name": "figma-makers",
   "version": "0.0.1",
-  "description": "Mobile Makers",
+  "description": "Figma makers",
   "main": "index.js",
   "scripts": {
     "dev": "vuepress dev src",
