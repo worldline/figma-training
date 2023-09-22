@@ -57,8 +57,9 @@ module.exports = {
           title: 'Partie théorique',
           collapsable: true,
           children: [
+            '/figma/theory/download',
             '/figma/theory/interface',
-            '/figma/theory/shape',
+            '/figma/theory/ui-elements',
             '/figma/theory/style',
             '/figma/theory/grid',
             '/figma/theory/component',
