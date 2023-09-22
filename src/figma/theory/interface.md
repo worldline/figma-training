@@ -52,7 +52,11 @@ C'est ici que l'on créer et visualise les élements d'interface, grâce aux out
 
 On trouve ici les propriétés de l'élement sélectionné dans le **plan de travail**. Pour l'instant rien n'est selectionné, et par défaut on retrouve les propriétés du plan de travail lui même (exemple : la couleur de fond de la page)
 
-<img alt="new_design_file" src="../../assets/img/figma/theory/interface/design_panel.png">
+<img alt="design panel" src="../../assets/img/figma/theory/interface/design_panel.png">
+
+> **A faire :** Vous pouvez changer la couleur de fond de la page en cliquant sur le carré coloré
+
+<img alt="change page background color" src="../../assets/img/figma/theory/interface/change_color.gif">
 
 ### <img width="24px" alt="d" src="../../assets/img/figma/theory/interface/D.png"> Le panneau des calques (panel de gauche)
 
