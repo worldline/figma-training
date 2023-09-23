@@ -39,7 +39,7 @@ Divisée en trois parties :
 
 ::: tip Renommer votre fichier (windows/macos) 💡
 
-Vous pouvez dés maintenant renommer votre fichier Figma en cliquant sur son nom
+Vous pouvez dès maintenant renommer votre fichier Figma en cliquant sur son nom
 
 <img alt="sharing tolls" src="../../assets/img/figma/theory/interface/toolbar_file_rename.gif">
 :::

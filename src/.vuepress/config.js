@@ -60,12 +60,13 @@ module.exports = {
             '/figma/theory/download',
             '/figma/theory/interface',
             '/figma/theory/ui-elements',
+            '/figma/theory/positioning',
             '/figma/theory/style',
-            '/figma/theory/grid',
             '/figma/theory/component',
             '/figma/theory/autolayout',
             '/figma/theory/prototype',
-            '/figma/theory/plugin'
+            '/figma/theory/plugin',
+            '/figma/theory/organization'
           ]
         },
         {
