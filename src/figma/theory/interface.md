@@ -2,7 +2,7 @@
 
 ## Créer un nouveau fichier
 
-Pour créer un nouveau fichier, veuillez lancer Figma et ouvrir un nouvel onglet en cliquant sur le bouton <img alt="new tab" src="../../assets/img/figma/theory/interface/new_tab.png"> en haut de l'écran. Cliquez ensuite sur **"New design file"** (voir image suivante).
+Pour créer un nouveau fichier, veuillez lancer Figma et ouvrir un nouvel onglet en cliquant sur le bouton <img width="32px" alt="new tab" src="../../assets/img/figma/theory/interface/new_tab.png"> en haut de l'écran. Cliquez ensuite sur **"New design file"** (voir image suivante).
 
 <img alt="new design file" src="../../assets/img/figma/theory/interface/1.new_design_file.png">
 
@@ -10,7 +10,7 @@ Une nouvelle fenêtre apparaît, il s'agit d'un nouveau fichier Figma (vide pour
 
 <img alt="empty file" src="../../assets/img/figma/theory/interface/2.empty_file.png">
 
-Votre fichier est maintenant enregistré sur votre espace personnel Figma. Il est accessible en cliquant en haut à gauche de l'écran sur le bouton d'accueil <img alt="empty file" src="../../assets/img/figma/theory/interface/home_button.png"> dans le menu **Drafts**
+Votre fichier est maintenant enregistré sur votre espace personnel Figma. Il est accessible en cliquant en haut à gauche de l'écran sur le bouton d'accueil <img width="32px" alt="empty file" src="../../assets/img/figma/theory/interface/home_button.png"> dans le menu **Drafts**
 
 <img alt="empty file" src="../../assets/img/figma/theory/interface/drafts.png">
 
@@ -20,7 +20,7 @@ L'interface de Figma est divisée en 4 parties (A, B, C et D) que nous allons d�
 
 <img alt="interface sections" src="../../assets/img/figma/theory/interface/3.interface_sections.png">
 
-### <img width="24px" alt="a" src="../../assets/img/figma/theory/interface/A.png"> La bare d'outils (toolbar)
+### <img height="32px" alt="a" src="../../assets/img/figma/theory/interface/A.png"> La bare d'outils (toolbar)
 <br/>
 <img alt="toolbar" src="../../assets/img/figma/theory/interface/4.toolbar.png">
 
@@ -39,22 +39,26 @@ Divisée en trois parties :
 
 ::: tip Renommer votre fichier (windows/macos) 💡
 
-Vous pouvez dés maintenant renommer votre fichier Figma en cliquant sur son nom
+Vous pouvez dès maintenant renommer votre fichier Figma en cliquant sur son nom
 
 <img alt="sharing tolls" src="../../assets/img/figma/theory/interface/toolbar_file_rename.gif">
 :::
 
-### <img width="24px" alt="b" src="../../assets/img/figma/theory/interface/B.png"> Le plan de travail
+### <img height="32px" alt="b" src="../../assets/img/figma/theory/interface/B.png"> Le plan de travail
 
 C'est ici que l'on créer et visualise les élements d'interface, grâce aux outils disponibles dans la **toolbar**. Cet espace est vide, car rien n'a été créé pour le moment.
 
-### <img width="24px" alt="c" src="../../assets/img/figma/theory/interface/C.png"> Le panneau de conception (panel de droite)
+### <img height="32px" alt="c" src="../../assets/img/figma/theory/interface/C.png"> Le panneau de conception (design panel)
 
 On trouve ici les propriétés de l'élement sélectionné dans le **plan de travail**. Pour l'instant rien n'est selectionné, et par défaut on retrouve les propriétés du plan de travail lui même (exemple : la couleur de fond de la page)
 
-<img alt="new_design_file" src="../../assets/img/figma/theory/interface/design_panel.png">
+<img alt="design panel" src="../../assets/img/figma/theory/interface/design_panel.png">
 
-### <img width="24px" alt="d" src="../../assets/img/figma/theory/interface/D.png"> Le panneau des calques (panel de gauche)
+> **A faire :** Vous pouvez changer la couleur de fond de la page en cliquant sur le carré coloré
+
+<img alt="change page background color" src="../../assets/img/figma/theory/interface/change_color.gif">
+
+### <img height="32px" alt="d" src="../../assets/img/figma/theory/interface/D.png"> Le panneau des calques (layers panel)
 
 Dans ce panel s'affiche l'arborescence du design (élements d'interface du plan de travail). Dés que l'on créé un élément d'interface dans le **plan de travail** il est listé ici en fonction de sa position. 
 
