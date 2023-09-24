@@ -59,7 +59,19 @@ module.exports = {
           children: [
             '/figma/theory/download',
             '/figma/theory/interface',
-            '/figma/theory/ui-elements',
+            {
+              title: 'Éléments d\'interface',
+              collapsable: true,
+              children: [
+                '/figma/theory/ui-elements/texts',
+                '/figma/theory/ui-elements/forms',
+                '/figma/theory/ui-elements/groups',
+                '/figma/theory/ui-elements/frames',
+                '/figma/theory/ui-elements/properties',
+                '/figma/theory/ui-elements/images',
+                '/figma/theory/ui-elements/icons'
+              ]
+            },
             '/figma/theory/positioning',
             '/figma/theory/style',
             '/figma/theory/component',
