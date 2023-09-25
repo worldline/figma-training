@@ -46,7 +46,7 @@ Vous pouvez dès maintenant renommer votre fichier Figma en cliquant sur son nom
 
 ### <img height="32px" alt="b" src="../../assets/img/figma/theory/interface/B.png"> Le plan de travail
 
-C'est ici que l'on créer et visualise les élements d'interface, grâce aux outils disponibles dans la **toolbar**. Cet espace est vide, car rien n'a été créé pour le moment.
+C'est ici que l'on créer et visualise les élements d'interface, grâce aux outils disponibles dans la **Toolbar**. Cet espace est vide, car rien n'a été créé pour le moment.
 
 ### <img height="32px" alt="c" src="../../assets/img/figma/theory/interface/C.png"> Le panneau de conception (design panel)
 
