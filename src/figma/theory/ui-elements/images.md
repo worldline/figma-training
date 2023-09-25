@@ -14,8 +14,12 @@ Il est possible d'ajouter des images dans votre design Figma de plusieurs maniè
 <img alt="image copy and paste" src="../../../assets/img/figma/theory/ui-components/images/image-copy-and-paste.gif">
 
 Vous pouvez maintenant : 
-- Redimensionner l'image pour qu'elle face la même largeur que la hauteur (image carrée)
-- Arrondir les angles au maximum pour faire cercle (avatar)
+- Redimensionner l'image pour qu'elle face la même largeur/hauteur (image carrée)
+- Arrondir les angles au maximum pour en faire cercle (avatar)
 - Réduire la taille de l'image et la placer dans la **Card**
 
 <img alt="image resizing" src="../../../assets/img/figma/theory/ui-components/images/image-resizing.gif">
+
+> **Remarque :** Il est possible de recadrer, et plus généralement modifier, l'image dans ses propriétés directement en cliquant sur la miniature de l'image dans la propriété **Fill**
+
+<img alt="image properties" src="../../../assets/img/figma/theory/ui-components/images/image-properties.gif">
