@@ -36,7 +36,7 @@ module.exports = {
     search: false,
     sidebarDepth: 0,
     nav: [
-      { text: 'Home', link: '/' },
+      { text: 'Accueil', link: '/' },
       { text: 'Android', link: '/android/getting-started/guidelines/general/' },
       { text: 'Figma', link: '/figma/introduction/program' },
     ],
