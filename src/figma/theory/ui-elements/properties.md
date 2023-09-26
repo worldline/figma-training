@@ -2,20 +2,20 @@
 
 Nous allons maintenant créer une liste de contacts. 
 
-::: tip 🎯 Objectif : créer la card de contact 
+::: tip 🎯 Objectif : créer la Card de contact 
 ![contact-card-frame](../../../assets/img/figma/theory/ui-components/properties/contact-card-frame.png)
 :::
 
 ## Conteneur
 
 - Changez la couleur de fond de l'écran `Contacts screen` (ex: vert clair - #ECFFF4)
-- Créez une frame <kbd>F</kbd> blanche à l'intérieure de l'écran (renommez la en `Card`)
+- Créez une frame (raccourci clavier <kbd>F</kbd>) blanche à l'intérieure de l'écran (renommez la en `Card`)
 
 ::: details Tutoriel 🎥
 ![create-card-frame](../../../assets/img/figma/theory/ui-components/properties/create-card-frame.gif)
 :::
 
-- Appliquez à cette `Card` une ombre portée (Panneau de droite > Effects ![create-card-frame](../../../assets/img/figma/theory/ui-components/properties/design-panel-effects-section.png) > Bouton Ajouter ![create-card-frame](../../../assets/img/figma/theory/ui-components/properties/design-panel-add-button.png) > **Drop Shadow**)
+- Appliquez à cette `Card` une ombre portée (Panneau de droite > Effects ![create-card-frame](../../../assets/img/figma/theory/ui-components/properties/design-panel-effects-section.png) > Bouton Ajouter ![create-card-frame](../../../assets/img/figma/theory/ui-components/properties/design-panel-add-button.png) > `Drop Shadow`)
 
 > **Remarque :** Vous pouvez changer les propriétés de cette ombre en cliquant sur ![effect-properties-button](../../../assets/img/figma/theory/ui-components/properties/effect-properties-button.png)
 
