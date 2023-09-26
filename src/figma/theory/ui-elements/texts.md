@@ -4,7 +4,7 @@ Pour créer des éléments d'interface (qui vont former notre design), nous allo
 
 Par exemple pour créer un texte, sélectionnez l'outil de texte <img height="32px" alt="create texte" src="../../../assets/img/figma/theory/ui-components/texts/text-tool-icon.png"> et cliquez dans le plan de travail. Vous pouvez saisir le texte que vous souhaitez.
 
-<img alt="create texte" src="../../../assets/img/figma/theory/ui-components/texts/create_text.gif">
+![create texte](../../../assets/img/figma/theory/ui-components/texts/create_text.gif)
 
 Cliquez en dehors de l'élément de texte puis re-sélectionnez le pour pouvoir modifier ses propriétés dans le **design panel** à droite.
 

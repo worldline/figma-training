@@ -13,22 +13,22 @@ Plusieurs façons de faire :
 - Clique droit sur le texte, puis sélectionnez l'option _Bring to front_
 - Clique droit le rectangle et, clique droit puis sélectionnez l'option _Send to back_
 
-<img alt="send to back" src="../../../assets/img/figma/theory/ui-components/groups/send-to-back.gif">
+![send to back](../../../assets/img/figma/theory/ui-components/groups/send-to-back.gif)
 
 - Dans le **panneau des calques** à gauche, faites glisser le texte au dessus du rectangle ou bien l'inverse.
 
-<img alt="drag to front" src="../../../assets/img/figma/theory/ui-components/groups/drag-to-front.gif">
+![drag to front](../../../assets/img/figma/theory/ui-components/groups/drag-to-front.gif)
 :::
 
 ::: tip Positionnement
 Pour centrer des éléments les uns par rapport aux autres, il existe plusieurs solutions :
 - Sélectionnez tous les éléments (avec <kbd>Shift</kbd> OU en trançant un rectangle autour avec l'outil de sélection <img height="32px" alt="select tool icon" src="../../../assets/img/figma/theory/ui-components/groups/select-tool-icon.png">) puis utilisez les boutons d'alignement dans le **design panel** à gauche en haut <img height="32px" alt="alignment buttons" src="../../../assets/img/figma/theory/ui-components/groups/alignment-buttons.png">
 
-<img alt="elements alignment" src="../../../assets/img/figma/theory/ui-components/groups/elements-alignment.gif">
+![elements alignment](../../../assets/img/figma/theory/ui-components/groups/elements-alignment.gif)
 
 - Sélectionnez directement le texte au centre du rectangle avec les aides visuels de Figma
 
-<img alt="elements positioning" src="../../../assets/img/figma/theory/ui-components/groups/elements-positioning.gif">
+![elements positioning](../../../assets/img/figma/theory/ui-components/groups/elements-positioning.gif)
 :::
 
 Une fois positionnés, sélectionnez le texte et le rectangle (par exemple avec <kbd>Shift</kbd>) puis faites <kbd>Ctrl</kbd> + <kbd>G</kbd> pour grouper.
@@ -37,6 +37,6 @@ Une fois positionnés, sélectionnez le texte et le rectangle (par exemple avec 
 
 Veuillez renommer les calques pour une meilleure organisation de votre design.
 
-<img alt="elements group" src="../../../assets/img/figma/theory/ui-components/groups/elements-group.gif">
+![elements group](../../../assets/img/figma/theory/ui-components/groups/elements-group.gif)
 
 Vous disposez maintenant d'un élément **Status bar**** (bare de statut) utilisable dans vos futurs écrans ! 👏

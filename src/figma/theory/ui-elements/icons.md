@@ -10,11 +10,11 @@ Nous allons utiliser le plugin **Iconify** pour chercher et importer nos icônes
 
 Pour utiliser ce plugin, faites `Click droit` > `Plugins` > `Manage plugins...`
 
-<img alt="right click plugins" src="../../../assets/img/figma/theory/ui-components/icons/right-click-plugins.png">
+![right click plugins](../../../assets/img/figma/theory/ui-components/icons/right-click-plugins.png)
 
 Une fenêtre s'ouvre. Saisissez **Iconify** dans la barre de recherche, puis cliquez sur le premier résultat.
 
-<img alt="plugins search" src="../../../assets/img/figma/theory/ui-components/icons/plugins-search.png">
+![plugins search](../../../assets/img/figma/theory/ui-components/icons/plugins-search.png)
 
 > **Remarque :** Il est possible d'accéder aux plugins directement depuis l'outil **Ressources** <img height="32px" alt="ressources icon" src="../../../assets/img/figma/theory/ui-components/icons/ressources-icon.png"> dans la **Toolbar**
 
@@ -25,7 +25,7 @@ La fenêtre **Iconify** s'affiche, vous pouvez alors :
 
 L'icône apparait dans le plan de travail, vous pouvez quitter **Iconify** et placer l'icône dans la **Card**
 
-<img alt="use iconify" src="../../../assets/img/figma/theory/ui-components/icons/use-iconify.gif">
+![use iconify](../../../assets/img/figma/theory/ui-components/icons/use-iconify.gif)
 
 ::: warning Attention
 Veuillez bien sélectionner la frame de l'icône (contour) et pas le vecteur directement, lorsque vous la déplacer. La frame est là pour espacer correctement l'icône de ce qui l'entoure.
@@ -36,7 +36,7 @@ Veuillez bien sélectionner la frame de l'icône (contour) et pas le vecteur dir
 ::: tip Réutiliser un plugin
 Enregistrer Iconify en faisant `Click droit` > `Plugins` > `Manage plugins...` puis le bouton **Save** dans les résultats de recherche
 
-<img alt="iconify plugin save" src="../../../assets/img/figma/theory/ui-components/icons/save-iconify-plugin.png">
+![iconify plugin save](../../../assets/img/figma/theory/ui-components/icons/save-iconify-plugin.png)
 
 Dorénavant  faites `Click droit` > `Plugins` > `Saved plugins` > `Iconify`
 :::
