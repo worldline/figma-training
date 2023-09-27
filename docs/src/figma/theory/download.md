@@ -10,4 +10,4 @@ Figma fonctionne dans votre navigateur, mais pour une meilleure experience utili
 
 > **Remarque :** Il vous faut un compte Figma pour pouvoir l'utiliser. Crééez en un ! 😉
 
-<img alt="Page de téléchargement Figma" src="../../assets/img/figma/theory/downloads/figma_download.png">
+![Page de téléchargement Figma](../../assets/img/figma/theory/downloads/figma_download.png)
