@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Figma makers',
+  title: 'Figma training',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -177,6 +177,5 @@ module.exports = {
   /**
    * Deployment，ref：https://v1.vuepress.vuejs.org/guide/deploy.html#gitlab-pages-and-gitlab-ci
    */
-  base: '/figma-training/',
-  dest: 'public'
+  base: '/figma-training/'
 }

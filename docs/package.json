@@ -1,8 +1,23 @@
 {
-  "name": "figma-makers",
+  "name": "figma-training",
   "version": "0.0.1",
-  "description": "Figma makers",
+  "description": "Figma training",
   "main": "index.js",
+  "authors": [
+    {
+      "name": "Simon MERCIER",
+      "email": "simon.mercier@worldline.com"
+    },
+    {
+      "name": "Antoine CANDY",
+      "email": "antoine.candy@worldline.com"
+    },
+    {
+      "name": "Henri OUZIEL",
+      "email": "henri.ouziel@worldline.com"
+    }
+  ],
+  "repository": "https://github.com/Simondroid/figma-training",
   "scripts": {
     "dev": "vuepress dev src",
     "build": "vuepress build src"
