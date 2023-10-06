@@ -61,7 +61,7 @@ module.exports = {
             '/figma/theory/interface',
             {
               title: 'Éléments d\'interface',
-              collapsable: true,
+              collapsable: false,
               children: [
                 '/figma/theory/ui-elements/texts',
                 '/figma/theory/ui-elements/forms',
@@ -78,7 +78,7 @@ module.exports = {
             '/figma/theory/autolayout',
             '/figma/theory/prototype',
             '/figma/theory/plugin',
-            '/figma/theory/organization'
+            '/figma/theory/practices'
           ]
         },
         {

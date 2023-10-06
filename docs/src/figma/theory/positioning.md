@@ -1,14 +1,22 @@
 # Positionnements
 
-::: tip 🎯 Objectif : Positionner correctement les éléments entre eux
+::: tip 🎯 Objectif : Positionner correctement les éléments entre eux au pixel prêt !
 ![positioning goal preview](../../assets/img/figma/theory/positioning/positioning-goal-preview.png)
 :::
 
 ## Alignements
 
-### Aides d'alignement
+### Alignement d'un élément dans un conteneur
 
-(work in progress)
+Comme nous l'avons déjà vue, Figma permet d'aligner (à gauche, à droite, en haut, en bas, au centre) un élement à l'interieur de son conteneur (`Frame`, `Groupe`, `Section`) :
+- directement dans le plan de travail (aides visuelles de Figma)
+- à l'aide des boutons d'alignements en haut à droite du `Design panel`
+
+::: details Tutoriel 🎥
+![change page background color](../../assets/img/figma/theory/positioning/positioning_alignment_demo.gif)
+:::
+
+### Alignement de plusieurs élements
 
 ::: tip Sélection en profondeur 💡
 
@@ -18,7 +26,7 @@ Pour sélectionner un élément à l'interieur d'un autre (groupe, frame) :
 
 :::
 
-### Espacements
+## Espacements
 
 (work in progress)
 
