@@ -85,10 +85,12 @@ module.exports = {
           title: 'Partie pratique',
           collapsable: true,
           children: [
-            '/figma/tutorial/ui-kit',
-            '/figma/tutorial/app'
+            '/figma/tutorial/app-1',
+            '/figma/tutorial/app-2',
+            '/figma/tutorial/app-3',
+            '/figma/tutorial/app-4',
+            '/figma/tutorial/app-5',
           ]
-
         }
       ],
       '/android/': [    
