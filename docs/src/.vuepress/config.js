@@ -47,8 +47,8 @@ module.exports = {
           collapsable: true,
           children: [
             '/figma/introduction/program',
-            '/figma/introduction/why',
             '/figma/introduction/trainers',
+            '/figma/introduction/why',
             '/figma/introduction/pricings',
             '/figma/introduction/shortcuts'
           ]
