@@ -2,7 +2,7 @@
 
 ## Créer un nouveau fichier
 
-Pour créer un nouveau fichier, veuillez lancer Figma et ouvrir un nouvel onglet en cliquant sur le bouton <img width="32px" alt="new tab" src="../../assets/img/figma/theory/interface/new_tab.png"> en haut de l'écran. Cliquez ensuite sur `New design file` (voir image suivante).
+Pour créer un nouveau fichier, veuillez lancer Figma et ouvrir un nouvel onglet en cliquant sur le bouton <img class="align-text" height="32px" alt="new tab" src="../../assets/img/figma/theory/interface/new_tab.png"> en haut de l'écran. Cliquez ensuite sur `New design file` (voir image suivante).
 
 ![new design file](../../assets/img/figma/theory/interface/1.new_design_file.png)
 
@@ -10,7 +10,7 @@ Une nouvelle fenêtre apparaît, il s'agit d'un nouveau fichier Figma (vide pour
 
 ![empty file](../../assets/img/figma/theory/interface/2.empty_file.png)
 
-Votre fichier est maintenant enregistré sur votre espace personnel Figma. Il est accessible en cliquant en haut à gauche de l'écran sur le bouton d'accueil <img width="32px" alt="empty file" src="../../assets/img/figma/theory/interface/home_button.png"> dans le menu `Drafts`
+Votre fichier est maintenant enregistré sur votre espace personnel Figma. Il est accessible en cliquant en haut à gauche de l'écran sur le bouton d'accueil <img class="align-text" height="32px" alt="empty file" src="../../assets/img/figma/theory/interface/home_button.png"> dans le menu `Drafts`
 
 ![drafts](../../assets/img/figma/theory/interface/drafts.png)
 
@@ -20,7 +20,7 @@ L'interface de Figma est divisée en 4 parties (A, B, C et D) que nous allons d�
 
 ![interface sections](../../assets/img/figma/theory/interface/3.interface_sections.png)
 
-### <img height="32px" alt="a" src="../../assets/img/figma/theory/interface/A.png"> La bare d'outils (toolbar)
+### <img class="align-text" height="32px" alt="a" src="../../assets/img/figma/theory/interface/A.png"> La bare d'outils (toolbar)
 <br/>
 
 ![toolbar](../../assets/img/figma/theory/interface/4.toolbar.png)
@@ -45,11 +45,11 @@ Vous pouvez dès maintenant renommer votre fichier Figma en cliquant sur son nom
 ![toolbar file renaming](../../assets/img/figma/theory/interface/toolbar_file_rename.gif)
 :::
 
-### <img height="32px" alt="b" src="../../assets/img/figma/theory/interface/B.png"> Le plan de travail
+### <img class="align-text" height="32px" alt="b" src="../../assets/img/figma/theory/interface/B.png"> Le plan de travail
 
 C'est ici que l'on créer et visualise les élements d'interface, grâce aux outils disponibles dans la `Toolbar`. Cet espace est vide, car rien n'a été créé pour le moment.
 
-### <img height="32px" alt="c" src="../../assets/img/figma/theory/interface/C.png"> Le panneau de conception (design panel)
+### <img class="align-text" height="32px" alt="c" src="../../assets/img/figma/theory/interface/C.png"> Le panneau de conception (design panel)
 
 On trouve ici les propriétés de l'élement sélectionné dans le `Plan de travail`. Pour l'instant rien n'est selectionné, et par défaut on retrouve les propriétés du plan de travail lui même (exemple : la couleur de fond de la page)
 
@@ -61,7 +61,7 @@ On trouve ici les propriétés de l'élement sélectionné dans le `Plan de trav
 ![change page background color](../../assets/img/figma/theory/interface/change_color.gif)
 :::
 
-### <img height="32px" alt="d" src="../../assets/img/figma/theory/interface/D.png"> Le panneau des calques (layers panel)
+### <img class="align-text" height="32px" alt="d" src="../../assets/img/figma/theory/interface/D.png"> Le panneau des calques (layers panel)
 
 Dans ce panel s'affiche l'arborescence du design (élements d'interface du plan de travail). Dés que l'on créé un élément d'interface dans le **Plan de travail** il est listé ici en fonction de sa position. 
 

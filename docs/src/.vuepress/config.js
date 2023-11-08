@@ -75,7 +75,15 @@ module.exports = {
             '/figma/theory/positioning',
             '/figma/theory/style',
             '/figma/theory/component',
-            '/figma/theory/autolayout',
+            {
+              title: 'Autolayout',
+              collapsable: false,
+              children: [
+                '/figma/theory/autolayout/definition',
+                '/figma/theory/autolayout/layout-flow',
+                '/figma/theory/autolayout/spacing'
+              ]
+            },
             '/figma/theory/prototype',
             '/figma/theory/plugin',
             '/figma/theory/practices'

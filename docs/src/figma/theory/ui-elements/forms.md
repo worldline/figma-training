@@ -19,7 +19,7 @@ Une fois créé et sélectionné, vous pouvez modifier ses propriétés (ex: cha
 
 Vous avez à votre disposition d'autres outils pour réaliser des formes (lignes, flèches, ellipse...).
 
-> **Remarque :** Il est possible de créer une forme personnalisée avec l'outil plume (`Pen`) <img height="32px" alt="plume tool icon" src="../../../assets/img/figma/theory/common-icons/plume-icon.png">. Il suffit de réaliser un tracé fermé et modifier ses propriétés (couleurs, bordures, etc...).
+> **Remarque :** Il est possible de créer une forme personnalisée avec l'outil plume (`Pen`) <img class="align-text" height="32px" alt="plume tool icon" src="../../../assets/img/figma/theory/common-icons/plume-icon.png">. Il suffit de réaliser un tracé fermé et modifier ses propriétés (couleurs, bordures, etc...).
 
 ## Raccourcis
 

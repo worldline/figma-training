@@ -30,7 +30,7 @@ Plusieurs façons de faire :
 
 ## Positionnement
 Pour centrer des éléments les uns par rapport aux autres, il existe plusieurs solutions :
-- Sélectionnez tous les éléments (avec <kbd>Shift</kbd> OU en trançant un rectangle autour avec l'outil de sélection <img height="32px" alt="select tool icon" src="../../../assets/img/figma/theory/ui-elements/groups/select-tool-icon.png">) puis utilisez les boutons d'alignement dans le `Design panel` à gauche en haut <img height="32px" alt="alignment buttons" src="../../../assets/img/figma/theory/ui-elements/groups/alignment-buttons.png">
+- Sélectionnez tous les éléments (avec <kbd>Shift</kbd> OU en trançant un rectangle autour avec l'outil de sélection <img class="align-text" height="32px" alt="select tool icon" src="../../../assets/img/figma/theory/ui-elements/groups/select-tool-icon.png">) puis utilisez les boutons d'alignement dans le `Design panel` à gauche en haut <img class="align-text" height="32px" alt="alignment buttons" src="../../../assets/img/figma/theory/ui-elements/groups/alignment-buttons.png">
 
 ::: details Tutoriel 🎥
 ![elements alignment](../../../assets/img/figma/theory/ui-elements/groups/elements-alignment.gif)

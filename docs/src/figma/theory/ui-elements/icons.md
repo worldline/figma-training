@@ -16,7 +16,7 @@ Une fenêtre s'ouvre. Saisissez `Iconify` dans la barre de recherche, puis cliqu
 
 ![plugins search](../../../assets/img/figma/theory/ui-elements/icons/plugins-search.png)
 
-> **Remarque :** Il est possible d'accéder aux plugins directement depuis l'outil `Ressources` <img height="32px" alt="ressources icon" src="../../../assets/img/figma/theory/ui-elements/icons/ressources-icon.png"> dans la `Toolbar`
+> **Remarque :** Il est possible d'accéder aux plugins directement depuis l'outil `Ressources` <img class="align-text" height="32px" alt="ressources icon" src="../../../assets/img/figma/theory/ui-elements/icons/ressources-icon.png"> dans la `Toolbar`
 
 La fenêtre `Iconify` s'affiche, vous pouvez alors :
 - Choisir une bibliothèque d'icônes (ex: Google Material Icons) pour avoir des icônes avec le même style graphique (cohérence du design)
@@ -43,5 +43,5 @@ Enregistrer Iconify en faisant `Click droit` > `Plugins` > `Manage plugins...` p
 Dorénavant  faites `Click droit` > `Plugins` > `Saved plugins` > `Iconify`
 :::
 
-> **Remarque :** Il est possible de créer une icône manuellement dans Figma directement avec l'outil Plume (`Pen`) <img height="32px" alt="plume tool icon" src="../../../assets/img/figma/theory/common-icons/plume-icon.png">. Il suffit de créer une frame puis de dessiner une forme à l'intérieure.
+> **Remarque :** Il est possible de créer une icône manuellement dans Figma directement avec l'outil Plume (`Pen`) <img class="align-text" height="32px" alt="plume tool icon" src="../../../assets/img/figma/theory/common-icons/plume-icon.png">. Il suffit de créer une frame puis de dessiner une forme à l'intérieure.
 

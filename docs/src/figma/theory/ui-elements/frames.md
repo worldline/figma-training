@@ -16,13 +16,13 @@ Dans le `Design panel`, sélectionner un écran de téléphone (ex: iPhone 14)
 ![new screen frame](../../../assets/img/figma/theory/ui-elements/frames/new-screen-frame.gif)
 :::
 
-> **Remarque :** Un écran de téléphone est une frame avec la résolution du modèle (hauteur et largeur en pixels) : <img height="32px" alt="frame resolution" src="../../../assets/img/figma/theory/ui-elements/frames/frame-resolution.png">
+> **Remarque :** Un écran de téléphone est une frame avec la résolution du modèle (hauteur et largeur en pixels) : <img class="align-text" height="32px" alt="frame resolution" src="../../../assets/img/figma/theory/ui-elements/frames/frame-resolution.png">
 
 ::: tip Se déplacer dans le plan de travail 💡
 
 Le plan de travail se remplit de plus en plus ? Don't panic !!!
 
-Vous pouvez vous déplacer grâce à l'outil `Hand tool` <img height="32px" alt="hand tool" src="../../../assets/img/figma/theory/ui-elements/frames/hand-tool-icon.png"> ou en maintenant <kbd>Space</kbd> (barre d'espace du clavier)
+Vous pouvez vous déplacer grâce à l'outil `Hand tool` <img class="align-text" height="32px" alt="hand tool" src="../../../assets/img/figma/theory/ui-elements/frames/hand-tool-icon.png"> ou en maintenant <kbd>Space</kbd> (barre d'espace du clavier)
 
 Utilisez le zoom pour prendre du recul et mieux voir votre travail :
 - <kbd>Ctrl</kbd> + Roulette (souris)
