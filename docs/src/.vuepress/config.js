@@ -81,7 +81,9 @@ module.exports = {
               children: [
                 '/figma/theory/autolayout/definition',
                 '/figma/theory/autolayout/layout-flow',
-                '/figma/theory/autolayout/spacing'
+                '/figma/theory/autolayout/spacing',
+                '/figma/theory/autolayout/alignment',
+                '/figma/theory/autolayout/resizing'
               ]
             },
             '/figma/theory/prototype',
