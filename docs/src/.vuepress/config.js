@@ -73,6 +73,7 @@ module.exports = {
             },
             '/figma/theory/positioning',
             '/figma/theory/style',
+            '/figma/theory/variable',
             '/figma/theory/component',
             {
               title: 'Autolayout',
@@ -87,7 +88,7 @@ module.exports = {
               ]
             },
             '/figma/theory/prototype',
-            '/figma/theory/plugin',
+            '/figma/theory/plugins',
             '/figma/theory/practices'
           ]
         },
