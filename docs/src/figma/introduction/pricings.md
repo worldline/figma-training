@@ -1,6 +1,6 @@
 # Mais Figma, c'est payant ?
 
-Ce que l'on peut faire ou non avant chacun des plans de Figma est difficile à comprendre. La gestion des droits depuis le logiciel n'est pas du tout intuitive.
+Ce que l'on peut faire ou non avant chacun des plans de Figma est difficile à comprendre. La gestion des droits depuis le logiciel n'est pas très intuitive.
 
 C'est pourquoi nous allons commencer par démystifier cela.
 
@@ -18,7 +18,7 @@ Il n'y a aucune limite pour inviter des collaborateurs **en lecture seule** dans
 
 ::: danger Limites du mode gratuit
 
-- Vous ne pouvez pas ajouter de collaborateur en écriture.
+- Vous ne pouvez pas donner les droits d'édition à d'autres collaborateurs.
 
 - Vous êtes limité à 3 pages par `fichier`.
 
@@ -34,7 +34,7 @@ Par défaut, Figma vous a créé une `équipe` avec un `projet`.
 
 <p align="center"><img src="../../assets/img/figma/introduction/pricings/teams-free.png"></p>
 
-Dans un `fichier` Figma se trouvant dans un `projet` vous pouvez ajouter **autant de collaborateurs que vous le souhaitez en lecture ou écriture**.
+Dans ces `fichiers` vous pouvez ajouter **autant de collaborateurs que vous le souhaitez avec les droits de lecture ou d'écriture**.
 
 ::: danger Limites du mode gratuit
 

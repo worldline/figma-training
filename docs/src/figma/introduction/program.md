@@ -10,7 +10,7 @@ Vous découvrirez l'interface de Figma en mode édition, les différents composa
 
 Dans cette deuxième partie vous serez guidés pour découvrir les fonctionnalités avancées de Figma.
 
-Vous apprendrez également les bonnes pratiques pour créer des fichiers Figma lisibiles et évolutifs.
+Vous apprendrez également les bonnes pratiques pour créer des design lisibiles et évolutifs avec Figma.
 
 ## Exercice 📚
 
