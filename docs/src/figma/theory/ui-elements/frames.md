@@ -10,7 +10,7 @@ Vous pouvez créer une frame en cliquant sur l'outil `Frame` dans la `Toolbar` (
 
 ![toolbar frame tool](../../../assets/img/figma/theory/ui-elements/frames/toolbar_frame_tools.png)
 
-Dans le `Design panel`, sélectionner un écran de téléphone (ex: iPhone 14)
+Dans le `Design panel`, sélectionnez un écran de téléphone (ex: iPhone 14)
 
 ::: details Tutoriel 🎥
 ![new screen frame](../../../assets/img/figma/theory/ui-elements/frames/new-screen-frame.gif)
@@ -31,9 +31,9 @@ Utilisez le zoom pour prendre du recul et mieux voir votre travail :
 
 On peut maintenant placer notre `Status bar` à l'intérieur de notre frame en la glissant par dessus.
 
-Une fois à l'intérieure, vous pouvez redimensionnez et positionner la `Status bar` en haut de l'écran.
+Une fois à l'intérieur, vous pouvez redimensionner et positionner la `Status bar` en haut de l'écran.
 
-> **Aide :** Vous pouvez utiliser les aides aux positionnements de Figma pour aligner la _Status bar_ en haut à gauche de l'écran, puis redimenssioner directement dans le plan de travail la largeur de celle ci.
+> **Aide :** Vous pouvez utiliser les aides aux positionnements de Figma pour aligner la `Status bar` en haut à gauche de l'écran, puis redimensionner directement dans le plan de travail la largeur de celle-ci.
 
 ::: details Tutoriel 🎥
 ![new screen frame](../../../assets/img/figma/theory/ui-elements/frames/drag-into-frame.gif)
@@ -52,7 +52,7 @@ Utilisez un(e) :
 - `Frame` - pour un design à long terme (maintenance, évolutions) pour plus de flexibilité (éléments responsives)
 :::
 
-Pour mieux saisir la différence entre `Groupes` et `Frames` veuillez recréer une `Status bar` à l'aide d'une frame :
+Pour mieux saisir la différence entre `Groupes` et `Frames` recréez une `Status bar` à l'aide d'une frame :
 
 ::: details Tutoriel 🎥
 ![create status bar frame](../../../assets/img/figma/theory/ui-elements/frames/create-status-bar-frame.gif)
@@ -60,7 +60,7 @@ Pour mieux saisir la différence entre `Groupes` et `Frames` veuillez recréer u
 
 > **Remarque :** Avec une frame, plus besoin d'un rectangle pour mettre un fond de couleur à notre `Status bar`. Il suffit juste de changer la couleur de remplissage de la frame.
 
-Quand on sélectionne un élement dans une frame, on remarque qu'une nouvelle propriété `Constraints` apparait dans le `design panel` à droite.
+Quand on sélectionne un élement dans une frame, on remarque qu'une nouvelle propriété `Constraints` apparait dans le `Design panel` à droite.
 
 ![constraints](../../../assets/img/figma/theory/ui-elements/frames/constraints.png)
 
@@ -77,18 +77,18 @@ Veuillez :
 ![constraint status bar frame](../../../assets/img/figma/theory/ui-elements/frames/constraint-status-bar-frame.gif)
 :::
 
-Les `Frames` nous simplifie la vie, notemment lorsque l'on veut designer des écrans responsive (contenu qui s'adapte aux différentes taille d'écran).
+Les `Frames` nous simplifie la vie, notamment lorsque l'on veut designer des écrans responsives (contenu qui s'adapte aux différentes taille d'écran).
 
-Crééons ensemble un écran responsive à partir des éléments dèja présent : 
+Créons ensemble un écran responsive à partir des éléments déjà présents : 
 - Séléctionnez l'ancienne `Status bar` (groupe texte + rectangle) puis supprimez la en pressant la touche <kbd>Back</kbd> du clavier
-- Remplacez la par la nouvelle `Status bar` (frame), en la positionnant à l'intérieure de l'écran (frame `Contact screen`)
+- Remplacez la par la nouvelle `Status bar` (frame), en la positionnant à l'intérieur de l'écran (frame `Contact screen`)
 - Essayez de redimensionner l'écran de téléphone 
 
 ::: details Tutoriel 🎥
 ![delete old status bar](../../../assets/img/figma/theory/ui-elements/frames/delete-old-status-bar.gif)
 :::
 
-On souhaiterai cette fois ci que la nouvelle `Status bar` s'adapte en largeur lorsqu'on redimensionne l'écran : c'est possible, car on a utilisé des frames pour construire nos éléments !!!
+Nous souhaitons cette fois ci que la nouvelle `Status bar` s'adapte en largeur lorsqu'on redimensionne l'écran : c'est possible, car on a utilisé des frames pour construire nos éléments !!!
 
 Pour celà :
 - Faites <kbd>Ctrl</kbd> + <kbd>Z</kbd> pour annuler le redimensionnement de l'écran

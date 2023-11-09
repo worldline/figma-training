@@ -15,7 +15,7 @@ Comme le rectangle a été créé en dernier, il apparait au dessus du texte dan
 
 Plusieurs façons de faire :
 - Clique droit sur le texte, puis sélectionnez l'option _Bring to front_
-- Clique droit le rectangle et, clique droit puis sélectionnez l'option _Send to back_
+- Clique droit sur le rectangle, puis sélectionnez l'option _Send to back_
 
 ::: details Tutoriel 🎥
 ![send to back](../../../assets/img/figma/theory/ui-elements/groups/send-to-back.gif)
@@ -30,7 +30,7 @@ Plusieurs façons de faire :
 
 ## Positionnement
 Pour centrer des éléments les uns par rapport aux autres, il existe plusieurs solutions :
-- Sélectionnez tous les éléments (avec <kbd>Shift</kbd> OU en trançant un rectangle autour avec l'outil de sélection <img class="align-text" height="32px" alt="select tool icon" src="../../../assets/img/figma/theory/ui-elements/groups/select-tool-icon.png">) puis utilisez les boutons d'alignement dans le `Design panel` à gauche en haut <img class="align-text" height="32px" alt="alignment buttons" src="../../../assets/img/figma/theory/ui-elements/groups/alignment-buttons.png">
+- Sélectionnez tous les éléments (avec <kbd>Shift</kbd> OU en trançant un rectangle autour avec l'outil de sélection <img class="align-text" height="32px" alt="select tool icon" src="../../../assets/img/figma/theory/ui-elements/groups/select-tool-icon.png">) puis utilisez les boutons d'alignement dans le `Design panel` en haut à gauche <img class="align-text" height="32px" alt="alignment buttons" src="../../../assets/img/figma/theory/ui-elements/groups/alignment-buttons.png">
 
 ::: details Tutoriel 🎥
 ![elements alignment](../../../assets/img/figma/theory/ui-elements/groups/elements-alignment.gif)
@@ -46,10 +46,10 @@ Une fois positionnés, sélectionnez le texte et le rectangle (par exemple avec 
 
 > **Remarque :** Vous pouvez voir qu'un nouvel élément (calque de type groupe) est apparu dans le `Layers panel` à gauche. Il contient le texte et le rectangle.
 
-Veuillez renommer les calques pour une meilleure organisation de votre design.
+Renommez les calques pour une meilleure organisation de votre design.
 
 ::: details Tutoriel 🎥
 ![elements group](../../../assets/img/figma/theory/ui-elements/groups/elements-group.gif)
 :::
 
-Vous disposez maintenant d'un élément `Status bar` (bare de statut) utilisable dans vos futurs écrans ! 👏
+Vous disposez maintenant d'un élément `Status bar` (barre de statut) utilisable dans vos futurs écrans ! 👏

@@ -2,11 +2,11 @@
 
 ## Ecart entre les éléments
 
-Utilisez l'écart entre les éléments <img class="figma-button align-text" alt="spacing button" src="../../../assets/img/figma/theory/common-icons/spacing-button.svg"> (`Gap between items`) pour gérer la distance entre les éléments dans un `Autolayout`.
+Utilisez l'écart <img class="figma-button align-text" alt="spacing button" src="../../../assets/img/figma/theory/common-icons/spacing-button.svg"> (`Gap between items`) pour gérer la distance entre les éléments dans un `Autolayout`.
 
 Le `Gap` possède deux modes : 
 - **L'écart spécifique** : spécifiez la distance en entrant une valeur dans le champ. Vous pouvez aussi augmenter/diminuer la valeur du champ au clavier avec les flèches directionnelles ou en cliquant-glissant votre curseur sur <img class="figma-button align-text" alt="spacing button" src="../../../assets/img/figma/theory/common-icons/spacing-button.svg">.
-- **L'écart automatique** : saisir la valeur "**Auto**", ou la sélectionner dans le menu déroulant, pour que les éléments soient le plus écarté possible.
+- **L'écart automatique** : saisir la valeur "**Auto**", ou la sélectionner dans le menu déroulant, pour que les éléments soient le plus écartés possible.
 
 > **Remarque :** Vous pouvez paramétrer le `Gap` entre les éléments si la direction est `Horizontal` <img class="figma-button align-text" alt="spacing button" src="../../../assets/img/figma/theory/common-icons/spacing-button.svg"> ou `Vertical` <img class="figma-button align-text" style="transform: rotate(90deg);" alt="spacing button" src="../../../assets/img/figma/theory/common-icons/spacing-button.svg">. Si la direction est en mode `Wrap`, il est possible de gérer le `Gap` horizontal et vertical à la fois.
 
@@ -14,7 +14,7 @@ Le `Gap` possède deux modes :
 ![autolayout spacing](../../../assets/img/figma/theory/autolayout/spacing/autolayout-spacing.gif)
 :::
 
-**Exercice :** Essayer de mettre le `Gap` en automatique sur votre `Autolayout` puis d'agrandir votre `Frame` !
+**Exercice :** Essayez de mettre le `Gap` en automatique sur votre `Autolayout` puis d'agrandir votre `Frame` !
 
 ::: details Tuto 🎥
 ![autolayout auto gap](../../../assets/img/figma/theory/autolayout/spacing/autolayout-auto-gap.gif)
@@ -22,7 +22,7 @@ Le `Gap` possède deux modes :
 
 ## Padding
 
-Le padding dans un `Autolayout` controle l'espace vide entre le contenu de la `Frame` (ses éléments) et son contour. Vous pouvez définir un padding de manière uniforme, verticale, horizontale ou bien mettre une valeur différente en haut, en bas, à gauche et à droite.
+Le padding dans un `Autolayout` contrôle l'espace vide entre le contenu de la `Frame` (ses éléments) et son contour. Vous pouvez définir un padding de manière uniforme, verticale, horizontale ou bien mettre une valeur différente en haut, en bas, à gauche et à droite.
 
 ::: details Démo 🎥
 ![padding resizing](../../../assets/img/figma/theory/autolayout/spacing/padding-resizing.gif)
@@ -34,13 +34,13 @@ Vous pouvez ajuster le padding dans le `Design panel` à droite : par défaut le
 - cliquez sur <img class="figma-button align-text" style="transform: rotate(90deg);" alt="individual padding button" src="../../../assets/img/figma/theory/autolayout/spacing/individual-padding-button.svg"> 
 - 4 champs `top`, `right`, `bottom` et `left` apparaissent !
 - Utilisez ces champs pour modifier les paddings
-- Maintenez la touche <kbd>Ctrl</kbd> enfoncée et cliquer sur l'un des champs, vous pouvez maintenat saisir les paddings haut, droite, bas, gauche sous le format `1,2,3,4`
+- Maintenez la touche <kbd>Ctrl</kbd> enfoncée et cliquez sur l'un des champs, vous pouvez maintenant saisir les paddings haut, droite, bas, gauche sous le format `1,2,3,4`
 
 ::: details Démo 🎥
 ![padding individual resizing](../../../assets/img/figma/theory/autolayout/spacing/padding-individual-resizing.gif)
 :::
 
-**Exercice :** Modifier les paddings ! Essayer les différentes techniques pour modifier le padding de votre `Autolayout`
+**Exercice :** Modifiez les paddings ! Essayez les différentes techniques pour modifiez le padding de votre `Autolayout`
 
 ::: details Tuto 🎥
 ![autolayout paddings demo](../../../assets/img/figma/theory/autolayout/spacing/autolayout-paddings.gif)

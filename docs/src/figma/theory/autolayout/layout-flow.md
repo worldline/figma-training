@@ -3,19 +3,19 @@
 ## Direction
 
 L'autolayout agence les élements dans la `Frame` les uns à la suite des autres (on parle aussi d'empilement). La direction de l'empilement peut être soit :
-- **Vertical** : Ajouter, supprimer, changer l'ordre des éléments le long de l'axe Y.
-- **Horizontal** : Ajouter, supprimer, changer l'ordre des éléments le long de l'axe X.
-- **Wrap** : Arranger les éléments sur plusieurs lignes et colonnes dans la `Frame`. La taille de la `Frame` va délimiter le moment ou les éléments vont passer à la ligne suivante.
+- **Vertical**
+- **Horizontal**
+- **Wrap**
 
 ![autolayout direction](../../../assets/img/figma/theory/autolayout/layout-flow/autolayout-direction.png)
 
 
 **Exercice :** Créer un autolayout et changer sa direction ! Pour ce faire : 
-- Créer trois cercle de couleurs différente (cf. l'image ci-dessus)
-- Sélectionnez les 3 cercles (maintenir <kbd>Shift</kbd> + click, ou bien utiliser la sélection rapide)
-- Utiliser le raccourcis <kbd>Shift</kbd> + <kbd>A</kbd> OU cliquer sur le bouton <img class="figma-button" alt="autlayout add button" src="../../../assets/img/figma/theory/autolayout/layout-flow/autolayout-add-button.svg"> dans le `Design panel` à droite (propriété `Autolayout`) pour créer un autolayout.
+- Créez trois cercle de couleurs différentes (cf. l'image ci-dessus)
+- Sélectionnez les 3 cercles (maintenir <kbd>Shift</kbd> + clique, ou bien utiliser la sélection rapide)
+- Utilisez le raccourci <kbd>Shift</kbd> + <kbd>A</kbd> OU cliquez sur le bouton <img class="figma-button" alt="autlayout add button" src="../../../assets/img/figma/theory/autolayout/layout-flow/autolayout-add-button.svg"> dans le `Design panel` à droite (propriété `Autolayout`) pour créer un autolayout.
 
-> **Remarque :** : Vous pouvez voir que vos 3 cercles sont contenu dans une `Frame`, <kbd>Shift</kbd> + <kbd>A</kbd> permet de créer une `Frame` avec un autolayout. On aurait très bien pu d'abord créer une frame, ajouter les 3 cercles à l'intérieur, et ajouter l'autolayout qu'après !
+> **Remarque :** On aurait très bien pu d'abord créer une frame, ajouter les 3 cercles à l'intérieur, et ajouter l'autolayout qu'après !
 
 - Changer la direction de votre autolayout (Vertical, Horizontal, Wrap) dans le `Design panel` dans la section `Autolayout`
 

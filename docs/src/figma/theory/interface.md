@@ -2,7 +2,7 @@
 
 ## Créer un nouveau fichier
 
-Pour créer un nouveau fichier, veuillez lancer Figma et ouvrir un nouvel onglet en cliquant sur le bouton <img class="align-text" height="32px" alt="new tab" src="../../assets/img/figma/theory/interface/new_tab.png"> en haut de l'écran. Cliquez ensuite sur `New design file` (voir image suivante).
+Pour créer un nouveau fichier, lancez Figma et ouvrez un nouvel onglet en cliquant sur le bouton <img class="align-text" height="32px" alt="new tab" src="../../assets/img/figma/theory/interface/new_tab.png"> en haut de l'écran. Cliquez ensuite sur `New design file` (voir image suivante).
 
 ![new design file](../../assets/img/figma/theory/interface/1.new_design_file.png)
 
@@ -38,16 +38,17 @@ Divisée en trois parties :
 
 ![sharing tools](../../assets/img/figma/theory/interface/sharing_tools.png)
 
-#### Renommer votre fichier (windows/macos) 💡
+::: tip Renommer votre fichier (windows/macos) 💡
 Vous pouvez dès maintenant renommer votre fichier Figma en cliquant sur son nom
 
 ::: details Tutoriel 🎥
 ![toolbar file renaming](../../assets/img/figma/theory/interface/toolbar_file_rename.gif)
 :::
 
+
 ### <img class="align-text" height="32px" alt="b" src="../../assets/img/figma/theory/interface/B.png"> Le plan de travail
 
-C'est ici que l'on créer et visualise les élements d'interface, grâce aux outils disponibles dans la `Toolbar`. Cet espace est vide, car rien n'a été créé pour le moment.
+C'est ici que l'on créé et visualise les élements d'interface, grâce aux outils disponibles dans la `Toolbar`. Cet espace est vide, car rien n'a été créé pour le moment.
 
 ### <img class="align-text" height="32px" alt="c" src="../../assets/img/figma/theory/interface/C.png"> Le panneau de conception (design panel)
 
@@ -55,7 +56,7 @@ On trouve ici les propriétés de l'élement sélectionné dans le `Plan de trav
 
 ![design panel](../../assets/img/figma/theory/interface/design_panel.png)
 
-> **A faire :** Vous pouvez changer la couleur de fond de la page en cliquant sur le carré coloré
+**A faire :** Vous pouvez changer la couleur de fond de la page en cliquant sur le carré coloré
 
 ::: details Tutoriel 🎥
 ![change page background color](../../assets/img/figma/theory/interface/change_color.gif)
@@ -63,11 +64,11 @@ On trouve ici les propriétés de l'élement sélectionné dans le `Plan de trav
 
 ### <img class="align-text" height="32px" alt="d" src="../../assets/img/figma/theory/interface/D.png"> Le panneau des calques (layers panel)
 
-Dans ce panel s'affiche l'arborescence du design (élements d'interface du plan de travail). Dés que l'on créé un élément d'interface dans le **Plan de travail** il est listé ici en fonction de sa position. 
+Dans ce panel s'affiche l'arborescence du design (élements d'interface du plan de travail). Dés que l'on créé un élément d'interface dans le `Plan de travail` il est listé ici en fonction de sa position. 
 
 ![layers panel](../../assets/img/figma/theory/interface/layers_panel.png)
 
-> **Remarque :** Chaque élément du design est appellé "calque". Il existe plusieurs types de calque (texte, rectangle, groupe, frame, image, section, vecteur...). C'est avec ces différents élements que l'on va construire des éléments d'interface.
+> **Remarque :** Chaque élément du design est appellé `Calque`. Il existe plusieurs types de calque (texte, rectangle, groupe, frame, image, section, vecteur...). C'est avec ces différents élements que l'on va construire des éléments d'interface.
 
 Voici à quoi pourrait ressembler le `Panneau des calques` pour un bouton créé dans la `Plan de travail` :
 

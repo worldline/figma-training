@@ -8,7 +8,7 @@ On peut simplifier et accélérer le processus en utilisant un `Plugin` dédié 
 
 Nous allons utiliser le plugin `Iconify` pour chercher et importer nos icônes. Il regroupe les bibliothèques/collections d'icônes les plus connues disponibles sur internet (Google Material Symbols, Bootstrap icons, Feather...).
 
-Pour utiliser ce plugin, faites `Click droit` > `Plugins` > `Manage plugins...`
+Pour utiliser ce plugin, faites `Clique droit` > `Plugins` > `Manage plugins...`
 
 ![right click plugins](../../../assets/img/figma/theory/ui-elements/icons/right-click-plugins.png)
 
@@ -36,11 +36,11 @@ Veuillez bien sélectionner la frame de l'icône (contour) et pas le vecteur dir
 > **Remarque :** Contrairement à une image (PNG, JPG...), l'icône est vectorielle (`Vector`, voir dans le `Panneau de calques` à gauche), il est donc possible de changer sa couleur, et modifier sa taille à l'infinie (sans voir de pixels) !
 
 ::: tip Réutiliser un plugin 💡
-Enregistrer Iconify en faisant `Click droit` > `Plugins` > `Manage plugins...` puis le bouton `Save` dans les résultats de recherche
+Enregistrer Iconify en faisant `Clique droit` > `Plugins` > `Manage plugins...` puis le bouton `Save` dans les résultats de recherche
 
 ![iconify plugin save](../../../assets/img/figma/theory/ui-elements/icons/save-iconify-plugin.png)
 
-Dorénavant  faites `Click droit` > `Plugins` > `Saved plugins` > `Iconify`
+Dorénavant  faites `Clique droit` > `Plugins` > `Saved plugins` > `Iconify`
 :::
 
 > **Remarque :** Il est possible de créer une icône manuellement dans Figma directement avec l'outil Plume (`Pen`) <img class="align-text" height="32px" alt="plume tool icon" src="../../../assets/img/figma/theory/common-icons/plume-icon.png">. Il suffit de créer une frame puis de dessiner une forme à l'intérieure.
