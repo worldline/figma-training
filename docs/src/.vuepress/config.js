@@ -37,7 +37,6 @@ module.exports = {
     sidebarDepth: 0,
     nav: [
       { text: 'Accueil', link: '/' },
-      { text: 'Android', link: '/android/getting-started/guidelines/general/' },
       { text: 'Figma', link: '/figma/introduction/program' },
     ],
     sidebar: {
@@ -102,79 +101,7 @@ module.exports = {
             '/figma/tutorial/app-5',
           ]
         }
-      ],
-      '/android/': [    
-        {
-          title: 'Getting started',
-          collapsable: true,
-          children: [
-            {
-              title: 'Guidelines',
-              collapsable: true,
-              children: [
-                '/android/getting-started/guidelines/general',
-                '/android/getting-started/guidelines/functionnal',
-                '/android/getting-started/guidelines/technical',
-                '/android/getting-started/guidelines/rating',
-              ]
-            },
-            '/android/getting-started/hello-world',
-          ]
-        },  
-        {
-          title: 'Test data',
-          collapsable: true,
-          children: [
-            '/android/mock-application/data',
-            '/android/mock-application/list',
-            '/android/mock-application/details',
-          ]
-        },
-        {
-          title: 'Real data',
-          collapsable: true,
-          children: [
-            {
-              title: 'Architecture - Theory',
-              collapsable: true,
-              children: [
-                '/android/real-data/intro',
-                '/android/real-data/solid',
-                '/android/real-data/app-architecture',
-                '/android/real-data/view-architecture',
-                '/android/real-data/dependency-injection',
-              ]
-            },
-            '/android/real-data/modules',
-            '/android/real-data/hilt',
-            '/android/real-data/retrofit',
-          ]
-        },
-        {
-          title: 'Improve the app',
-          collapsable: true,
-          children: [
-            '/android/improve-the-app/features',
-            '/android/improve-the-app/style',
-          ]
-        },
-        {
-          title: 'Firebase',
-          collapsable: true,
-          children: [
-            '/android/firebase/setup',
-            '/android/firebase/crashlytics-analytics',
-            '/android/firebase/delivery',
-          ]
-        },        
-        {
-          title: 'Play Console',
-          collapsable: true,
-          children: [
-            '/android/play-console/new-app',
-          ]
-        },
-      ],
+      ]
     }
   },
 
