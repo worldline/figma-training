@@ -8,7 +8,7 @@
 
 ### Alignement d'un élément dans un conteneur
 
-Comme nous l'avons déjà vue, Figma permet d'aligner (à gauche, à droite, en haut, en bas, au centre) un élement à l'interieur de son conteneur (`Frame`, `Groupe`, `Section`) :
+Comme nous l'avons déjà vu, Figma permet d'aligner (à gauche, à droite, en haut, en bas, au centre) un élement à l'interieur de son conteneur (`Frame`, `Groupe`, `Section`) :
 - directement dans le plan de travail (aides visuelles de Figma)
 - à l'aide des boutons d'alignements en haut à droite du `Design panel`
 

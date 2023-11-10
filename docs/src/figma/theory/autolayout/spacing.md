@@ -45,3 +45,4 @@ Vous pouvez ajuster le padding dans le `Design panel` à droite : par défaut le
 ::: details Tuto 🎥
 ![autolayout paddings demo](../../../assets/img/figma/theory/autolayout/spacing/autolayout-paddings.gif)
 :::
+
