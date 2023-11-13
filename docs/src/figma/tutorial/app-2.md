@@ -7,7 +7,7 @@
 ## Création du composant `Cellule de filtre`
 Nous avons ici une problématique typique que l'on retrouve lorsque l'on souhaite créer des cellules: nous avons plusieurs éléments similaires mais pas totalement identiques.
 
-La question se pose alors pour créer ces variantions dans le composant : variants ou propriétés ?
+La question se pose alors pour créer ces variations dans le composant : variants ou propriétés ?
 
 Je ne pense pas que la réponse soit tranchée. Cela peut être aussi un mélange des deux. Pour faire ce choix, il faut garder en tête : 
 
@@ -23,7 +23,7 @@ En prenant cela en considération, essayez de créer votre composant cellule. N'
 
 La meilleure façon de gérer les icônes, est de faire un composant de chaque icône et de mettre tous ces composants dans une même frame.
 
-Vous pourrez ainsi utiliser de manière fluide l'instance swap entre ces icônes dans les proprités des composants.
+Vous pourrez ainsi utiliser de manière fluide l'instance swap entre ces icônes dans les propriétés des composants.
 :::
 
 ## Création de la liste
