@@ -28,7 +28,7 @@ Pour réaliser un cercle parfait avec l'outil Ellipsis de Figma, il faut mainten
 
 Idem pour réaliser un carré avec l'outil Rectangle.
 
-Plus généralement, maintenez systématiquement <kbd>Shift</kbd> enfoncée lorsque vous voulez redimensionner de manière proportionnels vos éléments.
+Plus généralement, maintenez systématiquement <kbd>Shift</kbd> enfoncée lorsque vous voulez redimensionner proportionnellement vos éléments.
 
 ::: details Tutoriel 🎥
 ![forms proportional resizing](../../../assets/img/figma/theory/ui-elements/forms/forms-proportional-resizing.gif)

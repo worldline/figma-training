@@ -20,8 +20,8 @@ Il est possible d'ajouter des images dans votre design Figma de plusieurs maniè
 :::
 
 Vous pouvez maintenant : 
-- Redimensionner l'image pour qu'elle face la même largeur/hauteur (image carrée)
-- Arrondir les angles au maximum pour en faire cercle (avatar)
+- Redimensionner l'image pour qu'elle fasse la même largeur/hauteur (image carrée)
+- Arrondir les angles au maximum pour en faire un cercle (avatar)
 - Réduire la taille de l'image et la placer dans la `Card`
 
 ::: details Tutoriel 🎥

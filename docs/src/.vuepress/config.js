@@ -82,7 +82,8 @@ module.exports = {
                 '/figma/theory/autolayout/layout-flow',
                 '/figma/theory/autolayout/spacing',
                 '/figma/theory/autolayout/alignment',
-                '/figma/theory/autolayout/resizing'
+                '/figma/theory/autolayout/resizing',
+                '/figma/theory/autolayout/exercice'
               ]
             },
             '/figma/theory/prototype',

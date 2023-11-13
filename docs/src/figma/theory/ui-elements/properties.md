@@ -25,7 +25,7 @@ Nous allons maintenant créer une liste de contacts.
     - elle doit être de couleur verte (utilisez ![stroke color selection](../../../assets/img/figma/theory/ui-elements/properties/stroke-color-selection.png))
     - elle doit faire 4px d'épaisseur (utilisez ![stroke weight selection](../../../assets/img/figma/theory/ui-elements/properties/stroke-weight-selection.png))
 
-- Changez les arrondies des angles (`Corner radius`) de la `Card` (ex: 4px)
+- Changez les arrondis des angles (`Corner radius`) de la `Card` (ex: 4px)
 
 ::: details Tutoriel 🎥
 ![properties card frame](../../../assets/img/figma/theory/ui-elements/properties/properties-card-frame.gif)
