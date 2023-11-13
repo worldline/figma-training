@@ -3,7 +3,7 @@
 Nous allons maintenant créer une liste de contacts. 
 
 ::: tip 🎯 Objectif : créer la Card de contact 
-![contact card frame](../../../assets/img/figma/theory/ui-components/properties/contact-card-frame.png)
+![contact card frame](../../../assets/img/figma/theory/ui-elements/properties/contact-card-frame.png)
 :::
 
 ## Conteneur
@@ -12,23 +12,23 @@ Nous allons maintenant créer une liste de contacts.
 - Créez une frame (raccourci clavier <kbd>F</kbd>) blanche à l'intérieure de l'écran (renommez la en `Card`)
 
 ::: details Tutoriel 🎥
-![create card frame](../../../assets/img/figma/theory/ui-components/properties/create-card-frame.gif)
+![create card frame](../../../assets/img/figma/theory/ui-elements/properties/create-card-frame.gif)
 :::
 
-- Appliquez à cette `Card` une ombre portée (Panneau de droite > Effects ![design panel effects section](../../../assets/img/figma/theory/ui-components/properties/design-panel-effects-section.png) > Bouton Ajouter ![design panel add button](../../../assets/img/figma/theory/ui-components/properties/design-panel-add-button.png) > `Drop Shadow`)
+- Appliquez à cette `Card` une ombre portée (Panneau de droite > Effects ![design panel effects section](../../../assets/img/figma/theory/ui-elements/properties/design-panel-effects-section.png) > Bouton Ajouter ![design panel add button](../../../assets/img/figma/theory/ui-elements/properties/design-panel-add-button.png) > `Drop Shadow`)
 
-> **Remarque :** Vous pouvez changer les propriétés de cette ombre en cliquant sur ![effect properties button](../../../assets/img/figma/theory/ui-components/properties/effect-properties-button.png)
+> **Remarque :** Vous pouvez changer les propriétés de cette ombre en cliquant sur ![effect properties button](../../../assets/img/figma/theory/ui-elements/properties/effect-properties-button.png)
 
 - Ajoutez une bordure (`Stroke`) à cette card
 - Modifiez les propriétés de la bordure :
-    - elle ne doit apparaître qu'à gauche de la frame (utilisez ![stroke side selection](../../../assets/img/figma/theory/ui-components/properties/stroke-side-selection.png))
-    - elle doit être de couleur verte (utilisez ![stroke color selection](../../../assets/img/figma/theory/ui-components/properties/stroke-color-selection.png))
-    - elle doit faire 4px d'épaisseur (utilisez ![stroke weight selection](../../../assets/img/figma/theory/ui-components/properties/stroke-weight-selection.png))
+    - elle ne doit apparaître qu'à gauche de la frame (utilisez ![stroke side selection](../../../assets/img/figma/theory/ui-elements/properties/stroke-side-selection.png))
+    - elle doit être de couleur verte (utilisez ![stroke color selection](../../../assets/img/figma/theory/ui-elements/properties/stroke-color-selection.png))
+    - elle doit faire 4px d'épaisseur (utilisez ![stroke weight selection](../../../assets/img/figma/theory/ui-elements/properties/stroke-weight-selection.png))
 
-- Changez les arrondies des angles (`Corner radius`) de la `Card` (ex: 4px)
+- Changez les arrondis des angles (`Corner radius`) de la `Card` (ex: 4px)
 
 ::: details Tutoriel 🎥
-![properties card frame](../../../assets/img/figma/theory/ui-components/properties/properties-card-frame.gif)
+![properties card frame](../../../assets/img/figma/theory/ui-elements/properties/properties-card-frame.gif)
 :::
 
 ## Contenu
@@ -44,4 +44,4 @@ Nous allons maintenant créer une liste de contacts.
 
 - Alignez les textes sur la gauche, et positionnez-les l'un en dessous de l'autre :
 
-![create card name number](../../../assets/img/figma/theory/ui-components/properties/create-card-name-number.png)
+![create card name number](../../../assets/img/figma/theory/ui-elements/properties/create-card-name-number.png)
