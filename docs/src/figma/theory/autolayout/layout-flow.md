@@ -38,7 +38,7 @@ Avec un `Autolayout`, si les éléments ont un espacement négatif (superpositio
 > **Remarque :** Vous pouvez changer la place d'un élément dans un autolayout avec les flèches du clavier après l'avoir sélectionné !
 
 **Exercice :** Ajouter / Supprimer / Cacher / Déplacer des éléments dans un autolayout
-- Ajoutez une couleur de remplissage à votre `Frame`(celle qui contient les trois cercles) avec la propriété `Fill`
+- Ajoutez une couleur de remplissage à votre `Frame`(celle qui contient les trois cercles) avec la propriété `Fill` pour qu'on puisse bien la voir et mieux comprendre ses propriétés
 - Créez un cercle d'une autre couleur sur le plan de travail (en dehors de votre `Frame`)
 - Sélectionnez le et glisser le entre deux éléments dans votre `Frame`
 - A l'aide des flèches du clavier, changez sa position

@@ -1,16 +1,18 @@
 # Alignements
 
-## Alignements des éléments d'un autolayout
+## Alignements les éléments d'un autolayout
 
-La `Direction`et le `Gap`de votre autolayout vont déterminer quelle option d'alignement est possible à l'interieur de celui-ci.
+Dans une `Frame`avec `Autolayout`, l'alignement des éléments se fait de manière groupée ! Vous ne pouvez pas controler l'alignement de chaque élément individuellement (contrairement aux `Frames`classiques). 
 
-Contrairement aux `Frame`classique, dans une `Frame`avec `Autolayout` vous ne pouvez pas controler l'alignement de chaque élément individuellement. C'est pour cette raison que l'alignement est régler depuis l'autolayout et pas sur chaque éléments !
+C'est pour cette raison que l'alignement se règle depuis l'autolayout et pas sur chaque éléments !
 
 Utilisez la boite d'alignement dans le `Design panel`à droite dans la propriété `Autolayout` pour changer l'alignement des éléments à l'intérieur de votre `Frame`.
 
 ::: details Démo 🎥
 ![alignment options](../../../assets/img/figma/theory/autolayout/alignment/alignment-options.gif)
 :::
+
+> **Remarque :** La `Direction`et le `Gap`de votre autolayout vont déterminer quelle option d'alignement est possible à l'interieur de celui-ci.
 
 **Exercice :** Tester l'alignement
 - Agrandissez la `Frame`qui contient vos cercles
