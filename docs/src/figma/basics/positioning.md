@@ -1,7 +1,7 @@
 # Positionnements
 
 ::: tip 🎯 Objectif : Positionner correctement les éléments entre eux au pixel prêt !
-![positioning goal preview](../../assets/img/figma/theory/positioning/positioning-goal-preview.png)
+![positioning goal preview](../../assets/img/figma/basics/positioning/positioning-goal-preview.png)
 :::
 
 ## Alignements
@@ -13,7 +13,7 @@ Comme nous l'avons déjà vu, Figma permet d'aligner (à gauche, à droite, en h
 - à l'aide des boutons d'alignements en haut à droite du `Design panel`
 
 ::: details Tutoriel 🎥
-![change page background color](../../assets/img/figma/theory/positioning/positioning_alignment_demo.gif)
+![change page background color](../../assets/img/figma/basics/positioning/positioning_alignment_demo.gif)
 :::
 
 ### Alignement de plusieurs élements
@@ -61,5 +61,5 @@ La `marge` correspond à l'espace aux extrémités des lignes ou colonnes.
 INSERER SCREEN SCHEMA
 
 ::: details Tutoriel 🎥
-<p align="center"><img src="../../assets/img/figma/theory/positioning/layout-grid.gif"></p>
+<p align="center"><img src="../../assets/img/figma/basics/positioning/layout-grid.gif"></p>
 :::

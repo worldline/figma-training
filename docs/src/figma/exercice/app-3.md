@@ -1,7 +1,7 @@
 # Liste de cards
 
 ::: tip 🎯 Objectif : Créer la liste de cards
-![](../../assets/img/figma/tutorial/app/cards.png)
+![](../../assets/img/figma/exercice/app/cards.png)
 :::
 
 Quelques points d'attention pour ce composant :

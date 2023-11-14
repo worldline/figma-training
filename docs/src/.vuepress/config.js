@@ -49,58 +49,63 @@ module.exports = {
             '/figma/introduction/trainers',
             '/figma/introduction/why',
             '/figma/introduction/pricings',
-            '/figma/introduction/shortcuts'
+            '/figma/introduction/shortcuts',
+            '/figma/introduction/download',
           ]
         },
         {
-          title: 'Partie théorique',
+          title: "Les bases",
           collapsable: true,
           children: [
-            '/figma/theory/download',
-            '/figma/theory/interface',
+            '/figma/basics/interface',
             {
               title: 'Éléments d\'interface',
-              collapsable: false,
+              collapsable: true,
               children: [
-                '/figma/theory/ui-elements/texts',
-                '/figma/theory/ui-elements/forms',
-                '/figma/theory/ui-elements/groups',
-                '/figma/theory/ui-elements/frames',
-                '/figma/theory/ui-elements/properties',
-                '/figma/theory/ui-elements/images',
-                '/figma/theory/ui-elements/icons'
+                '/figma/basics/ui-elements/texts',
+                '/figma/basics/ui-elements/forms',
+                '/figma/basics/ui-elements/groups',
+                '/figma/basics/ui-elements/frames',
+                '/figma/basics/ui-elements/properties',
+                '/figma/basics/ui-elements/images',
+                '/figma/basics/ui-elements/icons'
               ]
             },
-            '/figma/theory/positioning',
-            '/figma/theory/style',
-            '/figma/theory/variable',
-            '/figma/theory/component',
-            {
-              title: 'Autolayout',
-              collapsable: false,
-              children: [
-                '/figma/theory/autolayout/definition',
-                '/figma/theory/autolayout/layout-flow',
-                '/figma/theory/autolayout/spacing',
-                '/figma/theory/autolayout/alignment',
-                '/figma/theory/autolayout/resizing',
-                '/figma/theory/autolayout/exercice'
-              ]
-            },
-            '/figma/theory/prototype',
-            '/figma/theory/plugins',
-            '/figma/theory/practices'
+            '/figma/basics/positioning'
           ]
         },
         {
-          title: 'Partie pratique',
+          title: 'Fonctionnalités avancées',
           collapsable: true,
           children: [
-            '/figma/tutorial/app-1',
-            '/figma/tutorial/app-2',
-            '/figma/tutorial/app-3',
-            '/figma/tutorial/app-4',
-            '/figma/tutorial/app-5',
+            '/figma/advanced-features/style',
+            '/figma/advanced-features/variable',
+            '/figma/advanced-features/component',
+            {
+              title: 'Autolayout',
+              collapsable: true,
+              children: [
+                '/figma/advanced-features/autolayout/definition',
+                '/figma/advanced-features/autolayout/layout-flow',
+                '/figma/advanced-features/autolayout/spacing',
+                '/figma/advanced-features/autolayout/alignment',
+                '/figma/advanced-features/autolayout/resizing',
+                '/figma/advanced-features/autolayout/exercice'
+              ]
+            },
+            '/figma/advanced-features/prototype',
+            '/figma/advanced-features/plugins'
+          ]
+        },
+        {
+          title: 'Exercice',
+          collapsable: true,
+          children: [
+            '/figma/exercice/app-1',
+            '/figma/exercice/app-2',
+            '/figma/exercice/app-3',
+            '/figma/exercice/app-4',
+            '/figma/exercice/app-5',
           ]
         }
       ]

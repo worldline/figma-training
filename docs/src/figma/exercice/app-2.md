@@ -1,7 +1,7 @@
 # Liste de filtres
 
 ::: tip 🎯 Objectif : Créer la liste de filtres
-![](../../assets/img/figma/tutorial/app/cells.png)
+![](../../assets/img/figma/exercice/app/cells.png)
 :::
 
 ## Création du composant `Cellule de filtre`
@@ -19,7 +19,7 @@ Je ne pense pas que la réponse soit tranchée. Cela peut être aussi un mélang
 En prenant cela en considération, essayez de créer votre composant cellule. N'hésitez pas à débattre entre vous des différentes possibilités ;)
 
 ::: tip 💡 Gestion des icônes
-![](../../assets/img/figma/tutorial/app/icons.png)
+![](../../assets/img/figma/exercice/app/icons.png)
 
 La meilleure façon de gérer les icônes, est de faire un composant de chaque icône et de mettre tous ces composants dans une même frame.
 

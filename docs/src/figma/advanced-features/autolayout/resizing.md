@@ -6,7 +6,7 @@ Une des plus puissantes fonctionnalités de l'autolayout est d'adapter les dimen
 Vous l'avez peut être déjà remarqué, lorsque vous ajoutez un élément dans une `Frame` avec `Autolayout`, sa taille s'adapte ! C'est parce que par défaut, ses propriétés `Horizontal resizing` et `Vertical resizing` sont réglées sur `Hug contents`.
 
 ::: details Démo 🎥
-![alignment options](../../../assets/img/figma/theory/autolayout/resizing/resizing-properties.gif)
+![alignment options](../../../assets/img/figma/advanced-features/autolayout/resizing/resizing-properties.gif)
 :::
 
 **Exercice :** Créer le bouton `S'abonner` de youtube !
@@ -14,7 +14,7 @@ Vous l'avez peut être déjà remarqué, lorsque vous ajoutez un élément dans 
 ::: tip 🎯 Objectif : Bouton intelligent
 Un cas pratique de l'autolayout, vous allez créé un bouton qui s'adapte à la taille de son texte
 
-![smart button](../../../assets/img/figma/theory/autolayout/resizing/smart-button.gif)
+![smart button](../../../assets/img/figma/advanced-features/autolayout/resizing/smart-button.gif)
 :::
 - Créer un texte "S'abonner"
 - Sélectionner votre texte et faites <kbd>Shift</kbd> + <kbd>A</kbd> pour créer un autolayout à partir de celui-ci
@@ -33,7 +33,7 @@ Un cas pratique de l'autolayout, vous allez créé un bouton qui s'adapte à la 
 - Essayer de modifier le texte et remarquer que la taille de la `Frame` s'adapte
 
 ::: details Démo 🎥
-![smart button demo](../../../assets/img/figma/theory/autolayout/resizing/smart-button-demo.gif)
+![smart button demo](../../../assets/img/figma/advanced-features/autolayout/resizing/smart-button-demo.gif)
 :::
 
 ## Largeur et hauteur fixes
@@ -57,27 +57,27 @@ Grâce à l'option `Fill container`, l'élément va remplir tout l'espace dispon
 - Essayez de redimensionner la `Frame`en largeur et observer le bouton (sa taille s'adapte en largeur)
 
 ::: details Tuto 🎥
-![fill container demo](../../../assets/img/figma/theory/autolayout/resizing/fill-container-demo.gif)
+![fill container demo](../../../assets/img/figma/advanced-features/autolayout/resizing/fill-container-demo.gif)
 :::
 
 - Appliquez `Fill container` à tous les boutons de la `Frame` puis essayer de la redimensionner en largeur
 - Essayer de changer sa direction (vertical/horizontal)
 
 ::: details Démo 🎥
-![fill container demo](../../../assets/img/figma/theory/autolayout/resizing/fill-container-demo-2.gif)
+![fill container demo](../../../assets/img/figma/advanced-features/autolayout/resizing/fill-container-demo-2.gif)
 :::
 
 ## Dimensions minimum et maximum
 
 Il est possible de paramétrer un maximum et/ou un minimum pour la largeur et la hauteur d'une `Frame` avec `Autolayout`. Pour se faire :
-- ouvrir la liste déroulante de la largeur (`Width`) pour trouver les options <img class="figma-button align-text" alt="min width button" src="../../../assets/img/figma/theory/autolayout/resizing/min-width-button.svg"> `Add min width` et <img class="figma-button align-text" alt="max width button" src="../../../assets/img/figma/theory/autolayout/resizing/max-width-button.svg"> `Add max width`
-- ouvrir la liste déroulante de la hauteur (`Height`) pour trouver les options <img class="figma-button align-text" alt="min height button" src="../../../assets/img/figma/theory/autolayout/resizing/min-height-button.svg"> `Add min height` et <img class="figma-button align-text" alt="max height button" src="../../../assets/img/figma/theory/autolayout/resizing/max-height-button.svg"> `Add max height`
+- ouvrir la liste déroulante de la largeur (`Width`) pour trouver les options <img class="figma-button align-text" alt="min width button" src="../../../assets/img/figma/advanced-features/autolayout/resizing/min-width-button.svg"> `Add min width` et <img class="figma-button align-text" alt="max width button" src="../../../assets/img/figma/advanced-features/autolayout/resizing/max-width-button.svg"> `Add max width`
+- ouvrir la liste déroulante de la hauteur (`Height`) pour trouver les options <img class="figma-button align-text" alt="min height button" src="../../../assets/img/figma/advanced-features/autolayout/resizing/min-height-button.svg"> `Add min height` et <img class="figma-button align-text" alt="max height button" src="../../../assets/img/figma/advanced-features/autolayout/resizing/max-height-button.svg"> `Add max height`
 
 **Exercice :** Largeur maximum et minimum !
 - Ajoutez une largeur maximum (250px) et une largeur minimum (170px) pour le bouton `S'abonner`
 - Essayez de redimensionner le bouton au delà de ces dimensions
 
 ::: details Tuto 🎥
-![min max demo](../../../assets/img/figma/theory/autolayout/resizing/min-max-demo.gif)
+![min max demo](../../../assets/img/figma/advanced-features/autolayout/resizing/min-max-demo.gif)
 :::
 
