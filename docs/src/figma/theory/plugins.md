@@ -1,4 +1,4 @@
-# Les plugins
+# Plugins
 
 ## Qu'est-ce que c'est ?
 
