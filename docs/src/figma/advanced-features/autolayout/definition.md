@@ -11,9 +11,9 @@ Il existe plusieurs manière d'utiliser l'autolayout :
 
 L'autolayout est une fonctionnalité puissante dont nous allons présenter les propriétés.
 
-![autolayout animation](../../../assets/img/figma/theory/autolayout/definition/autolayout.gif)
+![autolayout animation](../../../assets/img/figma/advanced-features/autolayout/definition/autolayout.gif)
 
-![autolayout button animation](../../../assets/img/figma/theory/autolayout/definition/button-autolayout.gif)
+![autolayout button animation](../../../assets/img/figma/advanced-features/autolayout/definition/button-autolayout.gif)
 
 ::: tip 💡
 Utilisez la touche <kbd>Tab</kbd> pour passer d'un de champs de saisie au suivant rapidement !

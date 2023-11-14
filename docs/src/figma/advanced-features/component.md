@@ -13,10 +13,10 @@ Un composant comporte deux aspects :
 
 Pour faire de la card un composant : 
 - Sélectionnez la card
-- Cliquez sur ![](../../assets/img/figma/theory/components/component_button.png) au milieu de la barre d'outil.
+- Cliquez sur ![](../../assets/img/figma/advanced-features/components/component_button.png) au milieu de la barre d'outil.
 
 Bravo, vous venez de créer votre premier composant ! Vous pouvez voir dans le panneau des calque que la card est maintenant violette avec le symbole composant.
-<p align="center"><img src="../../assets/img/figma/theory/components/layers_parent.png"></p>
+<p align="center"><img src="../../assets/img/figma/advanced-features/components/layers_parent.png"></p>
 
 ## Créer des instances de composant
 
@@ -27,12 +27,12 @@ Si vous dupliquez une instance, elle sera elle aussi liée au composant parent.
 :::
 
 Les instances sont aussi violettes mais le symbole est différent :
-<p align="center"><img src="../../assets/img/figma/theory/components/layers_instances.png"></p>
+<p align="center"><img src="../../assets/img/figma/advanced-features/components/layers_instances.png"></p>
 
 ::: warning Ne pas mélanger le parent
 Il est fortement déconseillé d'utiliser le composant parent dans les écrans. Une bonne pratique est de mettre les composants parent dans une page différente du Figma.
 
-<p align="center"><img src="../../assets/img/figma/theory/components/separate_parent.png"></p>
+<p align="center"><img src="../../assets/img/figma/advanced-features/components/separate_parent.png"></p>
 :::
 
 **A faire:**
@@ -41,7 +41,7 @@ Il est fortement déconseillé d'utiliser le composant parent dans les écrans. 
 > **Remarque :** si vous modifiez ce même texte dans le composant parent, cela ne modifiera pas les instances ! Et cela fonctionnera de la même manière pour toutes les modifications de propriété comme les couleurs, polices, etc
 
 ::: details Tutoriel 🎥
-<p align="center"><img src="../../assets/img/figma/theory/components/instances-override.gif"></p>
+<p align="center"><img src="../../assets/img/figma/advanced-features/components/instances-override.gif"></p>
 :::
 
 ::: tip Réinitialiser une instance
@@ -60,12 +60,12 @@ C'est normal, c'est la manière dont fonctionnent les composants. Nous allons vo
 Créer des variants d'un composant permet de le décliner en différents états.
 
 ### Création d'un variant de composant
-**A faire:** sélectionnez le composant parent puis cliquez sur le symbole ![](../../assets/img/figma/theory/components/variant_button.png) au milieu de la barre d'outil. 
+**A faire:** sélectionnez le composant parent puis cliquez sur le symbole ![](../../assets/img/figma/advanced-features/components/variant_button.png) au milieu de la barre d'outil. 
 
 > Vous pouvez même créer plusieurs variants d'un même composant.
 
 ::: details Tutoriel 🎥
-<p align="center"><img src="../../assets/img/figma/theory/components/variants.gif"></p>
+<p align="center"><img src="../../assets/img/figma/advanced-features/components/variants.gif"></p>
 :::
 
 ### Paramétrages du variant
@@ -77,7 +77,7 @@ Nous allons créer un état d'erreur à la card, en changeant la couleur de son 
 - Affectez les noms `Default` et `Error` à nos 2 états
 
 ::: details Tutoriel 🎥
-<p align="center"><img src="../../assets/img/figma/theory/components/variant-error.gif"></p>
+<p align="center"><img src="../../assets/img/figma/advanced-features/components/variant-error.gif"></p>
 :::
 
 ### Combiner les variants
@@ -92,7 +92,7 @@ Nous allons créer 2 nouveaux variants à notre card pour les états `Disabled`.
 - Modifiez la valeur de la propriété `Disabled` sur ces 2 nouveaux états à `True`.
 
 ::: details Tutoriel 🎥
-<p align="center"><img src="../../assets/img/figma/theory/components/variant-combinaison.gif"></p>
+<p align="center"><img src="../../assets/img/figma/advanced-features/components/variant-combinaison.gif"></p>
 :::
 
 ::: tip Astuce
@@ -115,10 +115,10 @@ Pour faire une `instance swap` il nous faut un 2ème composant. Pour tester rapi
 - Créez un carré.
 - Faîtes de ce carré un composant.
 - Créez une instance du composant card.
-- Faîtes une `instance swap` sur cette instance pour le transformer en carré via le bouton ![](../../assets/img/figma/theory/components/instance-swap.png).
+- Faîtes une `instance swap` sur cette instance pour le transformer en carré via le bouton ![](../../assets/img/figma/advanced-features/components/instance-swap.png).
 
 ::: details Tutoriel 🎥
-<p align="center"><img src="../../assets/img/figma/theory/components/instance-swap.gif"></p>
+<p align="center"><img src="../../assets/img/figma/advanced-features/components/instance-swap.gif"></p>
 :::
 
 ### Cas concret: les icônes
@@ -135,7 +135,7 @@ Le plus simple pour importer des icônes dans Figma est d'utiliser un plugin. Je
 
 Vous pouvez rechercher des plugins depuis la barre d'outil :
 
-![](../../assets/img/figma/theory/components/material-symbols.png)
+![](../../assets/img/figma/advanced-features/components/material-symbols.png)
 
 [Plus d'informations sur les plugins ici](../plugin.md)
 :::
@@ -144,7 +144,7 @@ Vous pouvez rechercher des plugins depuis la barre d'outil :
 - Placez-y vos icônes.
 
 ::: details Tutoriel 🎥
-<p align="center"><img src="../../assets/img/figma/theory/components/icons-as-components.gif"></p>
+<p align="center"><img src="../../assets/img/figma/advanced-features/components/icons-as-components.gif"></p>
 :::
 
 Testons maintenant que cela fonctionne bien.
@@ -156,7 +156,7 @@ Testons maintenant que cela fonctionne bien.
 C'est ainsi très pratique de changer une icône dans un design !
 
 ::: details Tutoriel 🎥
-<p align="center"><img src="../../assets/img/figma/theory/components/swap-icons.gif"></p>
+<p align="center"><img src="../../assets/img/figma/advanced-features/components/swap-icons.gif"></p>
 :::
 
 ## Autres propriétés
@@ -171,12 +171,12 @@ Nous pouvons l'utiliser pour choisir d'afficher ou non l'icône de notre card.
 
 **A faire:**
 - Créer une propriété de type `Boolean` et appelez-la `Icon visibility`.
-- Sélectionnez une des icônes et appuyez sur `Apply property` ![](../../assets/img/figma/theory/components/apply_property_button.png) de la section `Layer`.
+- Sélectionnez une des icônes et appuyez sur `Apply property` ![](../../assets/img/figma/advanced-features/components/apply_property_button.png) de la section `Layer`.
 
 > Vous pouvez sélectionner toutes les icônes d'un coup en maintenant <kbd>Ctrl</kbd> + <kbd>Shift</kbd>.
 
 ::: details Tutoriel 🎥
-<p align="center"><img src="../../assets/img/figma/theory/components/boolean.gif"></p>
+<p align="center"><img src="../../assets/img/figma/advanced-features/components/boolean.gif"></p>
 :::
 
 > Le fonctionnement de la propriété `Boolean` est similaire à celui d'un variant `True`/`False` mais sans avoir besoin de dupliquer le composant !
@@ -202,7 +202,7 @@ Pour remplacer l'icône déjà présente dans votre card par une instance du com
 Vous pourrez ensuite changer simplement l'icône de votre card !
 
 ::: details Tutoriel 🎥
-<p align="center"><img src="../../assets/img/figma/theory/components/instance-swap-finale.gif"></p>
+<p align="center"><img src="../../assets/img/figma/advanced-features/components/instance-swap-finale.gif"></p>
 :::
 
 ### Text
@@ -219,7 +219,7 @@ La valeur ajoutée est tout de même moins importante par rapport à une `Instan
 - Sélectionnez les titres de tous les variants de votre card et affectez-leur cette nouvelle propriété
 
 ::: details Tutoriel 🎥
-<p align="center"><img src="../../assets/img/figma/theory/components/text.gif"></p>
+<p align="center"><img src="../../assets/img/figma/advanced-features/components/text.gif"></p>
 :::
 
 ### Nested intances
@@ -232,4 +232,4 @@ Ci-dessous un exemple de cas d'utilisation. Nous avons ici un composant barre de
 
 Grâce aux `nested instances`, il est possible d'accéder aux propriétés de tous les composants imbriqués (les 5 onglets) simplement en sélectionnant le composant global (la barre de navigation).
 
-<p align="center"><img src="../../assets/img/figma/theory/components/bottom-navigation.png"></p>
+<p align="center"><img src="../../assets/img/figma/advanced-features/components/bottom-navigation.png"></p>

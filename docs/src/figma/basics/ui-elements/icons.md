@@ -10,13 +10,13 @@ Nous allons utiliser le plugin `Iconify` pour chercher et importer nos icônes. 
 
 Pour utiliser ce plugin, faites `Clique droit` > `Plugins` > `Manage plugins...`
 
-![right click plugins](../../../assets/img/figma/theory/ui-elements/icons/right-click-plugins.png)
+![right click plugins](../../../assets/img/figma/basics/ui-elements/icons/right-click-plugins.png)
 
 Une fenêtre s'ouvre. Saisissez `Iconify` dans la barre de recherche, puis cliquez sur le premier résultat.
 
-![plugins search](../../../assets/img/figma/theory/ui-elements/icons/plugins-search.png)
+![plugins search](../../../assets/img/figma/basics/ui-elements/icons/plugins-search.png)
 
-> **Remarque :** Il est possible d'accéder aux plugins directement depuis l'outil `Ressources` <img class="align-text" height="32px" alt="ressources icon" src="../../../assets/img/figma/theory/ui-elements/icons/ressources-icon.png"> dans la `Toolbar`
+> **Remarque :** Il est possible d'accéder aux plugins directement depuis l'outil `Ressources` <img class="align-text" height="32px" alt="ressources icon" src="../../../assets/img/figma/basics/ui-elements/icons/ressources-icon.png"> dans la `Toolbar`
 
 La fenêtre `Iconify` s'affiche, vous pouvez alors :
 - Choisir une bibliothèque d'icônes (ex: Google Material Icons) pour avoir des icônes avec le même style graphique (cohérence du design)
@@ -26,7 +26,7 @@ La fenêtre `Iconify` s'affiche, vous pouvez alors :
 L'icône apparait dans le plan de travail, vous pouvez quitter `Iconify` et placer l'icône dans la `Card`
 
 ::: details Tutoriel 🎥
-![use iconify](../../../assets/img/figma/theory/ui-elements/icons/use-iconify.gif)
+![use iconify](../../../assets/img/figma/basics/ui-elements/icons/use-iconify.gif)
 :::
 
 ::: warning Attention
@@ -38,10 +38,10 @@ Veuillez bien sélectionner la frame de l'icône (contour) et pas le vecteur dir
 ::: tip Réutiliser un plugin 💡
 Enregistrer Iconify en faisant `Clique droit` > `Plugins` > `Manage plugins...` puis le bouton `Save` dans les résultats de recherche
 
-![iconify plugin save](../../../assets/img/figma/theory/ui-elements/icons/save-iconify-plugin.png)
+![iconify plugin save](../../../assets/img/figma/basics/ui-elements/icons/save-iconify-plugin.png)
 
 Dorénavant  faites `Clique droit` > `Plugins` > `Saved plugins` > `Iconify`
 :::
 
-> **Remarque :** Il est possible de créer une icône manuellement dans Figma directement avec l'outil Plume (`Pen`) <img class="align-text" height="32px" alt="plume tool icon" src="../../../assets/img/figma/theory/common-icons/plume-icon.png">. Il suffit de créer une frame puis de dessiner une forme à l'intérieure.
+> **Remarque :** Il est possible de créer une icône manuellement dans Figma directement avec l'outil Plume (`Pen`) <img class="align-text" height="32px" alt="plume tool icon" src="../../../assets/img/figma//common/plume-icon.png">. Il suffit de créer une frame puis de dessiner une forme à l'intérieure.
 
