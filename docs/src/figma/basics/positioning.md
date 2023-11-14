@@ -18,6 +18,8 @@ Comme nous l'avons déjà vu, Figma permet d'aligner (à gauche, à droite, en h
 
 ### Alignement de plusieurs élements
 
+<!--Pour aligner des éléments les uns par rapport aux autres, vous pouvez sélectionner un élément, l'aligner avec un autre élément (grâce aux aides visuelles) puis changer sa position -->
+
 ::: tip Sélection en profondeur 💡
 
 Pour sélectionner un élément à l'interieur d'un autre (groupe, frame) : 

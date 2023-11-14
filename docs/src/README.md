@@ -2,7 +2,7 @@
 home: true
 heroImage: /welcome-image.png
 tagline:  Tirez le meilleur de ce logiciel !
-actionText: Démarer la formation →
+actionText: Démarrer la formation →
 actionLink: /figma/introduction/program/
 features:
 - title: Pourquoi Figma ? 💡
