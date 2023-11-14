@@ -49,18 +49,18 @@ module.exports = {
             '/figma/introduction/trainers',
             '/figma/introduction/why',
             '/figma/introduction/pricings',
-            '/figma/introduction/shortcuts'
+            '/figma/introduction/shortcuts',
+            '/figma/theory/download',
           ]
         },
         {
-          title: 'Partie théorique',
+          title: "Les bases",
           collapsable: true,
           children: [
-            '/figma/theory/download',
             '/figma/theory/interface',
             {
               title: 'Éléments d\'interface',
-              collapsable: false,
+              collapsable: true,
               children: [
                 '/figma/theory/ui-elements/texts',
                 '/figma/theory/ui-elements/forms',
@@ -71,13 +71,19 @@ module.exports = {
                 '/figma/theory/ui-elements/icons'
               ]
             },
-            '/figma/theory/positioning',
+            '/figma/theory/positioning'
+          ]
+        },
+        {
+          title: 'Fonctionnalités avancées',
+          collapsable: true,
+          children: [
             '/figma/theory/style',
             '/figma/theory/variable',
             '/figma/theory/component',
             {
               title: 'Autolayout',
-              collapsable: false,
+              collapsable: true,
               children: [
                 '/figma/theory/autolayout/definition',
                 '/figma/theory/autolayout/layout-flow',
@@ -88,12 +94,11 @@ module.exports = {
               ]
             },
             '/figma/theory/prototype',
-            '/figma/theory/plugins',
-            '/figma/theory/practices'
+            '/figma/theory/plugins'
           ]
         },
         {
-          title: 'Partie pratique',
+          title: 'Exercice',
           collapsable: true,
           children: [
             '/figma/tutorial/app-1',
