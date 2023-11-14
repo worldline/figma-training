@@ -1,7 +1,7 @@
 # Header
 
 ::: tip 🎯 Objectif : Créer le header de la page
-![](../../assets/img/figma/tutorial/app/header.png)
+![](../../assets/img/figma/exercice/app/header.png)
 :::
 
 Ce header n'est pas le plus intéressant à réaliser, je vous conseille plutôt de travailler sur d'autres vues si vous voulez continuer à vous exercer.

@@ -1,7 +1,7 @@
 # Segmented button
 
 ::: tip 🎯 Objectif : Créer le menu de sélection Covoiturage/Bus
-![](../../assets/img/figma/tutorial/app/segmented_control.png)
+![](../../assets/img/figma/exercice/app/segmented_control.png)
 :::
 
 Une bonne approche est de créer un composant pour un élément du menu. Ce composant aura une variante sélectionnée et une variante déselectionnée.

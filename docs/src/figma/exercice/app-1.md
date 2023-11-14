@@ -1,7 +1,7 @@
 # Reproduire un design existant
 
 ::: tip 🎯 Objectif : Construire cette vue sur Figma !
-![](../../assets/img/figma/tutorial/app//full_screen.png)
+![](../../assets/img/figma/exercice/app//full_screen.png)
 :::
 
 A présent que nous avons expérimenté les différents outils de Figma sur un exemple simple, nous allons essayer de créer une vue complète à partir d'un exemple réel.
