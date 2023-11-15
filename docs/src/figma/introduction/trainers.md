@@ -11,3 +11,5 @@ Vous pouvez me contacter via [Linkedin](https://www.linkedin.com/in/merciersimon
 ## Antoine CANDY
 
 ## Henri OUZIEL
+
+Alternant en tant qu’UX/UI Designer mais aussi étudiant en Direction Artistique et également graphiste sur mon temps libre !
