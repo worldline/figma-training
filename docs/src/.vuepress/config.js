@@ -33,7 +33,8 @@ module.exports = {
     editLinks: true,
     editLinkText: 'Help us improve this page!',
     lastUpdated: true,
-    search: false,
+    search: true,
+    searchMaxSuggestions: 10,
     sidebarDepth: 0,
     nav: [
       { text: 'Accueil', link: '/' },
