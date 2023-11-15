@@ -2,7 +2,7 @@
 
 ## Qu'est-ce que c'est ?
 
-Les `plugins` dans Figma sont des outils personnalisés qui permettent d'améliorer votre productivité en vous donnant accès à des ressources ou nouvelles fonctionnalités sur Figma.
+Les `plugins` dans Figma sont des outils développés par la communauté qui permettent d'améliorer votre productivité en vous donnant accès à des ressources ou nouvelles fonctionnalités sur Figma.
 
 L'onglet plugin se situe depuis le menu représenté par l'icône <img src="../../assets/img/figma/advanced-features/plugins/plugin-icon.png"></p> de la barre d'outils. Depuis cette interface vous trouverez vos plugins récemment utilisés et une fonction de recherche de plugins.
 
@@ -19,6 +19,10 @@ Unsplash est un site d'images de stock libres de droits, ce plugin permet d'ajou
 Ce plugin permet d'utiliser les icônes de la bibliothèque Material de Google.
 
 <p align="center"><img src="../../assets/img/figma/advanced-features/plugins/material-symbols.png"></p>
+
+### Iconify
+
+Ce plugin permet d'accèder à une large bibliothèque d'icônes.
 
 ### Mockups
 

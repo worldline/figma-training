@@ -33,7 +33,8 @@ module.exports = {
     editLinks: true,
     editLinkText: 'Help us improve this page!',
     lastUpdated: true,
-    search: false,
+    search: true,
+    searchMaxSuggestions: 10,
     sidebarDepth: 0,
     nav: [
       { text: 'Accueil', link: '/' },
@@ -78,8 +79,7 @@ module.exports = {
           title: 'Fonctionnalités avancées',
           collapsable: true,
           children: [
-            '/figma/advanced-features/style',
-            '/figma/advanced-features/variable',
+            '/figma/advanced-features/styles-et-variables',
             '/figma/advanced-features/component',
             {
               title: 'Autolayout',
