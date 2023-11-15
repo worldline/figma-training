@@ -32,24 +32,24 @@ Pour sélectionner un élément à l'interieur d'un autre (groupe, frame) :
 
 ## Grilles
 
-Les grilles sont des outils de mise en page facilitant le positionnement des différents éléments qui compose nos pages.
+Les grilles sont des outils de mise en page facilitant le positionnement des différents éléments qui composent nos pages.
 Si vous designez pour du format web, elles peuvent être particulièrement utiles pour créer des designs `responsives` mais sont également utiles pour du format tablette ou mobile.
 
-**Les grilles ne sont applicables uniquement sur les `frames`**
+**Les grilles sont applicables uniquement sur les `frames`**
 
 Il existe 3 éléments associés aux `layout grid` : les grilles, les colonnes et les lignes.
 
 
-Pour créer un `layout grid`, commencez par créer ou sélectionner une frame. Depuis cette frame vous pouvez accéder à la section `layout grid` depuis le `panneau de conception`.
+Pour créer un `layout grid`, sélectionnez une frame puis accédez à la section `layout grid` depuis le `panneau de conception`.
 
 Vous pouvez créer 3 layouts différents :
-- **les grilles :** statiques, ne dépendent pas de la taille de la frame
+- **les grilles** (statiques, ne dépendent pas de la taille de la frame)
 - **les colonnes**
 - **les lignes**
 
 Il y a 4 types d'alignement de colonnes et de lignes :
 
-- Stretch : la taille des colonnes est automatique pour s'ajuster à la frame
+- Stretch (la taille des colonnes est automatique pour s'ajuster à la frame)
 - Center
 - Left
 - Right 
@@ -58,8 +58,4 @@ Il est possible d'ajuster les tailles des colonnes et lignes, mais aussi des `go
 Une `gouttière` correspond à l'espace entre les lignes ou colonnes.
 La `marge` correspond à l'espace aux extrémités des lignes ou colonnes.
 
-INSERER SCREEN SCHEMA
-
-::: details Tutoriel 🎥
-<p align="center"><img src="../../assets/img/figma/basics/positioning/layout-grid.gif"></p>
-:::
+INSERER SCREEN SCHEMA DE L ECRAN FORMATION AVEC INDICATIONS GRILLES

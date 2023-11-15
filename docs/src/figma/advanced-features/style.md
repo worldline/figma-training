@@ -4,38 +4,23 @@
 
 Les styles permettent de définir la couleur, le texte et les effets appliqués aux objets, ou de définir la structure et l'apparence des grilles de mise en page.
 
-Il existe 4 types de styles dont chacun permet de définir les caractéristiques suivantes :
-- **Couleurs :** couleur de remplissage, contours, arrière-plan
-- **Textes :** famille de polices, taille, hauteur de ligne, espacement
-- **Effets :** ombre portée, ombre interne, flou de calque, flou d'arrière-plan
-- **Grilles :** ligne, colonne, grille
+Il existe 4 types de styles : **Couleurs, textes, effets et grilles**
 
-Les styles permettent une meilleur gestion de ces éléments dans votre projet et de définir une charte qui sera applicable facilement à vos écrans.
-
-La fonction `local styles` se situe dans le `panneau de conception`.
-
-Les bibliothèques de styles sont représentées par l'icône <img src="../../assets/img/figma/advanced-features/styles-variables/bibliotheque-style.png">
+Ces styles sont applicables à vos éléments et permettent d'avoir un design cohérent utilisant les styles à la manière d'une charte graphique.
 
 🎯 **Objectif : Créer et appliquer les différents styles à nos éléments**
 
 ## Créer un style 
 
-Cliquer sur `local styles` permet de choisir le type de style à créer : **text, couleur, effet ou grille.**
-
-<p align="center"><img src="../../assets/img/figma/advanced-features/styles-variables/action-creation-local-styles.png"></p>
-
-
-Afin de créer et appliquer nos différents styles, nous allons commencer par les **styles de couleurs** :
-
-## Créer un style
-
-### Créer un style de couleur
-
 Nous allons créer le style `Primary` qui correspond à la couleur principale de notre maquette :
-- Cliquer sur l'icône <img src="../../assets/img/figma/advanced-features/styles-variables/plus-icon.png"> de la section `local styles`
-- Sélectionner `color`
-- Indiquer le nom, la description et la couleur
-- Valider en cliquant sur `Créer`
+- Cliquez sur l'icône <img src="../../assets/img/figma/advanced-features/styles-variables/plus-icon.png"> de la section `local styles`
+- Sélectionnez le style `color`
+- Indiquez les caractéristique du style
+- Validez
+
+Félicitations, vous avez créé votre premier style !
+
+Ce procédé est identique pour créer des styles de textes, effets et grilles.
 
 ::: details Tutoriel 🎥
 <p align="center"><img src="../../assets/img/figma/advanced-features/styles-variables/create-new-style.gif"></p>
@@ -43,14 +28,13 @@ Nous allons créer le style `Primary` qui correspond à la couleur principale de
 
 ::: tip Astuces
 Les styles créés sont automatiquement affichés dans le `panneau de conception` lorsqu'aucun élément n'est sélectionné.
-(Insérer image)
 :::
 
 ### Appliquer les styles
 
 Le style "Primary" étant créé, il faut désormais l'appliquer à notre maquette.
 
-Sélectionner le bandeau vert, sa couleur est la même que celle du style créé mais est référencée par son code #HEX dans la section `fill`.
+Sélectionnez le bandeau vert, sa couleur est la même que celle du style créé mais est référencée par son code #HEX dans la section `fill`.
 En cliquant sur <img src="../../assets/img/figma/advanced-features/styles-variables/bibliotheque-style.png"> vous accédez à la bibliothèques de styles de couleurs, puis sélectionnez le style "Primary" précèdement créé pour l'appliquer.
 
 ::: details Tutoriel 🎥
@@ -90,10 +74,6 @@ Lorsque vous sélectionnez un objet avec un style, vous avez la possibilité de 
 
 Les modifications de style ne s'appliqueront plus à cet élément même si les caractéristiques sont les mêmes, voir exemple ci-dessous.
 
-::: details Tutoriel 🎥
-<p align="center"><img src="../../assets/img/figma/advanced-features/styles-variables/edit-style.gif"></p>
-:::
-
 
 ## Local styles et libraries
 
@@ -105,3 +85,26 @@ De cette manière vous et les membres de l'équipe pourrez réutiliser ces style
 Pour publier une librairie de styles, cliquez sur <img src="../../assets/img/figma/advanced-features/styles-variables/figma-icon.png"></p> puis sélectionnez `libraries` et publiez la bibliothèque choisie.
 
 <p align="center"><img src="../../assets/img/figma/advanced-features/styles-variables/publish-libraries.png"></p>
+
+
+## Ouverture sur les variables
+
+La fonctionnalité `Local variables` est une feature de Figma encore en beta permettant de définir des caractéristiques qui peuvent ensuite être appliquées à vos éléments, ce sont des `variables`.
+
+En apparence, les variables et styles sont similaires :
+- Ils peuvent être publiés dans les bibliothèques de l'équipe et réutilisés dans toutes les conceptions.
+- Ils permettent une gestion efficace des `design systems`, car les mises à jour d'une variable ou d'un style entraîneront des mises à jour pour tous les design systems qui les utilisent.
+
+Pourtant les variables permettent davantage de complexité dans leur utilisation.
+
+Les variables permettent de créer des **valeurs de texte, de nombre, de couleur et de booléennes.**
+
+Vous pouvez définir et modifier les valeurs des variables avec des actions de prototypage, ce qui vous permet de créer des prototypes immersifs qui changent dynamiquement en fonction de la sélection de l'utilisateur, à l'aide de seulement quelques cadres et interactions simples. Ainsi, vous pouvez utiliser des actions de prototypage pour :
+
+mettre à jour du contenu textuel avec des variables de chaîne ;
+changer des dimensions d'objet, des rayons d'angle ou des propriétés de disposition automatique avec des variables numériques ;
+passer d'une visibilité de calque à des variables booléennes.
+
+::: warning Attention
+La fonctionnalité des `variables` n'est accessible que depuis une versio payante de Figma.
+:::
