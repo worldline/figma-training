@@ -54,10 +54,10 @@ De cette manière vous pouvez aisément modifier ou remplacer les couleurs, manu
 
 Nous allons désormais créer des styles depuis les éléments de notre maquette. Durant sa conception nous avons choisi des couleurs, typographies et effets mais ceux-cis n'ont pas encore été créé en tant que styles.
 
-Sélectionner la card afin de créer le style de couleur de son fond actuellement blanc : `#FFFFFF`.
+Sélectionnez la card afin de créer le style de couleur de son fond actuellement blanc : `#FFFFFF`.
 Dans la section `fill`, en cliquant sur <img src="../../assets/img/figma/advanced-features/styles-variables/bibliotheque-style.png"> puis <img src="../../assets/img/figma/advanced-features/styles-variables/plus-icon.png"> on accède à la création de style de couleur.
 
-On peut alors nommer, et donner une description à la couleur existante.
+On peut alors nommer et donner une description à la couleur existante.
 
 ::: details Tutoriel 🎥
 <p align="center"><img src="../../assets/img/figma/advanced-features/styles-variables/create-color-style-from-selection.gif"></p>
@@ -65,21 +65,19 @@ On peut alors nommer, et donner une description à la couleur existante.
 
 Vous êtes désormais capables de créer les styles des couleurs restantes, mais aussi de faire de même pour les **typographies, effets et grilles**
 
-
 ## Modifier les styles
 
-Vous pouvez éditer à tout moment vos style depuis le panneau de conception. Les modifications s'appliquent à tous les éléments auxquels vous avez appliqué vos styles.
+Vous pouvez éditer à tout moment vos styles depuis le panneau de conception. Les modifications s'appliquent à tous les éléments auxquels vous avez appliqué vos styles.
 
 Lorsque vous sélectionnez un objet avec un style, vous avez la possibilité de `détacher` un style via l'icône <img src="../../assets/img/figma/advanced-features/styles-variables/detach-icon.png"></p>.
 
 Les modifications de style ne s'appliqueront plus à cet élément même si les caractéristiques sont les mêmes, voir exemple ci-dessous.
 
-
 ## Local styles et libraries
 
-Les styles que vous créez dans un fichier sont enregistrés dans une bibliothèque locale, ainsi uniquement les personnes travaillant sur le même fichier que vous peuvent utiliser ces styles et les composants créés dans ce fichier.
+Les styles que vous créez dans un fichier sont automatiquement enregistré sur ce fichier Figma et sont accessibles par tous les membres ayant des droits d'édition.
 
-Pour pallier cela, vous pouvez `publier` vos styles pour les partager avec les membres de la `Team library`.
+Vous pouvez également `publier` vos styles pour les partager avec les membres de la `Team library`.
 De cette manière vous et les membres de l'équipe pourrez réutiliser ces styles à travers plusieurs fichiers Figma, ce qui est particulièrement utile lors de la création d'un système si ce dernier comporte beaucoup d'éléments.
 
 Pour publier une librairie de styles, cliquez sur <img src="../../assets/img/figma/advanced-features/styles-variables/figma-icon.png"></p> puis sélectionnez `libraries` et publiez la bibliothèque choisie.
@@ -91,20 +89,19 @@ Pour publier une librairie de styles, cliquez sur <img src="../../assets/img/fig
 
 La fonctionnalité `Local variables` est une feature de Figma encore en beta permettant de définir des caractéristiques qui peuvent ensuite être appliquées à vos éléments, ce sont des `variables`.
 
+::: warning Attention
+La fonctionnalité des `variables` n'est accessible que depuis une versio payante de Figma.
+:::
+
 En apparence, les variables et styles sont similaires :
 - Ils peuvent être publiés dans les bibliothèques de l'équipe et réutilisés dans toutes les conceptions.
 - Ils permettent une gestion efficace des `design systems`, car les mises à jour d'une variable ou d'un style entraîneront des mises à jour pour tous les design systems qui les utilisent.
 
-Pourtant les variables permettent davantage de complexité dans leur utilisation.
+Pourtant les variables permettent davantage de complexité : les variables peuvent être utilisées pour définir d'autres variables et styles, mais les styles ne peuvent définir ni les unes ni les autres.
 
 Les variables permettent de créer des **valeurs de texte, de nombre, de couleur et de booléennes.**
+Vous pouvez définir et modifier ces valeurs depuis un espace de collection de variables qui vous permettront par exemple de pouvoir ajuster facilement le thème (dark mode ou light mode), du texte, ou encore de gérer vos espacements et vos corner radius.
 
-Vous pouvez définir et modifier les valeurs des variables avec des actions de prototypage, ce qui vous permet de créer des prototypes immersifs qui changent dynamiquement en fonction de la sélection de l'utilisateur, à l'aide de seulement quelques cadres et interactions simples. Ainsi, vous pouvez utiliser des actions de prototypage pour :
-
-mettre à jour du contenu textuel avec des variables de chaîne ;
-changer des dimensions d'objet, des rayons d'angle ou des propriétés de disposition automatique avec des variables numériques ;
-passer d'une visibilité de calque à des variables booléennes.
-
-::: warning Attention
-La fonctionnalité des `variables` n'est accessible que depuis une versio payante de Figma.
-:::
+Les variables permettent également de faire du prototypage avancé de vos maquettes.
+Pour une meilleure compréhension de cette feature, nous vous invitons à consulter cette
+[vidéo de présentation des variables](https://www.youtube.com/watch?v=1ONxxlJnvdM&t=344s&ab_channel=Figma/)

@@ -60,28 +60,25 @@ L'animation la plus courante est le smart animate, celle-ci permet d'animer la t
 Nommer ses éléments est important, une transition en smart animate ne fonctionnera pas si l'élément possède un nom différent que dans le premier écran.
 :::
 
-(vidéos des différentes animations)
-
-### Fonctions de scroll
-
-(PARLER DES FONCTIONS DE SCROLL)
-
 ## Mode présentation
 
 Le mode de présentation permet de "lire" les flows créés via les connexions.
 
-Le menu de présentation <img src="../../assets/img/figma/advanced-features/prototype/presentation-mode.png"></p> est accessible tout à droite de la barre d'outils.
+<p align="center"><img src="../../assets/img/figma/advanced-features/prototype/preview.png"></p>
+
 
 `Present` permet d'ouvrir les flows dans une nouvelle fenetre en grand-écran, tandis que `preview` permet de visualiser le prototype directement depuis la page actuelle ce qui est pratique pour éditer les écrans en parallèle.
 
 ::: tip Astuce
-Le raccourci de l'affichage `preview` est (faire commande touches) Shift + Espace
+Le raccourci de l'affichage `preview` est <kbd>Shift</kbd>+<kbd>Espace</kbd>
 :::
-
-AFFICHER SCREEN ECRAN + Description actions
 
 ## Paramétrer le mode présentation
 
-Depuis le panneau prototypage il est possible de paramétrer le mode de présentation en affichant un mockup d'un device, il est également possible de modifier le fond d'écran sur lequel le protoype apparaît.
+Depuis le panneau prototypage vous avez accès à plusieurs paramètres de la présentation :
 
+- Ajout d'un mockup
+- Modifier le fond de la présentation
+- Gérer les flows
 
+<p align="center"><img src="../../assets/img/figma/advanced-features/prototype/preview-settings.png"></p>
