@@ -35,7 +35,7 @@ Au click, un menu de configuration du point de connexion apparaît dans lequel i
 
 Lorsqu'il est relié, le point de connexion prend la forme d'une flèche entre les frames qu'il relie.
 
-INSERER SCHEMA SUR SCREEN 
+<!--INSERER SCHEMA SUR SCREEN -->
 
 ### Les déclencheurs
 

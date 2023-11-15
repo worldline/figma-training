@@ -58,4 +58,4 @@ Il est possible d'ajuster les tailles des colonnes et lignes, mais aussi des `go
 Une `gouttière` correspond à l'espace entre les lignes ou colonnes.
 La `marge` correspond à l'espace aux extrémités des lignes ou colonnes.
 
-INSERER SCREEN SCHEMA DE L ECRAN FORMATION AVEC INDICATIONS GRILLES
+<!--INSERER SCREEN SCHEMA DE L ECRAN FORMATION AVEC INDICATIONS GRILLES-->
