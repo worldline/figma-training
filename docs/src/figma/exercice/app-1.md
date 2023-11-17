@@ -21,3 +21,14 @@ En recopiant un design depuis une capture d'écran, le résultat ne peut évidem
 Vous pouvez par exemple utiliser des polices et icônes différentes, ce n'est pas cela qui est important.
 
 :::
+
+::: tip Correction
+
+[Un exemple de solution est disponible ici](https://www.figma.com/file/uUvHGlJITQbQQnn4zMxJku/Blablacar?type=design&node-id=0%3A1&mode=design&t=ebOpGpn3qxmYY7BI-1).
+
+Essayez d'abord par vous même avant de regarder la correction !
+
+
+( Il y a plusieurs pages au Figma ;) )
+
+:::
