@@ -2,10 +2,6 @@ const { description } = require('../../package')
 
 module.exports = {
   /**
-   * Ref：https://v1.vuepress.vuejs.org/config/#title
-   */
-  title: 'Figma training',
-  /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
   description: description,
@@ -16,11 +12,24 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
-    ['meta', { name: 'theme-color', content: '#0C9D46' }],
+    ['meta', { name: 'theme-color', content: '#F24E1E' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
 
+    locales: {
+    "/en/": {
+      lang: "en-US",// this will be set as the lang attribute on <html>
+      title: "Figma Training",
+      description: "Figma training docs"
+    },
+
+    "/fr/": {
+      lang: "fr-FR",
+      title: "Formation Figma",
+      description: "Support de formation Figma"
+    }
+    },
   /**
    * Theme configuration, here is the default theme configuration for VuePress.
    *
@@ -36,79 +45,143 @@ module.exports = {
     search: true,
     searchMaxSuggestions: 10,
     sidebarDepth: 0,
-    nav: [
-      { text: 'Accueil', link: '/' },
-      { text: 'Figma', link: '/figma/introduction/program' },
-    ],
     sidebar: {
-      '/figma/': [
+      '/en': [
         {
           title: 'Introduction',
           collapsable: true,
           children: [
-            '/figma/introduction/program',
-            '/figma/introduction/trainers',
-            '/figma/introduction/why',
-            '/figma/introduction/pricings',
-            '/figma/introduction/shortcuts',
-            '/figma/introduction/download',
+            '/en/introduction/program',
+            '/en/introduction/trainers',
+            '/en/introduction/why',
+            '/en/introduction/pricings',
+            '/en/introduction/shortcuts',
+            '/en/introduction/download',
           ]
         },
         {
           title: "Les bases",
           collapsable: true,
           children: [
-            '/figma/basics/interface',
+            '/en/basics/interface',
             {
               title: 'Éléments d\'interface',
               collapsable: true,
               children: [
-                '/figma/basics/ui-elements/texts',
-                '/figma/basics/ui-elements/forms',
-                '/figma/basics/ui-elements/groups',
-                '/figma/basics/ui-elements/frames',
-                '/figma/basics/ui-elements/properties',
-                '/figma/basics/ui-elements/images',
-                '/figma/basics/ui-elements/icons'
+                '/en/basics/ui-elements/texts',
+                '/en/basics/ui-elements/forms',
+                '/en/basics/ui-elements/groups',
+                '/en/basics/ui-elements/frames',
+                '/en/basics/ui-elements/properties',
+                '/en/basics/ui-elements/images',
+                '/en/basics/ui-elements/icons'
               ]
             },
-            '/figma/basics/positioning'
+            '/en/basics/positioning'
           ]
         },
         {
           title: 'Fonctionnalités avancées',
           collapsable: true,
           children: [
-            '/figma/advanced-features/styles-et-variables',
-            '/figma/advanced-features/component',
+            '/en/advanced-features/styles-et-variables',
+            '/en/advanced-features/component',
             {
               title: 'Autolayout',
               collapsable: true,
               children: [
-                '/figma/advanced-features/autolayout/definition',
-                '/figma/advanced-features/autolayout/layout-flow',
-                '/figma/advanced-features/autolayout/spacing',
-                '/figma/advanced-features/autolayout/alignment',
-                '/figma/advanced-features/autolayout/resizing',
-                '/figma/advanced-features/autolayout/exercice'
+                '/en/advanced-features/autolayout/definition',
+                '/en/advanced-features/autolayout/layout-flow',
+                '/en/advanced-features/autolayout/spacing',
+                '/en/advanced-features/autolayout/alignment',
+                '/en/advanced-features/autolayout/resizing',
+                '/en/advanced-features/autolayout/exercice'
               ]
             },
-            '/figma/advanced-features/prototype',
-            '/figma/advanced-features/plugins'
+            '/en/advanced-features/prototype',
+            '/en/advanced-features/plugins'
           ]
         },
         {
           title: 'Exercice',
           collapsable: true,
           children: [
-            '/figma/exercice/app-1',
-            '/figma/exercice/app-2',
-            '/figma/exercice/app-3',
-            '/figma/exercice/app-4',
-            '/figma/exercice/app-5',
+            '/en/exercice/app-1',
+            '/en/exercice/app-2',
+            '/en/exercice/app-3',
+            '/en/exercice/app-4',
+            '/en/exercice/app-5',
           ]
         }
-      ]
+      ],
+      '/fr': [
+              {
+                title: 'Introduction',
+                collapsable: true,
+                children: [
+                  '/fr/introduction/program',
+                  '/fr/introduction/trainers',
+                  '/fr/introduction/why',
+                  '/fr/introduction/pricings',
+                  '/fr/introduction/shortcuts',
+                  '/fr/introduction/download',
+                ]
+              },
+              {
+                title: "Les bases",
+                collapsable: true,
+                children: [
+                  '/fr/basics/interface',
+                  {
+                    title: 'Éléments d\'interface',
+                    collapsable: true,
+                    children: [
+                      '/fr/basics/ui-elements/texts',
+                      '/fr/basics/ui-elements/forms',
+                      '/fr/basics/ui-elements/groups',
+                      '/fr/basics/ui-elements/frames',
+                      '/fr/basics/ui-elements/properties',
+                      '/fr/basics/ui-elements/images',
+                      '/fr/basics/ui-elements/icons'
+                    ]
+                  },
+                  '/fr/basics/positioning'
+                ]
+              },
+              {
+                title: 'Fonctionnalités avancées',
+                collapsable: true,
+                children: [
+                  '/fr/advanced-features/styles-et-variables',
+                  '/fr/advanced-features/component',
+                  {
+                    title: 'Autolayout',
+                    collapsable: true,
+                    children: [
+                      '/fr/advanced-features/autolayout/definition',
+                      '/fr/advanced-features/autolayout/layout-flow',
+                      '/fr/advanced-features/autolayout/spacing',
+                      '/fr/advanced-features/autolayout/alignment',
+                      '/fr/advanced-features/autolayout/resizing',
+                      '/fr/advanced-features/autolayout/exercice'
+                    ]
+                  },
+                  '/fr/advanced-features/prototype',
+                  '/fr/advanced-features/plugins'
+                ]
+              },
+              {
+                title: 'Exercice',
+                collapsable: true,
+                children: [
+                  '/fr/exercice/app-1',
+                  '/fr/exercice/app-2',
+                  '/fr/exercice/app-3',
+                  '/fr/exercice/app-4',
+                  '/fr/exercice/app-5',
+                ]
+              }
+            ]
     }
   },
 
