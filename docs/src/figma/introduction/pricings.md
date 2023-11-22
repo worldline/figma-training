@@ -34,7 +34,8 @@ Dans ces `fichiers` vous pouvez ajouter **autant de collaborateurs que vous le s
 
 ::: danger Limites des équipes en mode gratuit
 
-- 1 `projet` maximum
+- 1 `équipe` maximum.
+- 1 `projet` maximum dans cette équipe.
 - 3 `fichiers` maximum dans ce `projet`
 - 3 pages maximum dans ces `fichiers`.
 :::
