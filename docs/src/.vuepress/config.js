@@ -22,13 +22,13 @@ module.exports = {
     locales: {
     "/en/": {
       lang: "en-US",// this will be set as the lang attribute on <html>
-      title: "Figma Training",
+      title: "Figma for everyone",
       description: "Figma training docs"
     },
 
     "/fr/": {
       lang: "fr-FR",
-      title: "Formation Figma",
+      title: "Figma pour tous",
       description: "Support de formation Figma"
     }
     },
