@@ -1,13 +1,13 @@
 # Header
 
-::: tip 🎯 Objectif : Créer le header de la page
+::: tip 🎯 Objective: Create the page header
 ![](../../assets/img/figma/exercice/app/header.png)
 :::
 
-La barre de recherche peut être créé en imbriquant des autolayout horizontaux.
+The search bar can be created by nesting horizontal autolayouts.
 
-J'ai fait le choix de donner aux cases de destination départ et arrivée une largeur dynamique et de donner aux autres cases une largeur fixe.
+I've chosen to give the departure and arrival destination boxes a dynamic width and to give the other boxes a fixed width.
 
-Une fois votre header créé, vous pouvez assembler votre écran !
+Once you've created your header, you can assemble your screen!
 
-Mettez-le dans un autolayout vertical pour pouvoir tester son comportement responsive: le contenu de la page et de la barre de recherche doivent avoir une largeur fixe alors que le haut du header prend toute la largeur de l'écran (nous ne testerons pas ici le cas d'un appareil mobile).
+Place it in a vertical autolayout to be able to test its responsive behavior: the page content and the search bar should have a fixed width, while the top of the header takes the full width of the screen (we will not test the case of a mobile device here).

@@ -1,29 +1,28 @@
-# Déroulement de la formation EN ANGLAIS
+# Training schedule
 
-## Les bases 🧱
+## The basics 🧱
 
-Dans cette première partie vous serez guidés pour prendre en main les bases de Figma.
+In this first part you'll be guided through the basics of Figma.
 
-Vous découvrirez l'interface de Figma en mode édition, les différents composants de base, comment les positionner et modifier leurs propriétés.
+You'll discover Figma's interface in editing mode, the various basic components, how to position them and modify their properties.
 
-::: tip 💡 Astuce: ouvrir les vidéos
+::: tip 💡 Tip: open videos
 
-Sur ce site vous trouverez de nombreuses sections `Tutoriel` avec des vidéos d'explication.
+On this site you'll find numerous `Tutorial` sections with explanatory videos.
 
-Si l'affichage sur le site est trop petit, nous vous conseillons de les ouvrir dans un nouvel onglet pour les voir en grand en faisant `clique droit` -> `Open image in new tab`
+If the display on the site is too small, we advise you to open them in a new tab to see them larger by doing `right click` -> `Open image in new tab`.
 
 <p align="center"><img src="../../assets/img/figma/introduction/program/open_gif.png"></p>
 :::
 
-## Fonctionnalités avancées 📚
+## Advanced features 📚
 
-Dans cette deuxième partie vous serez guidés pour découvrir les fonctionnalités avancées de Figma.
+In this second part you'll be guided through Figma's advanced features.
 
-Vous apprendrez également les bonnes pratiques pour créer des design lisibiles et évolutifs avec Figma.
+You'll also learn best practices for creating legible, scalable designs with Figma.
 
-## Exercice 🚀
+## Exercise 🚀
 
-Pour finir nous vous proposons d'essayer de reproduire sur Figma une page d'un site connu 🚙.
+Finally, we'd like you to try your hand at reproducing a page from a well-known site in Figma 🚙.
 
-Nous vous découpons le travail en tâches, vous donnons quelques astuces mais c'est à vous de vous organiser au mieux.
-
+We'll break the work down into tasks and give you a few tips, but it's up to you to organize yourself as best you can.

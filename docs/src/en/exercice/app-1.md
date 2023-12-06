@@ -1,34 +1,34 @@
-# Reproduire un design existant
+# Replicate an Existing Design
 
-::: tip 🎯 Objectif : Construire cette vue sur Figma !
+::: tip 🎯 Objective: Construct this view on Figma!
 ![](../../assets/img/figma/exercice/app//full_screen.png)
 :::
 
-A présent que nous avons expérimenté les différents outils de Figma sur un exemple simple, nous allons essayer de créer une vue complète à partir d'un exemple réel.
+Now that we've experimented with Figma's different tools on a simple example, let's try creating a complete view from a real-world design.
 
-L'objectif est de moins vous guider que dans la partie théorique mais nous vous proposons tout de même de découper la tâche globale en plus petites tâches sinon cela peut être compliqué de savoir par où commencer !
+The objective is to guide you less than in the theoretical part, but we still propose breaking down the overall task into smaller ones, otherwise it can be complex to know where to start!
 
-Pas de panique si vous n'avez pas le temps de terminer l'écran, c'est un objectif certainement trop ambitieux pour le temps prévu pour cette formation.
+Don't panic if you don't have time to finish the screen; it's likely too ambitious a goal for the time allocated for this training session.
 
-Avoir plus de matière permet aux plus rapides d'aller plus loin et également de continuer à vous exercer en dehors du cadre de cette formation si vous le souhaitez.
+Having more material allows faster learners to go further and also to continue practicing outside this training if you wish.
 
-Si vous continuez l'exercice plus tard, vous pourrez toujours nous contacter pour une review de votre Figma :)
+If you continue the exercise later, you'll always be able to contact us for a review of your Figma :)
 
-::: warning 
+::: warning
 
-En recopiant un design depuis une capture d'écran, le résultat ne peut évidemment pas être parfaitement identique.
+When replicating a design from a screenshot, the result clearly can't be perfectly identical.
 
-Vous pouvez par exemple utiliser des polices et icônes différentes, ce n'est pas cela qui est important.
+For instance, you can use different fonts and icons—that's not what's important.
 
 :::
 
-::: tip Correction
+::: tip Solution
 
-[Un exemple de solution est disponible ici](https://www.figma.com/file/uUvHGlJITQbQQnn4zMxJku/Blablacar?type=design&node-id=0%3A1&mode=design&t=ebOpGpn3qxmYY7BI-1).
+[An example solution is available here](https://www.figma.com/file/uUvHGlJITQbQQnn4zMxJku/Blablacar?type=design&node-id=0%3A1&mode=design&t=ebOpGpn3qxmYY7BI-1).
 
-Essayez d'abord par vous même avant de regarder la correction !
+Try tackling it yourself before looking at the solution!
 
 
-( Il y a plusieurs pages au Figma ;) )
+( There are multiple pages in the Figma ;) )
 
 :::

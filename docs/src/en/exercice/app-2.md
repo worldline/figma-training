@@ -1,34 +1,32 @@
-# Liste de filtres
+# Filter List
 
-::: tip 🎯 Objectif : Créer la liste de filtres
+::: tip 🎯 Objective: Create the filter list
 ![](../../assets/img/figma/exercice/app/cells.png)
 :::
 
-## Création du composant `Cellule de filtre`
-Nous avons ici une problématique typique que l'on retrouve lorsque l'on souhaite créer des cellules: nous avons plusieurs éléments similaires mais pas totalement identiques.
+## Creating the `Filter Cell` Component
+Here we have a typical issue that arises when creating cells: we have several elements that are similar but not totally identical.
 
-La question se pose alors pour créer ces variations dans le composant : variants ou propriétés ?
+The question then arises for creating these variations in the component: variants or properties?
 
-Je ne pense pas que la réponse soit tranchée. Cela peut être aussi un mélange des deux. Pour faire ce choix, il faut garder en tête : 
+I don't think there is a definite answer. It could also be a mix of the two. When making this choice, keep in mind:
 
-- **La facilité d'utilisation** du composant.
-- **La possibilité d'évolution** du composant.
-- **La lisibilité du Figma**: est-ce qu'on comprend facilement les possibilités de personnalisation de ce composant ?
-- **La cohérence du composant**: parfois nous voulons délibérément interdire certaines combinaisons de paramètres car cela n'aurait pas de sens pour un composant donné.
+- **Ease of use** of the component.
+- **Possibility of evolution** of the component.
+- **Readability of the Figma**: is it easy to understand the customization possibilities of this component?
+- **Consistency of the component**: sometimes we want to deliberately prohibit certain combinations of parameters because it would not make sense for a given component.
 
-En prenant cela en considération, essayez de créer votre composant cellule. N'hésitez pas à débattre entre vous des différentes possibilités ;)
+Taking this into consideration, try to create your cell component. Feel free to debate among yourselves about the different possibilities ;)
 
-::: tip 💡 Gestion des icônes
+::: tip 💡 Icon Management
 ![](../../assets/img/figma/exercice/app/icons.png)
 
-La meilleure façon de gérer les icônes, est de faire un composant de chaque icône et de mettre tous ces composants dans une même frame.
+The best way to manage icons is to make a component out of each icon and put all these components in the same frame.
 
-Vous pourrez ainsi utiliser de manière fluide l'instance swap entre ces icônes dans les propriétés des composants.
+This will allow you to smoothly use instance swap among these icons in the component properties.
 :::
 
-## Création de la liste
-Une fois le composant cellule créé vous avez fait le plus gros du travail pour créer la liste.
+## Creating the List
+Once the filter cell component is created, you've done most of the work for creating the list.
 
-Il reste les headers et les séparateurs à créer, puis à tout intégrer dans des auto-layout.
-
-
+It remains to create headers and separators and then integrate everything into autolayouts.

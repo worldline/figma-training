@@ -1,21 +1,21 @@
-# Segmented button
+# Segmented Button
 
-::: tip 🎯 Objectif : Créer le menu de sélection Covoiturage/Bus
+::: tip 🎯 Objective: Create the Carpool/Bus selection menu
 ![](../../assets/img/figma/exercice/app/segmented_control.png)
 :::
 
-Une bonne approche est de créer un composant pour un élément du menu. Ce composant aura une variante sélectionnée et une variante déselectionnée.
+A good approach would be to create a component for one element of the menu, with a selected and a deselected variant.
 
-::: tip Astuce
-Pour créer la barre horizontale de l'état sélectionné, vous pouvez mettre une `stroke bottom`
+::: tip Tip
+To create the horizontal bar for the selected state, you can use a `bottom stroke`.
 :::
 
-Vous pouvez ensuite utiliser 3 instances de ce composant pour créer le menu.
+You can then use three instances of this component to create the complete menu.
 
-Ce sera la frame d'auto-layout qui aura les bords blancs et arrondis des 2 côtes.
+The autolayout frame will have the white and rounded edges on both sides.
 
-::: tip Astuce
-Pensez à activer les `Nested instance` sur le composant pour pouvoir facilement modifier les 3 menus !
+::: tip Tip
+Remember to enable `Nested Instances` on the component to easily modify the three menu items!
 :::
 
-Vous avez maintenant tous les éléments pour créer la partie principale de l'écran !
+You now have all the elements needed to create the main part of the screen!

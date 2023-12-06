@@ -60,12 +60,12 @@ module.exports = {
           ]
         },
         {
-          title: "Les bases",
+          title: "Basics",
           collapsable: true,
           children: [
             '/en/basics/interface',
             {
-              title: 'Éléments d\'interface',
+              title: 'Interface Elements',
               collapsable: true,
               children: [
                 '/en/basics/ui-elements/texts',
@@ -81,7 +81,7 @@ module.exports = {
           ]
         },
         {
-          title: 'Fonctionnalités avancées',
+          title: 'Advanced Features',
           collapsable: true,
           children: [
             '/en/advanced-features/styles-et-variables',
@@ -103,7 +103,7 @@ module.exports = {
           ]
         },
         {
-          title: 'Exercice',
+          title: 'Exercise',
           collapsable: true,
           children: [
             '/en/exercice/app-1',

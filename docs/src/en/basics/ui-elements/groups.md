@@ -1,55 +1,55 @@
-# Groupes
+# Groups
 
-Afin de créer des éléments d'interface plus complexes il est possible de grouper des élements. 
+To create more complex interface elements, it is possible to group elements together.
 
-Pour l'exemple nous allons créer une barre de statut (que l'on peut retrouver sur beaucoup d'appli mobiles).
+For this example, we will create a status bar (which can be found in many mobile apps).
 
-::: tip 🎯 Objectif : créer la Status bar
+::: tip 🎯 Goal: create the Status bar
 ![status bar preview](../../../assets/img/figma/basics/ui-elements/groups/status-bar-preview.png)
 :::
 
-Pour celà, commencez par positionner le texte au milieu du rectangle.
+To do this, start by positioning the text in the middle of the rectangle.
 
-## Superposition des calques
-Comme le rectangle a été créé en dernier, il apparait au dessus du texte dans le `Panneau des calques` à gauche. Il faut donc changer l'ordre de superposition des calques.
+## Layer Stacking Order
+Because the rectangle was created last, it appears above the text in the `Layers Panel` on the left. Thus, you need to change the stacking order of the layers.
 
-Plusieurs façons de faire :
-- Clique droit sur le texte, puis sélectionnez l'option _Bring to front_
-- Clique droit sur le rectangle, puis sélectionnez l'option _Send to back_
+There are several ways to do this:
+- Right-click on the text, then select the _Bring to front_ option.
+- Right-click on the rectangle, then select the _Send to back_ option.
 
-::: details Tutoriel 🎥
+::: details Tutorial 🎥
 ![send to back](../../../assets/img/figma/basics/ui-elements/groups/send-to-back.gif)
 :::
 
-- Dans le `Panneau des calques` à gauche, faites glisser le texte au dessus du rectangle ou bien l'inverse.
+- In the `Layers Panel` on the left, drag the text above the rectangle or vice versa.
 
-::: details Tutoriel 🎥
+::: details Tutorial 🎥
 ![drag to front](../../../assets/img/figma/basics/ui-elements/groups/drag-to-front.gif)
 :::
 
 
-## Positionnement
-Pour centrer des éléments les uns par rapport aux autres, il existe plusieurs solutions :
-- Sélectionnez tous les éléments (avec <kbd>Shift</kbd> OU en trançant un rectangle autour avec l'outil de sélection <img class="align-text" height="32px" alt="select tool icon" src="../../../assets/img/figma/basics/ui-elements/groups/select-tool-icon.png">) puis utilisez les boutons d'alignement dans le `Design panel` en haut à gauche <img class="align-text" height="32px" alt="alignment buttons" src="../../../assets/img/figma/basics/ui-elements/groups/alignment-buttons.png">
+## Positioning
+To center elements relative to one another, there are several solutions:
+- Select all elements (with <kbd>Shift</kbd> OR by drawing a selection rectangle around them with the selection tool <img class="align-text" height="32px" alt="select tool icon" src="../../../assets/img/figma/basics/ui-elements/groups/select-tool-icon.png">) and then use the alignment buttons in the `Design Panel` at the top left <img class="align-text" height="32px" alt="alignment buttons" src="../../../assets/img/figma/basics/ui-elements/groups/alignment-buttons.png">
 
-::: details Tutoriel 🎥
+::: details Tutorial 🎥
 ![elements alignment](../../../assets/img/figma/basics/ui-elements/groups/elements-alignment.gif)
 :::
 
-- Sélectionnez directement le texte au centre du rectangle avec les aides visuels de Figma
+- Directly select the text in the center of the rectangle with the visual aids in Figma
 
-::: details Tutoriel 🎥
+::: details Tutorial 🎥
 ![elements positioning](../../../assets/img/figma/basics/ui-elements/groups/elements-positioning.gif)
 :::
 
-Une fois positionnés, sélectionnez le texte et le rectangle (par exemple avec <kbd>Shift</kbd>) puis faites <kbd>Ctrl</kbd> + <kbd>G</kbd> pour grouper.
+Once positioned, select the text and the rectangle (for example with <kbd>Shift</kbd>) and then press <kbd>Ctrl</kbd> + <kbd>G</kbd> to group.
 
-> **Remarque :** Vous pouvez voir qu'un nouvel élément (calque de type groupe) est apparu dans le `Layers panel` à gauche. Il contient le texte et le rectangle.
+> **Note:** You can see that a new element (group layer type) has appeared in the `Layers Panel` on the left. It contains the text and the rectangle.
 
-Renommez les calques pour une meilleure organisation de votre design.
+Rename the layers for better organization of your design.
 
-::: details Tutoriel 🎥
+::: details Tutorial 🎥
 ![elements group](../../../assets/img/figma/basics/ui-elements/groups/elements-group.gif)
 :::
 
-Vous disposez maintenant d'un élément `Status bar` (barre de statut) utilisable dans vos futurs écrans ! 👏
+You now have a `Status bar` element ready for use in your future screens! 👏

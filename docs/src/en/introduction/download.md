@@ -1,13 +1,13 @@
-# Téléchargement
+# Download
 
 ::: tip Client Figma (windows/macos) 💻
 
-Figma fonctionne dans votre navigateur, mais pour une meilleure experience utilisateur, nous vous recommandons d'installer la version Desktop (client), disponible en cliquant sur le lien suivant :
+Figma works in your browser, but for a better user experience, we recommend you install the Desktop (client) version, available by clicking on the following link:
 
-[Télécharger Figma](https://www.figma.com/fr/downloads/)
+[Download Figma](https://www.figma.com/fr/downloads/)
 
 :::
 
-> **Remarque :** Il vous faut un compte Figma pour pouvoir l'utiliser. Crééez en un ! 😉
+> **Note:** You need a Figma account to use it. Create one! 😉
 
-![Page de téléchargement Figma](../../assets/img/figma/introduction/download/figma_download.png)
+![Figma download page](../../assets/img/figma/introduction/download/figma_download.png)

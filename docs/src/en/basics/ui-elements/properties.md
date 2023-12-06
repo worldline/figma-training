@@ -1,47 +1,46 @@
-# Autres propriétés
+# Other Properties
 
-Nous allons maintenant créer une liste de contacts. 
+Now we're going to create a list of contacts.
 
-::: tip 🎯 Objectif : créer la Card de contact 
+::: tip 🎯 Goal: create the Contact Card
 ![contact card frame](../../../assets/img/figma/basics/ui-elements/properties/contact-card-frame.png)
 :::
 
-## Conteneur
+## Container
 
-- Changez la couleur de fond de l'écran `Contacts screen` (ex: vert clair - #ECFFF4)
-- Créez une frame (raccourci clavier <kbd>F</kbd>) blanche à l'intérieure de l'écran (renommez la en `Card`)
+- Change the background color of the `Contacts screen` (e.g., light green - #ECFFF4)
+- Create a white frame inside the screen (shortcut <kbd>F</kbd>) and rename it to `Card`
 
-::: details Tutoriel 🎥
+::: details Tutorial 🎥
 ![create card frame](../../../assets/img/figma/basics/ui-elements/properties/create-card-frame.gif)
 :::
 
-- Appliquez à cette `Card` une ombre portée (Panneau de droite > Effects ![design panel effects section](../../../assets/img/figma/basics/ui-elements/properties/design-panel-effects-section.png) > Bouton Ajouter ![design panel add button](../../../assets/img/figma/basics/ui-elements/properties/design-panel-add-button.png) > `Drop Shadow`)
+- Apply a drop shadow to this `Card` (Right Panel > Effects ![design panel effects section](../../../assets/img/figma/basics/ui-elements/properties/design-panel-effects-section.png) > Add Button ![design panel add button](../../../assets/img/figma/basics/ui-elements/properties/design-panel-add-button.png) > `Drop Shadow`)
 
-> **Remarque :** Vous pouvez changer les propriétés de cette ombre en cliquant sur ![effect properties button](../../../assets/img/figma/basics/ui-elements/properties/effect-properties-button.png)
+> **Note:** You can change the properties of the shadow by clicking on ![effect properties button](../../../assets/img/figma/basics/ui-elements/properties/effect-properties-button.png)
 
-- Ajoutez une bordure (`Stroke`) à cette card
-- Modifiez les propriétés de la bordure :
-    - elle ne doit apparaître qu'à gauche de la frame (utilisez ![stroke side selection](../../../assets/img/figma/basics/ui-elements/properties/stroke-side-selection.png))
-    - elle doit être de couleur verte (utilisez ![stroke color selection](../../../assets/img/figma/basics/ui-elements/properties/stroke-color-selection.png))
-    - elle doit faire 4px d'épaisseur (utilisez ![stroke weight selection](../../../assets/img/figma/basics/ui-elements/properties/stroke-weight-selection.png))
+- Add a border (`Stroke`) to this card
+- Modify the properties of the border:
+  - It should only appear on the left side of the frame (use ![stroke side selection](../../../assets/img/figma/basics/ui-elements/properties/stroke-side-selection.png))
+  - It should be green in color (use ![stroke color selection](../../../assets/img/figma/basics/ui-elements/properties/stroke-color-selection.png))
+  - It should be 4px thick (use ![stroke weight selection](../../../assets/img/figma/basics/ui-elements/properties/stroke-weight-selection.png))
 
-- Changez les arrondis des angles (`Corner radius`) de la `Card` (ex: 4px)
+- Change the corner radii (`Corner radius`) of the `Card` (e.g., 4px)
 
-::: details Tutoriel 🎥
+::: details Tutorial 🎥
 ![properties card frame](../../../assets/img/figma/basics/ui-elements/properties/properties-card-frame.gif)
 :::
 
-## Contenu
+## Content
 
+- Add 2 texts inside the `Card`:
+  - one for the first name and last name
+  - another for the phone number
 
-- Ajoutez 2 textes dans la `Card` :
-    - un pour le prénom et le nom
-    - un autre pour le numéro de téléphone
+- Change the properties of the texts as follows:
+  - **First/Last Name**: `16px` text size, `24px` line height, `Roboto` font, `semi-bold` weight, dark black color `#333333`
+  - **Number**: text size `14px`, line height `21px`, `Roboto` font, `regular` weight, gray color `#999999`
 
-- Changez les propriétés des textes comme suit :
-    - **Prénom/nom** : `16px` de taille de texte, `24px` de hauteur de ligne (`line-height`), police `Roboto`, épaisseur `semi-bold`, couleur noire foncée `#333333`
-    - **Numéro** : taille de texte `14px`, hauteur de ligne `21px` police `Roboto`, épaisseur `regular`, couleur grise `#999999`
-
-- Alignez les textes sur la gauche, et positionnez-les l'un en dessous de l'autre :
+- Align the texts to the left, and position them one below the other:
 
 ![create card name number](../../../assets/img/figma/basics/ui-elements/properties/create-card-name-number.png)

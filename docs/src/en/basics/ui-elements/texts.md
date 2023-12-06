@@ -1,13 +1,13 @@
-# Textes
+# Texts
 
-Pour créer des éléments d'interface (qui vont former notre design), nous allons utiliser les outils de création de la `Toolbar`.
+To create interface elements (which will form our design), we will use the creation tools from the `Toolbar`.
 
-Par exemple pour créer un texte, sélectionnez l'outil de texte <img class="align-text" height="32px" alt="create texte" src="../../../assets/img/figma/basics/ui-elements/texts/text-tool-icon.png"> et cliquez dans le plan de travail. Vous pouvez saisir le texte que vous souhaitez.
+For example, to create text, select the text tool <img class="align-text" height="32px" alt="create text" src="../../../assets/img/figma/basics/ui-elements/texts/text-tool-icon.png"> and click on the canvas. You can enter any text you want.
 
-::: details Tutoriel 🎥
-![create texte](../../../assets/img/figma/basics/ui-elements/texts/create_text.gif)
+::: details Tutorial 🎥
+![create text](../../../assets/img/figma/basics/ui-elements/texts/create_text.gif)
 :::
 
-Cliquez en dehors de l'élément de texte puis re-sélectionnez le pour pouvoir modifier ses propriétés dans le `Design panel` à droite.
+Click outside the text element and then re-select it to be able to modify its properties in the `Design panel` on the right.
 
-> **Remarque :** Dans l'exemple ci-dessus nous modifions l'épaisseur (Semi-bold), la taille (24px), et la police du texte (Roboto).
+> **Note:** In the example above, we modify the weight (Semi-bold), the size (24px), and the font of the text (Roboto).

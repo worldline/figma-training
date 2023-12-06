@@ -1,15 +1,19 @@
 ---
 home: true
 heroImage: /welcome-image.png
-tagline:  Tirez le meilleur de ce logiciel !
+tagline:  Get the most out of this software!
 actionText: Start Training →
 actionLink: /en/introduction/program/
 features:
-- title: Pourquoi Figma ? 💡
-  details: Maquetter les écrans est une étape incontournable dans le processus de création d'une application. Figma s'impose quant à lui comme leader du marché mondial avec son interface intuitive et son positionnement collaboratif.
-- title: Apprendre Figma 🎨
-  details: Dans cette formation vous apprendrez les bases de Figma, mais aussi les fonctionnalités avancées et les bonnes pratiques pour concevoir et organiser un fichier Figma.
-- title: Exercice 📚
-  details: Pour terminer cette formation nous vous proposons de reproduire un écran d'une application connue. A vous de vous poser les bonnes questions !
-  footer: Made with ❤️ by Antoine CANDY, Henri OUZIEL et Simon MERCIER - Worldline 2023
+- title: Why Figma? 💡 
+  details: Mocking up screens is a crucial step in the process of creating an application. Figma, meanwhile, has established itself as a world market leader with its intuitive interface and collaborative positioning.
+- title: Learning Figma 🎨 
+  details: In this training, you will learn the basics of Figma, as well as advanced features and best practices for designing and organizing a Figma file.
+- title: Exercise 📚 
+  details: To complete this training, we propose that you replicate a screen from a well-known application. It's up to you to ask the right questions!
+  footer: Made with ❤️ by Antoine CANDY, Henri OUZIEL and Simon MERCIER - Worldline 2023
 ---
+
+::: tip Français disponible !
+This training is also available in [French](/fr/) / Cette formation est aussi disponible en [Français](/fr/)
+:::

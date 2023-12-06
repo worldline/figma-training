@@ -1,68 +1,67 @@
-# Agencement des éléments
+# Element Arrangement
 
 ## Direction
 
-L'autolayout agence les élements dans la `Frame` les uns à la suite des autres (on parle aussi d'empilement). La direction de l'empilement peut être soit :
+Autolayout sequences elements inside a `Frame` one after another (this is also referred to as stacking). The direction of stacking can be either:
 - **Vertical**
 - **Horizontal**
 - **Wrap**
 
 ![autolayout direction](../../../assets/img/figma/advanced-features/autolayout/layout-flow/autolayout-direction.png)
 
+**Exercise:** Create an autolayout and change its direction! To do this:
+- Create three circles with different colors (as seen in the image above)
+- Select all three circles (hold <kbd>Shift</kbd> + click, or use quick select)
+- Use the shortcut <kbd>Shift</kbd> + <kbd>A</kbd> OR click on the button <img class="figma-button align-text" alt="autlayout add button" src="../../../assets/img/figma/advanced-features/autolayout/layout-flow/autolayout-add-button.svg"> in the `Design panel` on the right (under `Autolayout` property) to create an autolayout.
 
-**Exercice :** Créer un autolayout et changer sa direction ! Pour ce faire : 
-- Créez trois cercle de couleurs différentes (cf. l'image ci-dessus)
-- Sélectionnez les 3 cercles (maintenir <kbd>Shift</kbd> + clique, ou bien utiliser la sélection rapide)
-- Utilisez le raccourci <kbd>Shift</kbd> + <kbd>A</kbd> OU cliquez sur le bouton <img class="figma-button align-text" alt="autlayout add button" src="../../../assets/img/figma/advanced-features/autolayout/layout-flow/autolayout-add-button.svg"> dans le `Design panel` à droite (propriété `Autolayout`) pour créer un autolayout.
+> **Note:** You could have also first created a frame, added the three circles inside, and only then applied the autolayout!
 
-> **Remarque :** On aurait très bien pu d'abord créer une frame, ajouter les 3 cercles à l'intérieur, et n'ajouter l'autolayout qu'après !
+- Change the direction of your autolayout (Vertical, Horizontal, Wrap) in the `Design panel` under the `Autolayout` section.
 
-- Changez la direction de votre autolayout (Vertical, Horizontal, Wrap) dans le `Design panel` dans la section `Autolayout`
-
-::: details Tutoriel 🎥
-![autolayout direction tuto](../../../assets/img/figma/advanced-features/autolayout/layout-flow/autolayout-direction.gif)
+::: details Tutorial 🎥
+![autolayout direction tutorial](../../../assets/img/figma/advanced-features/autolayout/layout-flow/autolayout-direction.gif)
 :::
 
-## Ordre d'empilement
+## Stacking Order
 
-Avec un `Autolayout`, si les éléments ont un espacement négatif (superposition des éléments), le dernier élément de la `Frame` apparaît au dessus des autres par défaut. Vous pouvez changer l'ordre de l'empilement des éléments en cliquant sur le bouton <img class="figma-button align-text" alt="autolayout more button" src="../../../assets/img/figma/advanced-features/autolayout/layout-flow/autolayout-more-button.svg"> dans la propriété `Autolayout` ➡ `Canvas stacking` :
-- **First on top** : le premier élément de l'empilement sera au dessus
-- **Last on top** : le dernier élément de l'empilement sera au dessus
+With `Autolayout`, if elements have a negative spacing (overlapping elements), by default, the last element in the `Frame` appears on top. You can change the stacking order of elements by clicking on the button <img class="figma-button align-text" alt="autolayout more button" src="../../../assets/img/figma/advanced-features/autolayout/layout-flow/autolayout-more-button.svg"> in the `Autolayout` property ➡ `Canvas stacking`:
+- **First on top**: the first element in the stack will be on top
+- **Last on top**: the last element in the stack will be on top
 
 ![canvas stacking order](../../../assets/img/figma/advanced-features/autolayout/layout-flow/canvas-stacking-order.png)
 
-::: details Démo 🎥
+::: details Demo 🎥
 ![autolayout stacking](../../../assets/img/figma/advanced-features/autolayout/layout-flow/autolayout-stacking.gif)
 :::
 
-> **Remarque :** Vous pouvez changer la place d'un élément dans un autolayout avec les flèches du clavier après l'avoir sélectionné !
+> **Note:** You can change the position of an element within an autolayout using the arrow keys after selecting it!
 
-**Exercice :** Ajouter / Supprimer / Cacher / Déplacer des éléments dans un autolayout
-- Ajoutez une couleur de remplissage à votre `Frame`(celle qui contient les trois cercles) avec la propriété `Fill` pour qu'on puisse bien la voir et mieux comprendre ses propriétés
-- Créez un cercle d'une autre couleur sur le plan de travail (en dehors de votre `Frame`)
-- Sélectionnez le et glisser le entre deux éléments dans votre `Frame`
-- A l'aide des flèches du clavier, changez sa position
-- Vous pouvez le supprimer en cliquant sur <kbd>Back</kbd> ou <kbd>Suppr</kbd>
-- (<kbd>Ctrl</kbd> + <kbd>Z</kbd> pour annuler) cachez l'élément en cliquant sur <img class="figma-button align-text" alt="visibility button" src="../../../assets/img/figma/advanced-features/autolayout/layout-flow/visibility-button.svg"> à droite dans le `Design panel` > propriété `Layer`.
+**Exercise:** Add / Remove / Hide / Move elements in an autolayout
+- Add a fill color to your `Frame` (the one containing the three circles) with the `Fill` property so we can see it clearly and better understand its properties
+- Create another colored circle on the canvas (outside your `Frame`)
+- Select it and drag it between two elements in your `Frame`
+- Use the keyboard arrows to change its position
+- You can delete it by pressing <kbd>Backspace</kbd> or <kbd>Delete</kbd>
+- (<kbd>Ctrl</kbd> + <kbd>Z</kbd> to undo) hide the element by clicking on <img class="figma-button align-text" alt="visibility button" src="../../../assets/img/figma/advanced-features/autolayout/layout-flow/visibility-button.svg"> on the right in the `Design panel` under the `Layer` property.
 
-> **Remarque :** La taille de la `Frame`s'adapte à son contenu par défaut
-- Vous pouvez faire réapparaître l'élément caché depuis le `Panel des calques` à gauche ou en cliquant sur <img class="figma-button align-text" alt="visibility off button" src="../../../assets/img/figma/advanced-features/autolayout/layout-flow/visibility-off-button.svg">
+> **Note:** The size of the `Frame` adapts to its content by default
+- You can make the hidden element reappear from the 'Layers panel' on the left or by clicking on <img class="figma-button align-text" alt="visibility off button" src="../../../assets/img/figma/advanced-features/autolayout/layout-flow/visibility-off-button.svg">
 
-::: details Tutoriel 🎥
+::: details Tutorial 🎥
 ![autolayout children](../../../assets/img/figma/advanced-features/autolayout/layout-flow/autolayout-children.gif)
 :::
-- Essayez de refaire l'exercice cette fois ci en changeant l'espacement entre les éléments (`Gap between items`) <img class="figma-button align-text" height="24px" alt="spacing button" src="../../../assets/img/figma/common/spacing-button.svg"> toujours dans les propriétés `Autolayout`
+- Try redoing the exercise while changing the spacing between elements (`Gap between items`) <img class="figma-button align-text" height="24px" alt="spacing button" src="../../../assets/img/figma/common/spacing-button.svg"> still in the `Autolayout` properties.
 
-## Position absolue
+## Absolute Position
 
-La position absolue (Absolute position) exclue un élément de l'empilement de l'autolayout tout en le gardant dans la `Frame`. L'élément et ce qui l'entoure s'ignorent l'un l'autre même si on les redimensionne ou change leur position.
+Absolute position takes an element out of the autolayout stack while keeping it within the `Frame`. The element and its surroundings ignore each other even if you resize or move them.
 
-Un peu comme en CSS (<code>position: absolute;</code>), un élément en position absolue peut être placé précisément où vous voulez relativement au conteneur parent (la `Frame`).
+Similar to CSS (<code>position: absolute;</code>), an absolutely positioned element can be placed precisely where you want it relative to the parent container (the `Frame`).
 
-Les éléments en position absolue sont gérés comme dans des `Frame` classiques (sans autolayout) : vous pouvez leur appliquer des contraintes pour déterminer leur comportement lors du redimensionnement de la `Frame` parent.
+Elements in absolute position are managed as in classic `Frames` (without autolayout): you can apply constraints to define their behavior when the parent `Frame` is resized.
 
-Pour activer la position absolue d'un élément, sélectionnez un enfant d'une `Frame` avec `Autolayout` et cliquez sur <img class="figma-button align-text" alt="absolute button" src="../../../assets/img/figma/advanced-features/autolayout/layout-flow/absolute-button.svg">
+To activate the absolute position of an element, select a child of a `Frame` with `Autolayout` and click on <img class="figma-button align-text" alt="absolute button" src="../../../assets/img/figma/advanced-features/autolayout/layout-flow/absolute-button.svg">
 
-::: details Démo 🎥
+::: details Demo 🎥
 ![absolute position](../../../assets/img/figma/advanced-features/autolayout/layout-flow/absolute-position.gif)
 :::

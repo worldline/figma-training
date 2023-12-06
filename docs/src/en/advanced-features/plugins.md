@@ -1,54 +1,54 @@
 # Plugins
 
-## Qu'est-ce que c'est ?
+## What are they?
 
-Les `plugins` dans Figma sont des outils développés par la communauté qui permettent d'améliorer votre productivité en vous donnant accès à des ressources ou nouvelles fonctionnalités sur Figma.
+`Plugins` in Figma are tools developed by the community that enhance your productivity by providing access to resources or new features within Figma.
 
-L'onglet plugin se situe depuis le menu représenté par l'icône <img src="../../assets/img/figma/advanced-features/plugins/plugin-icon.png"></p> de la barre d'outils. Depuis cette interface vous trouverez vos plugins récemment utilisés et une fonction de recherche de plugins.
+The plugins tab is located in the menu represented by the icon <img src="../../assets/img/figma/advanced-features/plugins/plugin-icon.png"> on the toolbar. From this interface, you'll find your recently used plugins and a search function for plugins.
 
-::: details Suggestions de plugins 🎲
+::: details Plugin Suggestions 🎲
 
 ### Unsplash
 
-Unsplash est un site d'images de stock libres de droits, ce plugin permet d'ajouter directement les photos d'Unsplash à vos projets Figma.
+Unsplash is a website offering royalty-free stock images; this plugin allows you to directly add Unsplash photos to your Figma projects.
 
 <p align="center"><img src="../../assets/img/figma/advanced-features/plugins/unsplash.png"></p>
 
-### Material symbols
+### Material Symbols
 
-Ce plugin permet d'utiliser les icônes de la bibliothèque Material de Google.
+This plugin allows you to use icons from Google's Material library.
 
 <p align="center"><img src="../../assets/img/figma/advanced-features/plugins/material-symbols.png"></p>
 
 ### Iconify
 
-Ce plugin permet d'accèder à une large bibliothèque d'icônes.
+This plugin gives you access to a large library of icons.
 
 ### Mockups
 
-Ce plugin permet de générer des mockups depuis vos frames.
+This plugin allows you to generate mockups from your frames.
 
 <p align="center"><img src="../../assets/img/figma/advanced-features/plugins/mockup.png"></p>
 
 ### Contrast
 
-Ce plugin permet de vérifier que contrastes entre les différents éléments de vos designs respectent les normes d'accessibilité (WCAG).
+This plugin helps to check if the contrasts between different elements in your designs meet accessibility standards (WCAG).
 
 <p align="center"><img src="../../assets/img/figma/advanced-features/plugins/contrast.png"></p>
 :::
 
-::: tip Découvrir des plugins
-Si vous souhaitez rechercher davantages de plugins, privilégiez vos recherches depuis l'onglet communauté <img src="../../assets/img/figma/advanced-features/plugins/community-icon.png"></p> 
+::: tip Discover More Plugins
+If you want to search for more plugins, prioritize your searches from the community tab <img src="../../assets/img/figma/advanced-features/plugins/community-icon.png">
 
 <p align="center"><img src="../../assets/img/figma/advanced-features/plugins/community.png"></p>
 :::
 
-## Les widgets
+## Widgets
 
- Les `widgets` sont des objets interactifs similaires aux plugins. Contrairement à ces derniers qui fonctionnent pour une personne spécifique, tout le monde peut voir et interagir avec le même widget directement depuis la zone de travail.
- 
- Vous pouvez ajouter autant de widgets au fichier que nécessaire et même les faire fonctionner en même temps.
+`Widgets` are interactive objects similar to plugins. Unlike plugins, which work for a specific individual, everyone can see and interact with the same widget directly from the workspace.
 
- Les widgets sont accessibles depuis le même emplacement que les plugins : <img src="../../assets/img/figma/advanced-features/plugins/plugin-icon.png"></p> 
+You can add as many widgets to the file as necessary and even run them simultaneously.
 
- <p align="center"><img src="../../assets/img/figma/advanced-features/plugins/widget.png"></p>
+Widgets are accessible from the same location as plugins: <img src="../../assets/img/figma/advanced-features/plugins/plugin-icon.png">
+
+<p align="center"><img src="../../assets/img/figma/advanced-features/plugins/widget.png"></p>

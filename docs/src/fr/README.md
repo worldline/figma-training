@@ -13,3 +13,7 @@ features:
   details: Pour terminer cette formation nous vous proposons de reproduire un écran d'une application connue. A vous de vous poser les bonnes questions !
   footer: Made with ❤️ by Antoine CANDY, Henri OUZIEL et Simon MERCIER - Worldline 2023
 ---
+
+::: tip English available!
+This training is also available in [English](/en/) / Cette formation est aussi disponible en [Anglais](/en/)
+:::

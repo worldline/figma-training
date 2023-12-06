@@ -1,83 +1,82 @@
-# Redimensionnements
+# Resizing
 
-## Hug contents
-Une des plus puissantes fonctionnalités de l'autolayout est d'adapter les dimensions de sa `Frame` en fonction de son contenu !
+## Hug Contents
+One of the most powerful features of autolayout is to adapt the dimensions of its `Frame` based on its contents!
 
-Vous l'avez peut être déjà remarqué, lorsque vous ajoutez un élément dans une `Frame` avec `Autolayout`, sa taille s'adapte ! C'est parce que par défaut, ses propriétés `Horizontal resizing` et `Vertical resizing` sont réglées sur `Hug contents`.
+You might have already noticed, when you add an element to a `Frame` with `Autolayout`, its size adjusts! This happens because, by default, the `Horizontal resizing` and `Vertical resizing` properties are set to `Hug contents`.
 
-::: details Démo 🎥
+::: details Demo 🎥
 ![alignment options](../../../assets/img/figma/advanced-features/autolayout/resizing/resizing-properties.gif)
 :::
 
-**Exercice :** Créer le bouton `S'abonner` de youtube !
+**Exercise:** Create YouTube's `Subscribe` button!
 
-::: tip 🎯 Objectif : Bouton intelligent
-Un cas pratique de l'autolayout, vous allez créé un bouton qui s'adapte à la taille de son texte
+::: tip 🎯 Goal: Smart Button
+A practical case of autolayout—you're going to create a button that adapts to the size of its text.
 
 ![smart button](../../../assets/img/figma/advanced-features/autolayout/resizing/smart-button.gif)
 :::
-- Créer un texte "S'abonner"
-- Sélectionner votre texte et faites <kbd>Shift</kbd> + <kbd>A</kbd> pour créer un autolayout à partir de celui-ci
+- Create a text label "Subscribe"
+- Select your text and press <kbd>Shift</kbd> + <kbd>A</kbd> to create an autolayout from it.
 
->**Remarque :** Votre texte est maintenant contenu dans une `Frame`avec `Autolayout`
-- Modifier le texte et la `Frame` comme ceci :
-    - couleur du texte : blanc  
-    - taille du texte : 16 pixels
-    - hauteur du texte : 24 pixels
-    - couleur de fond de la `Frame` : noir
-    - `Gap`de l'autolayout : 8 pixels
-    - `Padding` de l'autolayout (haut, droite, bas, gauche) : 8, 16, 8, 12
-    - Changer l'arrondis des angles (`Corner radius`) de la `Frame` : au moins 20 pixels
-- Vérifiez que la propriété `Horizontal resizing` de la `Frame` est bien sur `Hug contents`
-- Ajouter une icône type "bell" (cloche) dans la `Frame`et la positionner avant le texte
-- Essayer de modifier le texte et remarquer que la taille de la `Frame` s'adapte
+>**Note:** Your text is now contained in a `Frame` with `Autolayout`
+- Modify the text and the `Frame` as follows:
+  - text color: white
+  - text size: 16 pixels
+  - text height: 24 pixels
+  - background color of the `Frame`: black
+  - `Gap` of the autolayout: 8 pixels
+  - `Padding` of the autolayout (top, right, bottom, left): 8, 16, 8, 12
+  - Change the `Frame`'s `Corner radius`: at least 20 pixels
+- Ensure the `Frame`'s `Horizontal resizing` property is set to `Hug contents`
+- Add a "bell" icon inside the `Frame` and position it before the text
+- Try modifying the text and notice how the `Frame` size adapts.
 
-::: details Démo 🎥
+::: details Demo 🎥
 ![smart button demo](../../../assets/img/figma/advanced-features/autolayout/resizing/smart-button-demo.gif)
 :::
 
-## Largeur et hauteur fixes
-Si vous saisissez une valeur fixe (`Horizontal resizing` et/ou `Vertical resizing`), la taille de la de la `Frame` ne s'adaptera plus au contenu.
+## Fixed Width and Height
+If you enter a fixed value for `Horizontal resizing` and/or `Vertical resizing`, the size of the `Frame` will no longer adjust to the content.
 
-## Fill container
+## Fill Container
 
-Si `Horizontal resizing` et `Vertical resizing` sont fixes, vous pouvez cependant adapter la taille des éléments à l'interieur de la `Frame` !
+If `Horizontal resizing` and `Vertical resizing` are fixed, you can still resize the elements inside the `Frame`!
 
-Grâce à l'option `Fill container`, l'élément va remplir tout l'espace disponible à l'intérieur de la `Frame` !
+With the `Fill container` option, the element will fill all the available space inside the `Frame`!
 
->**Remarque :** Il faut ici sélectionner l'élément à l'intérieur de la `Frame` pour lui appliquer l'option `Fill container` dans `Horizontal resizing`. Pour mémo : double-cliquez jusqu'à atteindre l'élément désiré, ou faire <kbd>Ctrl</kbd> + <kbd>Clique</kbd>, pour le sélectionner.
+>**Note:** Here you need to select the element inside the `Frame` to apply the `Fill container` option for `Horizontal resizing`. Remember: double-click until you reach the desired element, or press <kbd>Ctrl</kbd> + click to select it.
 
-**Exercice :** Essayez l'option Fill container
-- Créez deux autres boutons (Partager et Télécharger) à partir du premier
-- Sélectionnez les trois boutons puis faites <kbd>Shift</kbd> + <kbd>A</kbd> pour créer un autolayout
-- Ajoutez une valeur d'espacement entre les éléments et autour des éléments (`Gap`, `Padding`)
-- Ajoutez une couleur de fond à votre `Frame``Autolayout` pour mieux la voir et comprendre le comportement
-- Aggrandissez votre `Frame` (celle qui contient vos boutons) en largeur (valeur fixe `Horizontal resizing`)
-- Sélectionnez un bouton puis lui appliquer l'option `Fill container`
-- Essayez de redimensionner la `Frame`en largeur et observer le bouton (sa taille s'adapte en largeur)
+**Exercise:** Try the Fill container option
+- Create two more buttons (Share and Download) based on the first one
+- Select all three buttons and press <kbd>Shift</kbd> + <kbd>A</kbd> to create an autolayout
+- Add a spacing value between and around the elements (`Gap`, `Padding`)
+- Add a background color to your `Frame` with `Autolayout` to better see it and understand the behavior
+- Extend the width of your `Frame` (which contains your buttons) to a fixed value (`Horizontal resizing`)
+- Select one button and apply the `Fill container` option to it
+- Try resizing the `Frame` in width and observe the button (its size adjusts in width)
 
-::: details Tuto 🎥
+::: details Tutorial 🎥
 ![fill container demo](../../../assets/img/figma/advanced-features/autolayout/resizing/fill-container-demo.gif)
 :::
 
-- Appliquez `Fill container` à tous les boutons de la `Frame` puis essayer de la redimensionner en largeur
-- Essayer de changer sa direction (vertical/horizontal)
+- Apply `Fill container` to all the buttons in the `Frame`, then try resizing it in width
+- Try changing its direction (vertical/horizontal)
 
-::: details Démo 🎥
+::: details Demo 🎥
 ![fill container demo](../../../assets/img/figma/advanced-features/autolayout/resizing/fill-container-demo-2.gif)
 :::
 
-## Dimensions minimum et maximum
+## Minimum and Maximum Dimensions
 
-Il est possible de paramétrer un maximum et/ou un minimum pour la largeur et la hauteur d'une `Frame` avec `Autolayout`. Pour se faire :
-- ouvrir la liste déroulante de la largeur (`Width`) pour trouver les options <img class="figma-button align-text" alt="min width button" src="../../../assets/img/figma/advanced-features/autolayout/resizing/min-width-button.svg"> `Add min width` et <img class="figma-button align-text" alt="max width button" src="../../../assets/img/figma/advanced-features/autolayout/resizing/max-width-button.svg"> `Add max width`
-- ouvrir la liste déroulante de la hauteur (`Height`) pour trouver les options <img class="figma-button align-text" alt="min height button" src="../../../assets/img/figma/advanced-features/autolayout/resizing/min-height-button.svg"> `Add min height` et <img class="figma-button align-text" alt="max height button" src="../../../assets/img/figma/advanced-features/autolayout/resizing/max-height-button.svg"> `Add max height`
+You can set a maximum and/or minimum for the width and height of a `Frame` with `Autolayout`. To do this:
+- open the dropdown for the width (`Width`) to find the options <img class="figma-button align-text" alt="min width button" src="../../../assets/img/figma/advanced-features/autolayout/resizing/min-width-button.svg"> `Add min width` and <img class="figma-button align-text" alt="max width button" src="../../../assets/img/figma/advanced-features/autolayout/resizing/max-width-button.svg"> `Add max width`
+- open the dropdown for the height (`Height`) to find the options <img class="figma-button align-text" alt="min height button" src="../../../assets/img/figma/advanced-features/autolayout/resizing/min-height-button.svg"> `Add min height` and <img class="figma-button align-text" alt="max height button" src="../../../assets/img/figma/advanced-features/autolayout/resizing/max-height-button.svg"> `Add max height`
 
-**Exercice :** Largeur maximum et minimum !
-- Ajoutez une largeur maximum (250px) et une largeur minimum (170px) pour le bouton `S'abonner`
-- Essayez de redimensionner le bouton au delà de ces dimensions
+**Exercise:** Maximum and minimum width!
+- Add a maximum width (250px) and a minimum width (170px) to the `Subscribe` button
+- Try resizing the button beyond these dimensions
 
-::: details Tuto 🎥
+::: details Tutorial 🎥
 ![min max demo](../../../assets/img/figma/advanced-features/autolayout/resizing/min-max-demo.gif)
 :::
-

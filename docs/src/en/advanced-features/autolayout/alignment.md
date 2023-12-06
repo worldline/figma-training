@@ -1,25 +1,25 @@
-# Alignements
+# Alignments
 
-## Alignements les éléments d'un autolayout
+## Aligning elements in an autolayout frame
 
-Dans une `Frame`avec `Autolayout`, l'alignement des éléments se fait de manière groupée ! Vous ne pouvez pas controler l'alignement de chaque élément individuellement (contrairement aux `Frames`classiques). 
+In a `Frame` with `Autolayout`, the alignment of elements is grouped! You cannot control the alignment of each individual element (unlike in classic `Frames`).
 
-C'est pour cette raison que l'alignement se règle depuis l'autolayout et pas sur chaque éléments !
+That's why the alignment is adjusted from the autolayout and not on each element!
 
-Utilisez la boite d'alignement dans le `Design panel`à droite dans la propriété `Autolayout` pour changer l'alignement des éléments à l'intérieur de votre `Frame`.
+Use the alignment box in the `Design panel` on the right under the `Autolayout` property to change the alignment of the elements inside your `Frame`.
 
-::: details Démo 🎥
+::: details Demo 🎥
 ![alignment options](../../../assets/img/figma/advanced-features/autolayout/alignment/alignment-options.gif)
 :::
 
-> **Remarque :** La `Direction`et le `Gap`de votre autolayout vont déterminer quelle option d'alignement est possible à l'interieur de celui-ci.
+> **Note:** The `Direction` and `Gap` of your autolayout determine which alignment options are possible inside it.
 
-**Exercice :** Tester l'alignement
-- Agrandissez la `Frame`qui contient vos cercles
-- Essayez de changer l'alignement dans la boite d'alignement de votre `Autolayout`
-- Changer la direction (Horizontal, Vertical, Wrap) puis testez à nouveau les différents alignements
-- Faites de même en changeant le `Gap` <img class="figma-button align-text" height="24px" alt="spacing button" src="../../../assets/img/figma/common/spacing-button.svg"> ("Auto" ou bien une valeur en pixel !)
+**Exercise:** Test the alignment
+- Expand the `Frame` that contains your circles
+- Try to change the alignment in the alignment box of your `Autolayout`
+- Change the direction (Horizontal, Vertical, Wrap) and then test the different alignments again
+- Do the same by changing the `Gap` <img class="figma-button align-text" height="24px" alt="spacing button" src="../../../assets/img/figma/common/spacing-button.svg"> (either "Auto" or a pixel value!)
 
-::: details Tuto 🎥
+::: details Tutorial 🎥
 ![alignment box](../../../assets/img/figma/advanced-features/autolayout/alignment/alignment-box.gif)
 :::

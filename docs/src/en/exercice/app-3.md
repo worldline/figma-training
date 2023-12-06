@@ -1,10 +1,10 @@
-# Liste de cards
+# Card List
 
-::: tip 🎯 Objectif : Créer la liste de cards
+::: tip 🎯 Objective: Create the card list
 ![](../../assets/img/figma/exercice/app/cards.png)
 :::
 
-Quelques points d'attention pour ce composant :
+Some points of attention for this component:
 
-- Il peut être intéressant de créer un composant `Avatar`, qui pourra être utilisé pour d'autres vues.
-- Pour dessiner la ligne verticale, vous pouvez utiliser l'outil `Pen` <kbd>P</kbd> puis ajouter 2 cercles aux extrémités.
+- It could be beneficial to create an `Avatar` component, which can be used in other views.
+- To draw the vertical line, you can use the `Pen` tool <kbd>P</kbd> and then add 2 circles at the ends.

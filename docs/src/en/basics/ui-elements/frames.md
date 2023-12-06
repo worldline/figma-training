@@ -1,108 +1,108 @@
 # Frames
 
-Pour créer des écrans dans Figma, on utilise ce qu'on appelle des `Frames`. Ce sont des conteneurs dans lesquels on va placer nos éléments d'interface.
+To create screens in Figma, we use what are called `Frames`. Frames are containers where we place our user interface elements.
 
-::: tip 🎯 Objectif : créer l'écran Contacts screen
+::: tip 🎯 Goal: create the Contacts screen
 ![contacts screen preview](../../../assets/img/figma/basics/ui-elements/frames/contacts-screen-preview.png)
 :::
 
-Vous pouvez créer une frame en cliquant sur l'outil `Frame` dans la `Toolbar` (raccourci clavier <kbd>F</kbd>).
+You can create a frame by clicking on the `Frame` tool in the `Toolbar` (keyboard shortcut <kbd>F</kbd>).
 
 ![toolbar frame tool](../../../assets/img/figma/basics/ui-elements/frames/toolbar_frame_tools.png)
 
-Dans le `Design panel`, sélectionnez un écran de téléphone (ex: iPhone 14)
+In the `Design panel`, select a phone screen (e.g., iPhone 14)
 
-::: details Tutoriel 🎥
+::: details Tutorial 🎥
 ![new screen frame](../../../assets/img/figma/basics/ui-elements/frames/new-screen-frame.gif)
 :::
 
-> **Remarque :** Un écran de téléphone est une frame avec la résolution du modèle (hauteur et largeur en pixels) : <img class="align-text" height="32px" alt="frame resolution" src="../../../assets/img/figma/basics/ui-elements/frames/frame-resolution.png">
+> **Note:** A phone screen is a frame with the resolution of the model (height and width in pixels): <img class="align-text" height="32px" alt="frame resolution" src="../../../assets/img/figma/basics/ui-elements/frames/frame-resolution.png">
 
-::: tip Se déplacer dans le plan de travail 💡
+::: tip Navigating the canvas 💡
 
-Le plan de travail se remplit de plus en plus ? Don't panic !!!
+Is your canvas getting more and more filled? Don't panic!!!
 
-Vous pouvez vous déplacer grâce à l'outil `Hand tool` <img class="align-text" height="32px" alt="hand tool" src="../../../assets/img/figma/basics/ui-elements/frames/hand-tool-icon.png"> ou en maintenant <kbd>Space</kbd> (barre d'espace du clavier)
+You can navigate using the `Hand tool` <img class="align-text" height="32px" alt="hand tool" src="../../../assets/img/figma/basics/ui-elements/frames/hand-tool-icon.png"> or by holding <kbd>Space</kbd> (space bar on the keyboard)
 
-Utilisez le zoom pour prendre du recul et mieux voir votre travail :
-- <kbd>Ctrl</kbd> + Roulette (souris)
-- Pavé tactile (ordinateur portable)
-:::
+Use zoom to take a step back and better see your work:
+- <kbd>Ctrl</kbd> + Mouse Wheel
+- Touchpad (laptop)
+  :::
 
-On peut maintenant placer notre `Status bar` à l'intérieur de notre frame en la glissant par dessus.
+We can now place our `Status bar` inside our frame by dragging it over.
 
-Une fois à l'intérieur, vous pouvez redimensionner et positionner la `Status bar` en haut de l'écran.
+Once inside, you can resize and position the `Status bar` at the top of the screen.
 
-> **Aide :** Vous pouvez utiliser les aides aux positionnements de Figma pour aligner la `Status bar` en haut à gauche de l'écran, puis redimensionner directement dans le plan de travail la largeur de celle-ci.
+> **Help:** You can use Figma's alignment aids to align the `Status bar` at the top left of the screen, then resize it directly in the canvas to fit the width.
 
-::: details Tutoriel 🎥
+::: details Tutorial 🎥
 ![new screen frame](../../../assets/img/figma/basics/ui-elements/frames/drag-into-frame.gif)
 :::
 
-Ici on observe un comportement qui ne nous arrange pas : on aimerait que le texte reste centré par rapport au rectangle. Or ici, on remarque que le conteneur du texte s'est agrandit proportionnellement avec le rectangle.
+Here we observe a behavior that is not convenient for us: we would like the text to stay centered with respect to the rectangle. However, we notice that the text container has increased in size proportionally with the rectangle.
 
 ![group resizing](../../../assets/img/figma/basics/ui-elements/frames/groupe-resizing.png)
 
-::: tip Groupe VS Frames 🤔
-Les `Groupes` ne sont pas flexibles (ils possèdent très peu de propriétés), les éléments à l'intérieur sont dépendants du redimensionnement. A l'inverse les `Frames` (sorte de groupes évolués) fournissent plus de contrôle : elles proposent par exemple plusieurs type de contraintes pour les éléments qu'elles contiennent.
+::: tip Group VS Frames 🤔
+`Groups` are not flexible (they have very few properties), and the elements inside are dependent on resizing. In contrast, `Frames` (kind of advanced groups) provide more control: for example, they offer various types of constraints for the elements they contain.
 
-Utilisez un(e) :
-- `Groupe` - pour un design à court terme (tests utilisateurs, wireframes) qui n'a pas besoin d'une structure flexible (redimensionnements)
+Use a:
+- `Group` - for short-term design (user testing, wireframes) that doesn't need a flexible structure (resizings)
 
-- `Frame` - pour un design à long terme (maintenance, évolutions) pour plus de flexibilité (éléments responsives)
-:::
+- `Frame` - for long-term design (maintenance, evolutions) for more flexibility (responsive elements)
+  :::
 
-Pour mieux saisir la différence entre `Groupes` et `Frames` recréez une `Status bar` à l'aide d'une frame :
+To better grasp the difference between `Groups` and `Frames`, recreate a `Status bar` using a frame:
 
-::: details Tutoriel 🎥
+::: details Tutorial 🎥
 ![create status bar frame](../../../assets/img/figma/basics/ui-elements/frames/create-status-bar-frame.gif)
 :::
 
-> **Remarque :** Avec une frame, plus besoin d'un rectangle pour mettre un fond de couleur à notre `Status bar`. Il suffit juste de changer la couleur de remplissage de la frame.
+> **Note:** With a frame, you no longer need a rectangle to put a colored background on our `Status bar`. Just change the fill color of the frame.
 
-Quand on sélectionne un élement dans une frame, on remarque qu'une nouvelle propriété `Constraints` apparait dans le `Design panel` à droite.
+When we select an element in a frame, we notice that a new property `Constraints` appears in the `Design panel` on the right.
 
 ![constraints](../../../assets/img/figma/basics/ui-elements/frames/constraints.png)
 
-Ce sont les contraintes de l'élément par rapport à son conteneur (la frame). 
+These are the constraints of the element in relation to its container (the frame).
 
-Dans une `Frame`, par défaut, les éléments (exemple : notre texte) ont une contrainte _en haut_ et _à gauche_ : c'est à dire que si on redimensionne notre frame, les élements intérieurs auront toujours une distance fixe par rapport aux bordures _haute_ et _gauche_ de la frame.
+In a `Frame`, by default, elements (for example: our text) have a constraint _top_ and _left_: that is, if we resize our frame, the inner elements will always maintain a fixed distance from the _top_ and _left_ borders of the frame.
 
-Veuillez :
-- Recentrer le texte à l'intérieur de la frame.
-- Appliquer lui une contrainte centrée en largeur et en hauteur
-- Essayer de redimensionnez la frame 🙂
+Please:
+- Center the text within the frame.
+- Apply to it a constraint centered in width and height
+- Try to resize the frame 🙂
 
-::: details Tutoriel 🎥
+::: details Tutorial 🎥
 ![constraint status bar frame](../../../assets/img/figma/basics/ui-elements/frames/constraint-status-bar-frame.gif)
 :::
 
-Les `Frames` nous simplifie la vie, notamment lorsque l'on veut designer des écrans responsives (contenu qui s'adapte aux différentes taille d'écran).
+`Frames` simplify our life, especially when we want to design responsive screens (content that adapts to different screen sizes).
 
-Créons ensemble un écran responsive à partir des éléments déjà présents : 
-- Séléctionnez l'ancienne `Status bar` (groupe texte + rectangle) puis supprimez la en pressant la touche <kbd>Back</kbd> du clavier
-- Remplacez la par la nouvelle `Status bar` (frame), en la positionnant à l'intérieur de l'écran (frame `Contact screen`)
-- Essayez de redimensionner l'écran de téléphone 
+Let's create a responsive screen using the elements already present:
+- Select the old `Status bar` (text + rectangle group) then delete it by pressing the <kbd>Back</kbd> key on the keyboard
+- Replace it with the new `Status bar` (frame), positioning it inside the screen (frame `Contact screen`)
+- Try to resize the phone screen
 
-::: details Tutoriel 🎥
+::: details Tutorial 🎥
 ![delete old status bar](../../../assets/img/figma/basics/ui-elements/frames/delete-old-status-bar.gif)
 :::
 
-Nous souhaitons cette fois ci que la nouvelle `Status bar` s'adapte en largeur lorsqu'on redimensionne l'écran : c'est possible, car on a utilisé des frames pour construire nos éléments !!!
+This time we want the new `Status bar` to adapt in width when we resize the screen: this is possible because we have used frames to build our elements!!!
 
-Pour celà :
-- Faites <kbd>Ctrl</kbd> + <kbd>Z</kbd> pour annuler le redimensionnement de l'écran
-- Sélectionnez la `Status bar` puis appliquez lui une contrainte d'échelle (`Scale`) en largeur
-- Essayez de redimensionner l'écran 😉
+To do this:
+- Press <kbd>Ctrl</kbd> + <kbd>Z</kbd> to undo the screen resizing
+- Select the `Status bar` then apply to it a `Scale` constraint in width
+- Try to resize the screen 😉
 
-::: details Tutoriel 🎥
+::: details Tutorial 🎥
 ![resize responsive screen](../../../assets/img/figma/basics/ui-elements/frames/resize-responsive-screen.gif)
 :::
 
-> **Remarque :** Il est donc possible de créer des Frames, dans des Frames, dans des Frames ... 👍
+> **Note:** It is therefore possible to create Frames, within Frames, within Frames ... 👍
 
-Et pour finir, pensez à bien renommer la Frame (`Status bar`):
+And to finish, remember to properly rename the Frame (`Status bar`):
 
-::: details Tutoriel 🎥
+::: details Tutorial 🎥
 ![rename status bar](../../../assets/img/figma/basics/ui-elements/frames/rename-status-bar.gif)
 :::

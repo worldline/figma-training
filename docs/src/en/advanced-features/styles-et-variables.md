@@ -1,107 +1,106 @@
-# Styles & variables
+# Styles & Variables
 
-## Définition
+## Definition
 
-Les styles permettent de définir la couleur, le texte et les effets appliqués aux objets, ou de définir la structure et l'apparence des grilles de mise en page.
+Styles in Figma allow you to define the color, text, and effects applied to objects or define the structure and appearance of layout grids.
 
-Il existe 4 types de styles : **Couleurs, textes, effets et grilles**
+There are 4 types of styles: **Colors, Texts, Effects, and Grids**
 
-Ces styles sont applicables à vos éléments et permettent d'avoir un design cohérent utilisant les styles à la manière d'une charte graphique.
+These styles can be applied to your elements and help maintain a consistent design resembling a style guide.
 
-🎯 **Objectif : Créer et appliquer les différents styles à nos éléments**
+🎯 **Goal: Create and apply various styles to our elements**
 
-## Créer un style 
+## Creating a Style
 
-Nous allons créer le style `Primary` qui correspond à la couleur principale de notre maquette :
-- Cliquez sur l'icône <img src="../../assets/img/figma/advanced-features/styles-variables/plus-icon.png"> de la section `local styles`
-- Sélectionnez le style `color`
-- Indiquez les caractéristique du style
-- Validez
+We’ll create the `Primary` style, which corresponds to the main color of our mockup:
+- Click on the icon ![plus icon](../../assets/img/figma/advanced-features/styles-variables/plus-icon.png) in the `local styles` section.
+- Select the `color` style.
+- Define the characteristics of the style.
+- Confirm.
 
-Félicitations, vous avez créé votre premier style !
+Congratulations, you’ve created your first style!
 
-Ce procédé est identique pour créer des styles de textes, effets et grilles.
+This process is the same for creating text, effect, and grid styles.
 
-::: details Tutoriel 🎥
+::: details Tutorial 🎥
 <p align="center"><img src="../../assets/img/figma/advanced-features/styles-variables/create-new-style.gif"></p>
 :::
 
-::: tip Astuces
-Les styles créés sont automatiquement affichés dans le `panneau de conception` lorsqu'aucun élément n'est sélectionné.
+::: tip Tips
+The styles created are automatically displayed in the `design panel` when no element is selected.
 :::
 
-### Appliquer les styles
+### Applying Styles
 
-Le style "Primary" étant créé, il faut désormais l'appliquer à notre maquette.
+Now that the "Primary" style is created, it needs to be applied to our mockup.
 
-Sélectionnez le bandeau vert, sa couleur est la même que celle du style créé mais est référencée par son code #HEX dans la section `fill`.
-En cliquant sur <img src="../../assets/img/figma/advanced-features/styles-variables/bibliotheque-style.png"> vous accédez à la bibliothèques de styles de couleurs, puis sélectionnez le style "Primary" précèdement créé pour l'appliquer.
+Select the green banner, its color is the same as the style created but is referenced by its HEX code in the `fill` section.
+By clicking on ![style library](../../assets/img/figma/advanced-features/styles-variables/bibliotheque-style.png), you access the color style library and then select the previously created "Primary" style to apply it.
 
-::: details Tutoriel 🎥
+::: details Tutorial 🎥
 <p align="center"><img src="../../assets/img/figma/advanced-features/styles-variables/apply-color-style-fill.gif"></p>
 :::
 
-::: tip Astuce
-Sélectionner un objet (groupe, frame, etc) permet d'accéder au menu `selection colors` en bas du menu de conception, répertoriant toutes les couleurs utilisées de la sélection.
+::: tip Tip
+Selecting an object (group, frame, etc.) gives access to the `selection colors` menu at the bottom of the design panel, listing all the colors used in the selection.
 
-De cette manière vous pouvez aisément modifier ou remplacer les couleurs, manuellement ou en sélectionnant des styles via <img src="../../assets/img/figma/advanced-features/styles-variables/bibliotheque-style.png">
+This way, you can easily modify or replace colors, either manually or by selecting styles via ![style library](../../assets/img/figma/advanced-features/styles-variables/bibliotheque-style.png)
 
-::: details Tutoriel 🎥
+::: details Tutorial 🎥
 <p align="center"><img src="../../assets/img/figma/advanced-features/styles-variables/apply-color-style-from-frame-selection.gif"></p>
 :::
 
-## Créer les styles depuis vos éléments
+## Creating Styles from Your Elements
 
-Nous allons désormais créer des styles depuis les éléments de notre maquette. Durant sa conception nous avons choisi des couleurs, typographies et effets mais ceux-cis n'ont pas encore été créé en tant que styles.
+Now, we’ll create styles from the elements of our mockup. During design, we chose colors, typography, and effects, but they have not been created as styles yet.
 
-Sélectionnez la card afin de créer le style de couleur de son fond actuellement blanc : `#FFFFFF`.
-Dans la section `fill`, en cliquant sur <img src="../../assets/img/figma/advanced-features/styles-variables/bibliotheque-style.png"> puis <img src="../../assets/img/figma/advanced-features/styles-variables/plus-icon.png"> on accède à la création de style de couleur.
+Select the card to create the style for its white background color: `#FFFFFF`.
+In the `fill` section, by clicking on ![style library](../../assets/img/figma/advanced-features/styles-variables/bibliotheque-style.png) and then ![plus icon](../../assets/img/figma/advanced-features/styles-variables/plus-icon.png), you access the color style creation.
 
-On peut alors nommer et donner une description à la couleur existante.
+You can now name the existing color and provide a description.
 
-::: details Tutoriel 🎥
+::: details Tutorial 🎥
 <p align="center"><img src="../../assets/img/figma/advanced-features/styles-variables/create-color-style-from-selection.gif"></p>
 :::
 
-Vous êtes désormais capables de créer les styles des couleurs restantes, mais aussi de faire de même pour les **typographies, effets et grilles**
+You are now able to create the remaining color styles, as well as do the same for **typographies, effects, and grids**.
 
-## Modifier les styles
+## Modifying Styles
 
-Vous pouvez éditer à tout moment vos styles depuis le panneau de conception. Les modifications s'appliquent à tous les éléments auxquels vous avez appliqué vos styles.
+You can edit your styles at any time from the design panel. Modifications apply to all elements where you have applied your styles.
 
-Lorsque vous sélectionnez un objet avec un style, vous avez la possibilité de `détacher` un style via l'icône <img src="../../assets/img/figma/advanced-features/styles-variables/detach-icon.png"></p>.
+When selecting an object with a style, you have the option to `detach` a style via the icon ![detach icon](../../assets/img/figma/advanced-features/styles-variables/detach-icon.png).
 
-Les modifications de style ne s'appliqueront plus à cet élément même si les caractéristiques sont les mêmes, voir exemple ci-dessous.
+Style modifications will no longer apply to that element even if the characteristics are the same. See the example below.
 
-## Local styles et libraries
+## Local Styles and Libraries
 
-Les styles que vous créez dans un fichier sont automatiquement enregistré sur ce fichier Figma et sont accessibles par tous les membres ayant des droits d'édition.
+Styles you create in a file are automatically saved on that Figma file and are accessible to all members with edit rights.
 
-Vous pouvez également `publier` vos styles pour les partager avec les membres de la `Team library`.
-De cette manière vous et les membres de l'équipe pourrez réutiliser ces styles à travers plusieurs fichiers Figma, ce qui est particulièrement utile lors de la création d'un système si ce dernier comporte beaucoup d'éléments.
+You can also `publish` your styles to share them with members of the `Team library`.
+This way, you and your team members can reuse these styles across multiple Figma files, which is particularly useful when creating a design system with many elements.
 
-Pour publier une librairie de styles, cliquez sur <img src="../../assets/img/figma/advanced-features/styles-variables/figma-icon.png"></p> puis sélectionnez `libraries` et publiez la bibliothèque choisie.
+To publish a style library, click on ![figma icon](../../assets/img/figma/advanced-features/styles-variables/figma-icon.png) then select `libraries` and publish the chosen library.
 
 <p align="center"><img src="../../assets/img/figma/advanced-features/styles-variables/publish-libraries.png"></p>
 
+## An Introduction to Variables
 
-## Ouverture sur les variables
-
-La fonctionnalité `Local variables` est une feature de Figma encore en beta permettant de définir des caractéristiques qui peuvent ensuite être appliquées à vos éléments, ce sont des `variables`.
+The `Local variables` feature in Figma, still in beta, allows you to define characteristics that can then be applied to your elements; these are `variables`.
 
 ::: warning Attention
-La fonctionnalité des `variables` n'est accessible que depuis une versio payante de Figma.
+The `variables` feature is only available with Figma's paid version.
 :::
 
-En apparence, les variables et styles sont similaires :
-- Ils peuvent être publiés dans les bibliothèques de l'équipe et réutilisés dans toutes les conceptions.
-- Ils permettent une gestion efficace des `design systems`, car les mises à jour d'une variable ou d'un style entraîneront des mises à jour pour tous les design systems qui les utilisent.
+Variables and styles appear similar on the surface:
+- They can be published to team libraries for reuse across all design projects.
+- They enable efficient management of `design systems` because updates to a variable or style will propagate to all design systems that use them.
 
-Pourtant les variables permettent davantage de complexité : les variables peuvent être utilisées pour définir d'autres variables et styles, mais les styles ne peuvent définir ni les unes ni les autres.
+However, variables offer greater complexity: they can be used to set other variables and styles, whereas styles cannot define either.
 
-Les variables permettent de créer des **valeurs de texte, de nombre, de couleur et de booléennes.**
-Vous pouvez définir et modifier ces valeurs depuis un espace de collection de variables qui vous permettront par exemple de pouvoir ajuster facilement le thème (dark mode ou light mode), du texte, ou encore de gérer vos espacements et vos corner radius.
+Variables allow for the creation of **text, number, color, and boolean values**.
+You can define and modify these values from a dedicated variable collection space, which, for instance, allows you to easily adjust themes (dark mode or light mode), text, or manage your spacing and corner radii.
 
-Les variables permettent également de faire du prototypage avancé de vos maquettes.
-Pour une meilleure compréhension de cette feature, nous vous invitons à consulter cette
-[vidéo de présentation des variables](https://www.youtube.com/watch?v=1ONxxlJnvdM&t=344s&ab_channel=Figma/)
+They also provide the ability to do advanced prototyping of your mockups.
+For a better understanding of this feature, we recommend watching this
+[presentation video on variables](https://www.youtube.com/watch?v=1ONxxlJnvdM&t=344s&ab_channel=Figma).

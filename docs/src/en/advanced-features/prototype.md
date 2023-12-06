@@ -1,84 +1,82 @@
-# Prototypes
+# Prototyping
 
-## Qu’est-ce que c’est ?
+## What is it?
 
-Le prototypage vous permet de créer des `flows` interactifs entre vos designs pour leur donner vie.Les prototypes sont réalisés en établissant des `connexions` entre les objets.
+Prototyping allows you to create interactive `flows` within your designs to bring them to life. Prototypes are built by establishing `connections` between objects.
 
-Chaque connexion se compose d'un déclencheur (c'est-à-dire ce qui lance l'interaction) et d'une action (c'est-à-dire le résultat).
+Each connection is composed of a trigger (what initiates the interaction) and an action (the result).
 
-::: tip Menu Prototype
+::: tip Prototype Menu
 
-Pour passer en mode prototypage, il faut sélectionner l'onglet `prototype` depuis le panneau de conception.
+To switch to prototyping mode, select the `prototype` tab from the design panel.
 
 <p align="center"><img src="../../assets/img/figma/advanced-features/prototype/prototype-menu.png"></p>
 
-Dans ce mode, les intéractions avec vos éléments sur le plan de travail changent. Si vous souhaitez effectuer des modifications sur vos écrans il faudra repasser en mode “design”.
+In this mode, your interactions with elements on the canvas will change. If you want to make changes to your screens, you'll need to switch back to "design" mode.
 :::
 
-## Flux et points de départ
+## Flows and Starting Points
 
-Le prototypage permet de créer plusieurs flux d’intéractions.Un flux (ou scénario) est un parcours d’enchainement de frames connectées les unes aux autres. Il est représenté de la façon suivante toujours collé à la frame et peut être renommé.
+Prototyping allows you to create multiple interaction flows. A flow (or scenario) is a journey consisting of frames connected to one another. It is always attached to a frame and can be renamed.
 
-Le `starting point` du Flow est automatique ajouté lors d'une première connexion entre deux écrans, il peut également être ajouté manuellement depuis l'onglet `prototype`.
+The `starting point` of the flow is automatically added when a first connection is made between two screens; it can also be added manually from the `prototype` tab.
 
 <p align="center"><img src="../../assets/img/figma/advanced-features/prototype/starting-point.png"></p>
 
-Chaque flux à un point de départ qui correspond au premier écran de chaque scénario. Il est créé automatiquement lorsqu’une connexion est établie entre 2 écrans / frames.Vous pouvez également le créer vous-même depuis le panneau protype en sélectionnant une frame.
+Each flow has a starting point corresponding to the first screen of each scenario. It is created automatically when a connection is established between 2 screens/frames. You can also create it yourself from the prototype panel by selecting a frame.
 
-Si plusieurs flux sont créés dans une même page du fichier Figma, ils seront tous accessible depuis le mode de présentation des prototype.
+If several flows are created on the same Figma file page, they will all be accessible from the prototype presentation mode.
 
-## Connexions
+## Connections
 
-En mode `prototype`, sélectionner une frame ou un objet permet d'ajouter une ou plusieurs connexions représentées par : <img src="../../assets/img/figma/advanced-features/prototype/add-connexion.png"></p>
+In `prototype` mode, selecting a frame or an object allows you to add one or more connections represented by: <img src="../../assets/img/figma/advanced-features/prototype/add-connexion.png">
 
-Au click, un menu de configuration du point de connexion apparaît dans lequel il faut indiquer le déclencheur, la destination, le type de transition, et dans le cas d'une transition animée, les réglages de vitesse et durée de celle-ci.
+Upon clicking, a configuration menu for the connection point appears where you must specify the trigger, the destination, the type of transition, and in the case of an animated transition, the speed and duration settings.
 
-Lorsqu'il est relié, le point de connexion prend la forme d'une flèche entre les frames qu'il relie.
+When connected, the connection point takes the form of an arrow between the frames it links.
 
-<!--INSERER SCHEMA SUR SCREEN -->
+<!--INSERT SCHEMA ON SCREEN-->
 
-### Les déclencheurs
+### Triggers
 
-Ces actions définissent comment sera déclenchée la connexion entre les deux écrans ou objets.
+These actions define how the connection between the two screens or objects will be triggered.
 
 <p align="center"><img src="../../assets/img/figma/advanced-features/prototype/déclencheurs.png"></p>
 
-Le déclencheur est actif sur la zone où est créé le point de connexion, c'est à dire que relier un écran depuis la frame ou depuis élément à l'intérieur de la frame changera le point de départ du déclencheur.
+The trigger is active in the area where the connection point is created, meaning that linking a screen from the frame or from an element inside the frame will change the starting point of the trigger.
 
-(exemple 1 avec frame to frame et exemple 2 avec carré to frame)
+(for example, scenario 1 with frame to frame and scenario 2 with shape to frame)
 
-### Les types d'intéractions
+### Interaction Types
 
-Toutes les intéractions autres que`instant` créent une animation de transition entre les écrans / objets, il faut alors définir un style d'animation et la durée de cette dernière.
+All interactions other than `instant` create an animation transition between screens/objects, and you must then define an animation style and its duration.
 
 <p align="center"><img src="../../assets/img/figma/advanced-features/prototype/type-interactions.png"></p>
 
-
-L'animation la plus courante est le smart animate, celle-ci permet d'animer la transition des éléments déjà présents dans le premier écran jusqu'au second. 
+The most common animation is smart animate, which animates the transition of elements already present in the first screen to the second one.
 
 ::: warning Attention
-Nommer ses éléments est important, une transition en smart animate ne fonctionnera pas si l'élément possède un nom différent que dans le premier écran.
+Naming your elements is important; a transition with smart animate will not work if the element has a different name than in the first screen.
 :::
 
-## Mode présentation
+## Presentation Mode
 
-Le mode de présentation permet de "lire" les flows créés via les connexions.
+Presentation mode allows you to "play" the flows created through the connections.
 
 <p align="center"><img src="../../assets/img/figma/advanced-features/prototype/preview.png"></p>
 
+`Present` opens the flows in a new full-screen window, while `preview` allows you to view the prototype directly from the current page, which is handy for editing screens in parallel.
 
-`Present` permet d'ouvrir les flows dans une nouvelle fenetre en grand-écran, tandis que `preview` permet de visualiser le prototype directement depuis la page actuelle ce qui est pratique pour éditer les écrans en parallèle.
-
-::: tip Astuce
-Le raccourci de l'affichage `preview` est <kbd>Shift</kbd>+<kbd>Espace</kbd>
+::: tip Tip
+The shortcut for `preview` display is <kbd>Shift</kbd>+<kbd>Space</kbd>.
 :::
 
-## Paramétrer le mode présentation
+## Configuring Presentation Mode
 
-Depuis le panneau prototypage vous avez accès à plusieurs paramètres de la présentation :
+From the prototyping panel, you have access to several presentation settings:
 
-- Ajout d'un mockup
-- Modifier le fond de la présentation
-- Gérer les flows
+- Adding a mockup device
+- Modifying the background of the presentation
+- Managing flows
 
 <p align="center"><img src="../../assets/img/figma/advanced-features/prototype/preview-settings.png"></p>

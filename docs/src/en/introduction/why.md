@@ -1,29 +1,29 @@
-# Dessiner des trucs ? Mais on a pas le temps !
+# Drawing things? But we don't have time!
 
-(Ah oui, le premier qui dit "dessiner" au lieu de "maquetter" est officiellement exclu de la formation, on vous aura prévenu 🤭)
+(Oh yes, the first person to say "draw" instead of "model" is officially excluded from the course, you've been warned 🤭)
 
-## Pourquoi maquetter ?
+## Why model?
 
-Vaste question. Je vais essayer ici d'en extraire les points principaux.
+Vast question. I'll try to extract the main points here.
 
-- **Clarifier la vision globale de l'application :** il est difficile d'avoir une vision globale de ce que sera une application sans visuel. Documentation et schémas risquent d'être insuffisants et de nombreuses mauvaises surprises risques de se produire au cours des développements.
+- **Clarify the overall vision of the application:** It's difficult to have an overall vision of what an application will be without visuals. Documentation and schematics are likely to be inadequate, and many unpleasant surprises are likely to occur during development.
 
-- **Itérations plus simples et moins coûteuse :** il est beaucoup plus simple et rapide d'itérer sur des idées avec un logiciel de design qu'avec du code, même en comparant à un développeur très expérimenté. Utiliser de tels logiciels permet donc de rendre les itérations moins coûteuses, ce qui incite à explorer plus de possibilités.
+- **Simpler, less costly iterations:** It's much simpler and quicker to iterate on ideas with design software than with code, even when compared to a highly experienced developer. Using such software therefore makes iterations less costly, encouraging you to explore more possibilities.
 
-- **Itérations plus créatives :** il est plus difficile de "penser en dehors de la boîte" avec du code qu'avec un logiciel de design. En développant sans design, un développeur ira naturellement vers la manière de faire la plus simple proposé par le framework qu'il utilise. Le résultat a donc plus de chances d'être banal.
+- **More creative iterations:** with code than with design software. When developing without design, a developer will naturally go for the simplest way of doing things offered by the framework he's using. The result is therefore more likely to be banal.
 
-- **Communication et collaboration :** développer une application fait intervenir de nombreuses personnes aux compétences variées. Un logiciel de design collaboratif permet de réunir tous ces profils autour d'un support commun, facilitant ainsi la communication et la collaboration.
+- **Communication and collaboration:** developing an application involves many people with different skills. Collaborative design software brings all these profiles together around a common medium, facilitating communication and collaboration.
 
-- **Protoypes réalistes :** un logiciel de design peut proposer de créer des prototypes animés de maquettes parfois très réalistes. Cela peut être une opportunité pour effectuer des tests utilisateurs mais est aussi un outil formidable pour collaborer avec les différentes parties prenantes du projet, encore une fois autour d'un support commun.
+- **Realistic prototypes:** design software can be used to create animated prototypes of models, sometimes very realistic. This can be an opportunity to carry out user tests, but is also a great tool for collaborating with the various project stakeholders, once again around a common medium.
 
-- **Documentation pour le développement :** un développeur qui travaille à partir de maquettes sera plus efficace pour développer les écrans. Mais surtout, lui donner des maquettes lui donne les bons outils pour l'aider à développer un design cohérent avec le soucis du détail. Un développement sans maquettes sera presque toujours brouillon et rempli d'incohérences.
+- **Documentation for development:** A developer who works with mock-ups will be more efficient when developing screens. But above all, giving him mock-ups gives him the right tools to help him develop a coherent design with attention to detail. Development without mock-ups will almost always be messy and full of inconsistencies.
 
-## Pourquoi Figma ?
+## Why Figma?
 
-Depuis quelques années Figma s'impose comme le leader du marché grâce à son interface intuitive, ses outils collaboratifs et son prix attractif.
+In recent years, Figma has established itself as the market leader thanks to its intuitive interface, collaborative tools and attractive price.
 
-Par rapport à d'autres outils, Figma met vraiment l'accent sur la collaboration : ce n'est pas un outil de designers, c'est l'outil que toutes les parties prenantes du projet utilisent.
+Compared to other tools, Figma really emphasizes collaboration: it's not a designer's tool, it's the tool that all project stakeholders use.
 
-Pour donner une idée de la popularité, Adobe a voulu racheter Figma pour 20 millards de dollars. Pour comparaison, Twitter a été racheté pour 44 milliards et en vaut aujourd'hui 19 milliards (🤡).
-Cette acquisiton est toutefois remise en question par l'union européenne pour monopole d'Adobe, affaire à suivre.
-Dans tous les cas, la direction de Figma ne devrait pas changer de même que son modèle économique, du moins pas un futur proche.
+To give an idea of its popularity, Adobe wanted to buy Figma for $20 billion. For comparison, Twitter was bought for 44 billion and is now worth 19 billion (🤡).
+However, this acquisition has been challenged by the European Union on the grounds of Adobe's monopoly.
+In any case, Figma's management is unlikely to change, and neither is its business model, at least not for the foreseeable future.

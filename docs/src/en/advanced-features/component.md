@@ -1,235 +1,233 @@
-# Composants
+# Components
 
-Les Composants sont des éléments que vous pouvez réutiliser dans vos designs. Ils permettent de créer et de gérer des designs cohérents.
+Components in Figma are reusable elements that help you maintain consistency across your designs.
 
-Un composant comporte deux aspects :
+A component consists of two key elements:
 
-- Un **Composant Parent** définit les propriétés du Composant.
-- Une **Instance** est une copie du composant que vous pouvez réutiliser dans vos designs. Les instances sont liées au Composant parent et reçoivent toutes les mises à jour apportées à celui-ci.
+- A **Main Component** defines the properties of the component.
+- An **Instance** is a copy of the component that can be reused in your designs. Instances are linked to the Main Component and receive all updates made to it.
 
-🎯 **Objectif : Transformer notre card en composant**
+🎯 **Goal: Transform our card into a component**
 
-## Créer un composant
+## Creating a Component
 
-Pour faire de la card un composant : 
-- Sélectionnez la card
-- Cliquez sur ![](../../assets/img/figma/advanced-features/components/component_button.png) au milieu de la barre d'outil.
+To turn the card into a component:
+- Select the card
+- Click on ![component button](../../assets/img/figma/advanced-features/components/component_button.png) in the middle of the toolbar.
 
-Bravo, vous venez de créer votre premier composant ! Vous pouvez voir dans le panneau des calque que la card est maintenant violette avec le symbole composant.
-<p align="center"><img src="../../assets/img/figma/advanced-features/components/layers_parent.png"></p>
+Congratulations, you've just created your first component! You can see in the layers panel that the card is now purple with the component symbol.
+<p align="center"><img src="../../assets/img/figma/advanced-features/components/layers_parent.png" /></p>
 
-## Créer des instances de composant
+## Creating Component Instances
 
-Quand vous créez une copie d'un composant, les copies sont automatiquement des instances de ce composant. Vous pouvez donc créer des instances de la card en faisant des copier-coller, ou en maintenant <kbd>alt</kbd> enfoncé et faisant glisser votre
+When you create a copy of a component, the copies automatically become instances of that component. Therefore, you can create instances of the card by copying and pasting, or by holding <kbd>alt</kbd> and dragging your component.
 
-::: tip Astuce
-Si vous dupliquez une instance, elle sera elle aussi liée au composant parent.
+::: tip Tip
+If you duplicate an instance, it will also be linked to the Main Component.
 :::
 
-Les instances sont aussi violettes mais le symbole est différent :
-<p align="center"><img src="../../assets/img/figma/advanced-features/components/layers_instances.png"></p>
+Instances are also purple, but the symbol is different:
+<p align="center"><img src="../../assets/img/figma/advanced-features/components/layers_instances.png" /></p>
 
-::: warning Ne pas mélanger le parent
-Il est fortement déconseillé d'utiliser le composant parent dans les écrans. Une bonne pratique est de mettre les composants parent dans une page différente du Figma.
+::: warning Don't Mix the Main Component
+It is strongly discouraged to use the Main Component in your design screens. A best practice is to place Main Components on a separate Figma page.
 
-<p align="center"><img src="../../assets/img/figma/advanced-features/components/separate_parent.png"></p>
+<p align="center"><img src="../../assets/img/figma/advanced-features/components/separate_parent.png" /></p>
 :::
 
-**A faire:**
-- Modifiez le composant parent (texte, couleurs, positionnement, etc) et remarquez que les instances se mettent à jour automatiquement !
-- Modifiez les prénom/nom pour chacune des intances de cards.
-> **Remarque :** si vous modifiez ce même texte dans le composant parent, cela ne modifiera pas les instances ! Et cela fonctionnera de la même manière pour toutes les modifications de propriété comme les couleurs, polices, etc
+**To-Do:**
+- Modify the Main Component (text, colors, positioning, etc.), and notice that the instances update automatically!
+- Modify the first/last name for each card instance.
+> **Note:** If you modify the same text in the Main Component, it will not affect the instances! This also applies to any property changes like colors, fonts, etc.
 
-::: details Tutoriel 🎥
-<p align="center"><img src="../../assets/img/figma/advanced-features/components/instances-override.gif"></p>
+::: details Tutorial 🎥
+<p align="center"><img src="../../assets/img/figma/advanced-features/components/instances-override.gif" /></p>
 :::
 
-::: tip Réinitialiser une instance
-- Faîtes `Clique droit` sur une instance et `Reset all changes` pour réinitialier une instance par rapport à son composant parent.
-- Faîtes `Clique droit` sur une instance et `Detach instance` pour supprimer son lien avec le composant parent
+::: tip Resetting an Instance
+- Right-click on an instance and select `Reset all changes` to revert an instance back to its Main Component.
+- Right-click on an instance and select `Detach instance` to remove its link to the Main Component.
+  :::
+
+::: warning Position Adjustment
+You may have noticed that it's not possible to change the positioning of elements in instances. It's also not possible to add elements.
+
+This is normal; it's the way components work. We'll see later how to make our components more flexible.
 :::
 
-::: warning Modification de positionnement
-Vous aurez peut être remarqué qu'il n'est pas possible de modifier le positionnement des éléments dans les instances. Il n'est pas non plus possible d'ajouter d'éléments.
+## Component Variants
 
-C'est normal, c'est la manière dont fonctionnent les composants. Nous allons voir dans la suite de ce chapitre comment rendre nos composants plus flexibles.
+Creating component variants allows you to represent different states of a component.
+
+### Creating a Variant of a Component
+**To-Do:** select the Main Component then click on the symbol ![variant button](../../assets/img/figma/advanced-features/components/variant_button.png) in the middle of the toolbar.
+
+> You can even create multiple variants of the same component.
+
+::: details Tutorial 🎥
+<p align="center"><img src="../../assets/img/figma/advanced-features/components/variants.gif" /></p>
 :::
 
-## Variants de composant
+### Setting Up the Variant
+We will create an error state for the card by changing its border color from green to red.
 
-Créer des variants d'un composant permet de le décliner en différents états.
+**To-Do:**
+- Change the color of the border of the variant from green to red.
+- Assign the name `State` to the variant type property.
+- Give the names `Default` and `Error` to our 2 states.
 
-### Création d'un variant de composant
-**A faire:** sélectionnez le composant parent puis cliquez sur le symbole ![](../../assets/img/figma/advanced-features/components/variant_button.png) au milieu de la barre d'outil. 
-
-> Vous pouvez même créer plusieurs variants d'un même composant.
-
-::: details Tutoriel 🎥
-<p align="center"><img src="../../assets/img/figma/advanced-features/components/variants.gif"></p>
+::: details Tutorial 🎥
+<p align="center"><img src="../../assets/img/figma/advanced-features/components/variant-error.gif" /></p>
 :::
 
-### Paramétrages du variant
-Nous allons créer un état d'erreur à la card, en changeant la couleur de son liseré de vert à rouge.
+### Combining Variants
+It's possible to combine multiple variants for a single component.
 
-**A faire:**
-- Changez la couleur du liseré du variant de vert à rouge.
-- Donnez le nom `State` à la propriété de type variant
-- Affectez les noms `Default` et `Error` à nos 2 états
+We'll create 2 new variants for our cards for the `Disabled` state. The card will have an opacity of 38% when in a disabled state, which is the opacity used by Google for Material Design.
 
-::: details Tutoriel 🎥
-<p align="center"><img src="../../assets/img/figma/advanced-features/components/variant-error.gif"></p>
+**To-Do:**
+- Create a new variant property and name it `Disabled` with `False` as the default value.
+- Duplicate the existing cards to create 2 new states.
+- Set an opacity of 38% for these 2 new states.
+- Change the value of the `Disabled` property on these 2 new states to `True`.
+
+::: details Tutorial 🎥
+<p align="center"><img src="../../assets/img/figma/advanced-features/components/variant-combinaison.gif" /></p>
 :::
 
-### Combiner les variants
-Il est possible de combiner plusieurs variants pour un même composant.
+::: tip Tip
+You might have noticed that for the `Disabled` variant, Figma used a switch instead of a dropdown.
 
-Nous allons créer 2 nouveaux variants à notre card pour les états `Disabled`. La card aura une opacité de 38% en état disabled, qui est l'opacité utilisée par Google pour Material Design.
-
-**A faire:**
-- Créez une nouvelle propriété de type variant et nommez la `Disabled` avec `False` pour valeur par défaut.
-- Dupliquez les cartes existantes pour créer 2 nouveaux états.
-- Affectez une opacité de 38% à ces 2 nouveaux états.
-- Modifiez la valeur de la propriété `Disabled` sur ces 2 nouveaux états à `True`.
-
-::: details Tutoriel 🎥
-<p align="center"><img src="../../assets/img/figma/advanced-features/components/variant-combinaison.gif"></p>
+That's because we used the values `True` and `False`. It also works with `On` and `Off`.
 :::
 
-::: tip Astuce
-Vous aurez certainement remarqué que pour le variant `Disabled` Figma a utilisé un switch plutôt qu'une liste déroulante.
+## Instance Swap
 
-C'est parce que nous avons utilisé pour les valeurs des variants `True` et `False`. Cela fonctionne aussi avec `On` et `Off`.
+You can switch from one instance of a component to another by performing an `instance swap`.
+
+Although this need may seem unusual, let's first understand how it works and then examine a practical use case.
+
+### Exercise
+
+To perform an `instance swap`, we need a second component. To quickly test this, we'll create a test component: a simple square.
+
+**To-Do:**
+- Create a square.
+- Turn this square into a component.
+- Create an instance of the component card.
+- Perform an `instance swap` to transform this instance into a square via the button ![instance swap](../../assets/img/figma/advanced-features/components/instance-swap.png).
+
+::: details Tutorial 🎥
+<p align="center"><img src="../../assets/img/figma/advanced-features/components/instance-swap.gif" /></p>
 :::
 
-## Instance swap
+### Practical Case: Icons
 
-Il est possible de basculer d'une instance d'un composant à une instance d'un autre composant en faisait une `instance swap`.
+Now, how can this be useful? 🤔
 
-Ce besoin peut paraître étrange, voyons dans un premier temps comment cela fonctionne puis nous verrons un cas d'usage concret.
+A very practical use is to manage your icons with instance swaps.
 
-### Exercice
+**To-Do:**
+- Import some icons into Figma.
+  ::: tip 💡 Icon Import Plugin
 
-Pour faire une `instance swap` il nous faut un 2ème composant. Pour tester rapidement, nous allons créer un composant de test : un simple carré.
+The easiest way to import icons into Figma is to use a plugin. I recommend either `Material Symbols` to have consistent Material icons or `Iconify` for a wider choice of icons.
 
-**A faire:**
-- Créez un carré.
-- Faîtes de ce carré un composant.
-- Créez une instance du composant card.
-- Faîtes une `instance swap` sur cette instance pour le transformer en carré via le bouton ![](../../assets/img/figma/advanced-features/components/instance-swap.png).
+You can search for plugins from the toolbar:
 
-::: details Tutoriel 🎥
-<p align="center"><img src="../../assets/img/figma/advanced-features/components/instance-swap.gif"></p>
+![Material Symbols](../../assets/img/figma/advanced-features/components/material-symbols.png)
+
+[More information about plugins here](../plugin.md)
+:::
+- Turn each icon into a component.
+- Create an empty frame, name it `icons`.
+- Place your icons inside.
+
+::: details Tutorial 🎥
+<p align="center"><img src="../../assets/img/figma/advanced-features/components/icons-as-components.gif" /></p>
 :::
 
-### Cas concret: les icônes
+Let's now test if it works well.
 
-Bien, maintenant à quoi cela peut-il servir ? 🤔
+**To-Do:**
+- Create an instance of one of your icons.
+- Perform an `instance swap`: by default, Figma proposes the list of other components present in the same `frame`, i.e., the other icons.
 
-Une utilisation très pratique est de gérer ses icônes avec des instances swap.
+This makes it very easy to change an icon in a design!
 
-**A faire:**
-- Importez quelques icônes dans Figma.
-::: tip 💡 Plugin d'importation d'icônes
-
-Le plus simple pour importer des icônes dans Figma est d'utiliser un plugin. Je vous conseille soit `Material Symbols` pour avoir des icônes Material cohérentes. Soit `Iconify` pour un plus large choix d'icônes.
-
-Vous pouvez rechercher des plugins depuis la barre d'outil :
-
-![](../../assets/img/figma/advanced-features/components/material-symbols.png)
-
-[Plus d'informations sur les plugins ici](../plugin.md)
-:::
-- Faîtes de chaque icône un composant.
-- Créez une frame vide, nommez-la `icons`.
-- Placez-y vos icônes.
-
-::: details Tutoriel 🎥
-<p align="center"><img src="../../assets/img/figma/advanced-features/components/icons-as-components.gif"></p>
+::: details Tutorial 🎥
+<p align="center"><img src="../../assets/img/figma/advanced-features/components/swap-icons.gif" /></p>
 :::
 
-Testons maintenant que cela fonctionne bien.
+## Other Component Properties
 
-**A faire:**
-- Créez une instance d'une de vos icônes.
-- Faîtes une `instance swap` dessus: par défaut Figma vous propose la liste des autres composants présents dans la même `frame`, soit les autres icônes.
-
-C'est ainsi très pratique de changer une icône dans un design !
-
-::: details Tutoriel 🎥
-<p align="center"><img src="../../assets/img/figma/advanced-features/components/swap-icons.gif"></p>
-:::
-
-## Autres propriétés
-
-Il existe 3 autres types de propriété qui peuvent s'appliquer à un composant de manière similaire aux variants.
+There are 3 other types of properties that can be applied to a component in a way similar to variants.
 
 ### Boolean
 
-La propriété `Boolean` permet d'activer ou de désactiver la visibilité d'un élément.
+The `Boolean` property allows for toggling the visibility of an element.
 
-Nous pouvons l'utiliser pour choisir d'afficher ou non l'icône de notre card.
+We can use it to choose whether or not to display the icon in our card.
 
-**A faire:**
-- Créer une propriété de type `Boolean` et appelez-la `Icon visibility`.
-- Sélectionnez une des icônes et appuyez sur `Apply property` ![](../../assets/img/figma/advanced-features/components/apply_property_button.png) de la section `Layer`.
+**To-Do:**
+- Create a `Boolean` property type and name it `Icon Visibility`.
+- Select one of the icons and press `Apply Property` ![apply property button](../../assets/img/figma/advanced-features/components/apply_property_button.png) from the `Layer` section.
 
-> Vous pouvez sélectionner toutes les icônes d'un coup en maintenant <kbd>Ctrl</kbd> + <kbd>Shift</kbd>.
+> You can select all icons at once by holding down <kbd>Ctrl</kbd> + <kbd>Shift</kbd>.
 
-::: details Tutoriel 🎥
-<p align="center"><img src="../../assets/img/figma/advanced-features/components/boolean.gif"></p>
+::: details Tutorial 🎥
+<p align="center"><img src="../../assets/img/figma/advanced-features/components/boolean.gif" /></p>
 :::
 
-> Le fonctionnement de la propriété `Boolean` est similaire à celui d'un variant `True`/`False` mais sans avoir besoin de dupliquer le composant !
+> The `Boolean` property functions in a similar way to a `True`/`False` variant but without the need to duplicate the component!
 
-### Instance swap
+### Instance Swap (Property)
 
-La propriété `Instance swap` permet de faire remonter au niveau du composant la possibilité de faire une `instance swap` sur un composant imbriqué dans ce composant.
+The `Instance Swap` property allows bringing up the ability to swap an instance of an embedded component within this component.
 
-Très utile pour les icônes comme vu précédemment.
+This is very useful for icons, as previously seen.
 
-**A faire:**
-- Creéz un composant pour l'icône présente dans votre card.
-- Utilisez des instances de ce composant icône dans chacune des variants de votre card.
-::: tip 💡 <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>
-Pour remplacer l'icône déjà présente dans votre card par une instance du composant vous pouvez :
-- <kbd>Ctrl</kbd> + <kbd>C</kbd> sur le composant que vous venez de créer
-- Sélectionner l'icône dans la card
+**To-Do:**
+- Create a component for the icon present in your card.
+- Use instances of this icon component in each variant of your card.
+  ::: tip 💡 <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>
+  To replace the icon already present in your card with an instance of the component, you can:
+- <kbd>Ctrl</kbd> + <kbd>C</kbd> on the component you’ve just created
+- Select the icon in the card
 - <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>
-:::
-- Ajoutez une propriété `Instance swap` sur le composant card.
-- Sélectionnez les icônes et affectez-leur cette nouvelle propriété.
+  :::
+- Add an `Instance Swap` property to the card component.
+- Select the icons and apply this new property to them.
 
-Vous pourrez ensuite changer simplement l'icône de votre card !
+You will then be able to easily change the icon of your card!
 
-::: details Tutoriel 🎥
-<p align="center"><img src="../../assets/img/figma/advanced-features/components/instance-swap-finale.gif"></p>
+::: details Tutorial 🎥
+<p align="center"><img src="../../assets/img/figma/advanced-features/components/instance-swap-finale.gif" /></p>
 :::
 
 ### Text
 
-La propriété `Text` permet de mieux faire ressortir les textes modifiables d'un composant.
+The `Text` property can help make modifiable texts of a component more prominent.
 
-Cela peut être intéressant pour que l'on comprenne rapidement quels textes sont modifiables dans le composant. 
+This can be useful to quickly understand which texts are editable within the component. However, the added value isn't as significant compared to an `Instance Swap` since it's easy to modify a text by directly clicking on it, even if it doesn't have a defined property.
 
-La valeur ajoutée est tout de même moins importante par rapport à une `Instance swap` puisqu'il est facile de modifier un texte en cliquant directement dessus, même si il n'a pas de propriété de définie.
+**To-Do:**
+- Create a component property of the text type
+- Name it `Title` with the default value of your choice
+- Select the titles of all variants of your card and assign them this new property
 
-**A faire:**
-- Créez une propriété de composant de type text
-- Nommez-la `Title` avec la valeur par défaut de votre choix
-- Sélectionnez les titres de tous les variants de votre card et affectez-leur cette nouvelle propriété
-
-::: details Tutoriel 🎥
-<p align="center"><img src="../../assets/img/figma/advanced-features/components/text.gif"></p>
+::: details Tutorial 🎥
+<p align="center"><img src="../../assets/img/figma/advanced-features/components/text.gif" /></p>
 :::
 
-### Nested intances
+### Nested Instances
 
-Enfin, lorsque l'on a des composants imbriqués, il est possible de faire remonter les propriétés des composants imbriqués au composant qui les contient.
+Finally, when you have nested components, you can bring up the properties of the nested components to the component that contains them.
 
-Nous n'avons pas de cas d'usage avec notre card donc je vous propose exceptionnellement de ne pas créer d'exemple pour ne pas compliquer inutilement les choses, vous aurez l'occasion de vous excercer dans la partie pratique.
+We don't have a use case with our card, so I recommend not creating an example unnecessarily - you'll have a chance to practice in the practical section.
 
-Ci-dessous un exemple de cas d'utilisation. Nous avons ici un composant barre de navigation qui est lui même composé de 5 composants pour les onglets.
+Below is an example of a use case. Here we have a navigation bar component that is itself composed of 5 components for the tabs.
 
-Grâce aux `nested instances`, il est possible d'accéder aux propriétés de tous les composants imbriqués (les 5 onglets) simplement en sélectionnant le composant global (la barre de navigation).
+Thanks to `nested instances`, it's possible to access the properties of all the nested components (the 5 tabs) simply by selecting the global component (the navigation bar).
 
-<p align="center"><img src="../../assets/img/figma/advanced-features/components/bottom-navigation.png"></p>
+<p align="center"><img src="../../assets/img/figma/advanced-features/components/bottom-navigation.png" /></p>

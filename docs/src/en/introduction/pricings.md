@@ -1,41 +1,41 @@
-# Mais Figma, c'est payant ?
+# But is Figma free?
 
-Ce que l'on peut faire ou non avant chacun des plans de Figma est difficile à comprendre. La gestion des droits depuis le logiciel n'est pas très intuitive.
+It's hard to understand what you can and can't do before each of Figma's shots. Managing rights from within the software is not very intuitive.
 
-C'est pourquoi nous allons commencer par démystifier cela.
+That's why we're going to start by demystifying it.
 
 <p align="center"><img src="../../assets/img/figma/introduction/pricings/prices.png"></p>
 
 ## Drafts
 
-Lorsque vous créez un nouveau `fichier` Figma, il se crée par défaut dans vos brouillons.
+When you create a new Figma `file`, it is created by default in your drafts.
 
 <p align="center"><img src="../../assets/img/figma/introduction/pricings/drafts.png"></p>
 
-En mode gratuit, vous pouvez avoir **autant de `fichiers` que vous le souhaitez** dans vos brouillons.
+In free mode, you can have **as many `files` as you like** in your drafts.
 
-Il n'y a aucune limite pour inviter des collaborateurs **en lecture seule** dans vos brouillons.
+There is no limit to the number of collaborators you can invite to your drafts.
 
-::: danger Limite des brouillons
+::: danger Draft limits
 
-- Vous ne pouvez pas donner les droits d'édition à d'autres collaborateurs.
+- You cannot give editing rights to other collaborators.
 
 :::
 
 ## Teams
 
-Par défaut, Figma vous a créé une `équipe` avec un `projet`.
+By default, Figma has created a `team` with a `project`.
 
-**Un `projet` est un ensemble de `fichiers` Figma.**
+**A `project` is a set of Figma `files`.**
 
 <p align="center"><img src="../../assets/img/figma/introduction/pricings/teams-free.png"></p>
 
-Dans ces `fichiers` vous pouvez ajouter **autant de collaborateurs que vous le souhaitez avec les droits de lecture ou d'écriture**.
+In these `files` you can add **as many collaborators as you like with read or write rights**.
 
-::: danger Limites des équipes en mode gratuit
+::: danger Team limits in free mode
 
-- 1 `équipe` maximum.
-- 1 `projet` maximum dans cette équipe.
-- 3 `fichiers` maximum dans ce `projet`
-- 3 pages maximum dans ces `fichiers`.
-:::
+- 1 `team` maximum.
+- 1 `project` maximum in this team.
+- 3 `files` maximum in this `project`.
+- 3 pages maximum in these `files`.
+  :::
